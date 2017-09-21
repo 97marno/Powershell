@@ -1,0 +1,31 @@
+Powershell Office 365
+
+#User form pop-up. username and password for office365. 
+$UserCredential = Get-Credential
+
+#Configure Office365 session
+$Session = New-PSSession -ConfigurationName Microsoft.Exchange -ConnectionUri https://outlook.office365.com/powershell-liveid/ -Credential $UserCredential -Authentication Basic -AllowRedirection
+
+#Open session
+Import-PSSession $Session
+
+#Check if your account have the rights to do diagnostics in Office365
+Get-RoleGroupMember -Identity “Discovery Management”
+
+#Add your account if not already member
+Add-RoleGroupMember -Identity “Discovery Management” -Member admin@annexinpharmaceuticals.onmicrosoft.com
+
+#Get mailbox properties for User
+Get-MailboxJunkEmailConfiguration "Carin Jakobson"
+
+#Search for specific senderaddress and status FilteredAsSpam
+Get-MessageTrace -SenderAddress A726635501@distribution.cision.com | where {$_.status -like "FilteredAsSpam"} | Get-MessageTraceDetail
+
+#Get all messages from the last 124h where the sender address is like *@domain.com
+#ft list in grid view in PS window
+#out-gridview show grit in IE window
+Get-MessageTrace  -start (get-date).addhours(-124) -end (get-date)| select-object received, senderaddress, recipientaddress, subject, status, toip, fromip, messageid |where-object {$_.senderaddress -like "*@distribution.cision.com"} |ft
+Get-MessageTrace  -start (get-date).addhours(-124) -end (get-date)| select-object received, senderaddress, recipientaddress, subject, status, toip, fromip, messageid |where-object {$_.senderaddress -like "*@distribution.cision.com"} |Out-GridView
+
+#Get all messages from the last 124h where the status is Failed
+Get-MessageTrace -start (get-date).addhours(-124) -end (get-date) | Where {$_.Status -eq "Failed"} | Get-MessageTraceDetail | Select-Object MessageID, Date, Event, Action, Detail, Data | Out-GridView

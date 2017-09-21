@@ -1,0 +1,42 @@
+2017-03-22 13:50 p-mnorling ERROR: s3db-s.boxer.local - WMI connection unavailable
+**********************************************************************************
+ The RPC server is unavailable. (Exception from HRESULT: 0x800706BA)
+ 
+2017-03-22 13:50 p-mnorling ERROR: s-k1web-db-t.boxer.local - WMI connection unavailable
+**********************************************************************************
+ System.Management.Automation.CmdletInvocationException: Access is denied. (Exception from HRESULT: 0x80070005 (E_ACCESSDENIED)) ---> System.UnauthorizedAccessException: Access is denied. (Exception from HRESULT: 0x80070005 (E_ACCESSDENIED))
+   at System.Management.ManagementScope.Initialize()
+   at System.Management.ManagementObjectSearcher.Initialize()
+   at System.Management.ManagementObjectSearcher.Get()
+   at Microsoft.PowerShell.Commands.GetWmiObjectCommand.BeginProcessing()
+   at System.Management.Automation.Cmdlet.DoBeginProcessing()
+   at System.Management.Automation.CommandProcessorBase.DoBegin()
+   --- End of inner exception stack trace ---
+   at System.Management.Automation.Internal.PipelineProcessor.SynchronousExecuteEnumerate(Object input, Hashtable errorResults, Boolean enumerate)
+   at System.Management.Automation.PipelineOps.InvokePipeline(Object input, Boolean ignoreInput, CommandParameterInternal[][] pipeElements, CommandBaseAst[] pipeElementAsts, CommandRedirection[][] commandRedirections, FunctionContext funcContext)
+   at lambda_method(Closure , Object[] , StrongBox`1[] , InterpretedFrame )
+ 
+2017-03-22 13:50 p-mnorling ERROR: s1ctx-db-p.boxer.local - WMI connection unavailable
+**********************************************************************************
+ The RPC server is unavailable. (Exception from HRESULT: 0x800706BA)
+ 
+2017-03-22 13:50 p-mnorling ERROR: s1nav-arkiv.boxer.local - Ping request timed out
+**********************************************************************************
+ Testing connection to computer 's1nav-arkiv.boxer.local' failed: Error due to lack of resources
+ 
+2017-03-22 13:50 p-mnorling ERROR: boxmlmsig01.boxer.local - Ping request timed out
+**********************************************************************************
+ Testing connection to computer 'boxmlmsig01.boxer.local' failed: No such host is known
+ 
+2017-03-22 13:50 p-mnorling ERROR: s-k1acs-p.boxer.local - WMI connection unavailable
+**********************************************************************************
+ The RPC server is unavailable. (Exception from HRESULT: 0x800706BA)
+ 
+2017-03-22 13:50 p-mnorling ERROR: s1avtal-db-p.boxer.local - WMI connection unavailable
+**********************************************************************************
+ The RPC server is unavailable. (Exception from HRESULT: 0x800706BA)
+ 
+2017-03-22 13:50 p-mnorling ERROR: s-k1ctlg-db-t.boxer.local - WMI connection unavailable
+**********************************************************************************
+ The RPC server is unavailable. (Exception from HRESULT: 0x800706BA)
+ 

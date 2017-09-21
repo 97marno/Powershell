@@ -1,0 +1,213 @@
+ID;ModifyDate;ComputerName;Name;Vendor;Version;Decomissioned
+;2017-03-27 10:41;S2WEBDB;Microsoft Application Error Reporting;Microsoft Corporation;12.0.6015.5000;0
+;2017-03-27 10:41;S2WEBDB;OP5 NSClient++ Windows Agent (x64);MySolutions NORDIC;0.3.9.146;0
+;2017-03-27 10:41;S2WEBDB;Microsoft Visual C++ 2010  x64 Redistributable - 10.0.40219;Microsoft Corporation;10.0.40219;0
+;2017-03-27 10:41;S2WEBDB;Configuration Manager Client;Microsoft Corporation;5.00.7958.1000;0
+;2017-03-27 10:41;S2WEBDB;Microsoft Visual C++ 2005 Redistributable (x64);Microsoft Corporation;8.0.61000;0
+;2017-03-27 10:41;S2WEBDB;Microsoft Visual C++ 2010  x86 Redistributable - 10.0.40219;Microsoft Corporation;10.0.40219;0
+;2017-03-27 10:41;S2WEBDB;SQL Server 2008 R2 Database Engine Services;Microsoft Corporation;10.50.1600.1;0
+;2017-03-27 10:41;S2WEBDB;Microsoft SQL Server 2008 R2 Policies;Microsoft Corporation;10.50.1600.1;0
+;2017-03-27 10:41;S2WEBDB;SQL Server 2008 R2 Database Engine Shared;Microsoft Corporation;10.50.1600.1;0
+;2017-03-27 10:41;S2WEBDB;Microsoft SQL Server 2008 R2 RsFx Driver;Microsoft Corporation;10.50.1600.1;0
+;2017-03-27 10:41;S2WEBDB;SQL Server 2008 R2 Client Tools;Microsoft Corporation;10.50.1600.1;0
+;2017-03-27 10:41;S2WEBDB;Microsoft SQL Server Browser;Microsoft Corporation;10.50.1600.1;0
+;2017-03-27 10:41;S2WEBDB;Microsoft SQL Server Compact 3.5 SP2 Query Tools ENU;Microsoft Corporation;3.5.8080.0;0
+;2017-03-27 10:41;S2WEBDB;SQL Server 2008 R2 Database Engine Services;Microsoft Corporation;10.50.1600.1;0
+;2017-03-27 10:41;S2WEBDB;Microsoft Policy Platform;Microsoft Corporation;1.2.3602.0;0
+;2017-03-27 10:41;S2WEBDB;SQL Server 2008 R2 Management Studio;Microsoft Corporation;10.50.1600.1;0
+;2017-03-27 10:41;S2WEBDB;Microsoft SQL Server 2008 Setup Support Files ;Microsoft Corporation;10.1.2731.0;0
+;2017-03-27 10:41;S2WEBDB;Microsoft Report Viewer Redistributable 2008 (KB971119);Microsoft Corporation;9.0.30731;0
+;2017-03-27 10:41;S2WEBDB;VMware Tools;VMware. Inc.;8.3.2.1593;0
+;2017-03-27 10:41;S2WEBDB;Microsoft SQL Server 2008 R2 Setup (English);Microsoft Corporation;10.50.1600.1;0
+;2017-03-27 10:41;S2WEBDB;SQL Server 2008 R2 Database Engine Shared;Microsoft Corporation;10.50.1600.1;0
+;2017-03-27 10:41;S2WEBDB;SQL Server 2008 R2 Client Tools;Microsoft Corporation;10.50.1600.1;0
+;2017-03-27 10:41;S2WEBDB;Microsoft Visual Studio Tools for Applications 2.0 - ENU;Microsoft Corporation;9.0.35191;0
+;2017-03-27 10:41;S2WEBDB;SQL Server 2008 R2 Common Files;Microsoft Corporation;10.50.1600.1;0
+;2017-03-27 10:41;S2WEBDB;Microsoft SQL Server Compact 3.5 SP2 ENU;Microsoft Corporation;3.5.8080.0;0
+;2017-03-27 10:41;S2WEBDB;Microsoft Silverlight;Microsoft Corporation;5.1.20513.0;0
+;2017-03-27 10:41;S2WEBDB;Microsoft SQL Server System CLR Types (x64);Microsoft Corporation;10.50.1600.1;0
+;2017-03-27 10:41;S2WEBDB;Microsoft SQL Server VSS Writer;Microsoft Corporation;10.50.1600.1;0
+;2017-03-27 10:41;S2WEBDB;SQL Server 2008 R2 Common Files;Microsoft Corporation;10.50.1600.1;0
+;2017-03-27 10:41;S2WEBDB;Microsoft SQL Server 2008 R2 Native Client;Microsoft Corporation;10.50.1600.1;0
+;2017-03-27 10:41;S2WEBDB;SQL Server 2008 R2 Management Studio;Microsoft Corporation;10.50.1600.1;0
+;2017-03-27 10:41;S2WEBDB;Sql Server Customer Experience Improvement Program;Microsoft Corporation;10.50.1600.1;0
+;2017-03-27 10:41;S1WEBDB-S;Microsoft Application Error Reporting;Microsoft Corporation;12.0.6015.5000;0
+;2017-03-27 10:41;S1WEBDB-S;OP5 NSClient++ Windows Agent (x64);MySolutions NORDIC;0.3.9.146;0
+;2017-03-27 10:41;S1WEBDB-S;VMware Tools;VMware. Inc.;8.6.11.20852;0
+;2017-03-27 10:41;S1WEBDB-S;Microsoft Visual C++ 2010  x64 Redistributable - 10.0.40219;Microsoft Corporation;10.0.40219;0
+;2017-03-27 10:41;S1WEBDB-S;Configuration Manager Client;Microsoft Corporation;5.00.7958.1000;0
+;2017-03-27 10:41;S1WEBDB-S;Microsoft Visual C++ 2005 Redistributable (x64);Microsoft Corporation;8.0.61000;0
+;2017-03-27 10:41;S1WEBDB-S;Microsoft Visual C++ 2010  x86 Redistributable - 10.0.40219;Microsoft Corporation;10.0.40219;0
+;2017-03-27 10:41;S1WEBDB-S;SQL Server 2008 R2 Database Engine Services;Microsoft Corporation;10.50.1600.1;0
+;2017-03-27 10:41;S1WEBDB-S;Microsoft SQL Server 2008 R2 Policies;Microsoft Corporation;10.50.1600.1;0
+;2017-03-27 10:41;S1WEBDB-S;SQL Server 2008 R2 Database Engine Shared;Microsoft Corporation;10.50.1600.1;0
+;2017-03-27 10:41;S1WEBDB-S;Microsoft SQL Server 2008 R2 RsFx Driver;Microsoft Corporation;10.50.1600.1;0
+;2017-03-27 10:41;S1WEBDB-S;Microsoft Visual C++ 2008 Redistributable - x64 9.0.30729.6161;Microsoft Corporation;9.0.30729.6161;0
+;2017-03-27 10:41;S1WEBDB-S;SQL Server 2008 R2 Client Tools;Microsoft Corporation;10.50.1600.1;0
+;2017-03-27 10:41;S1WEBDB-S;Microsoft SQL Server Browser;Microsoft Corporation;10.50.1600.1;0
+;2017-03-27 10:41;S1WEBDB-S;Microsoft SQL Server Compact 3.5 SP2 Query Tools ENU;Microsoft Corporation;3.5.8080.0;0
+;2017-03-27 10:41;S1WEBDB-S;SQL Server 2008 R2 Database Engine Services;Microsoft Corporation;10.50.1600.1;0
+;2017-03-27 10:41;S1WEBDB-S;Microsoft Policy Platform;Microsoft Corporation;1.2.3602.0;0
+;2017-03-27 10:41;S1WEBDB-S;7-Zip 9.20 (x64 edition);Igor Pavlov;9.20.00.0;0
+;2017-03-27 10:41;S1WEBDB-S;SQL Server 2008 R2 Management Studio;Microsoft Corporation;10.50.1600.1;0
+;2017-03-27 10:41;S1WEBDB-S;Microsoft SQL Server 2008 Setup Support Files ;Microsoft Corporation;10.1.2731.0;0
+;2017-03-27 10:41;S1WEBDB-S;Microsoft Report Viewer Redistributable 2008 (KB971119);Microsoft Corporation;9.0.30731;0
+;2017-03-27 10:41;S1WEBDB-S;Microsoft SQL Server 2008 R2 Setup (English);Microsoft Corporation;10.50.1600.1;0
+;2017-03-27 10:41;S1WEBDB-S;SQL Server 2008 R2 Database Engine Shared;Microsoft Corporation;10.50.1600.1;0
+;2017-03-27 10:41;S1WEBDB-S;SQL Server 2008 R2 Client Tools;Microsoft Corporation;10.50.1600.1;0
+;2017-03-27 10:41;S1WEBDB-S;Microsoft Visual Studio Tools for Applications 2.0 - ENU;Microsoft Corporation;9.0.35191;0
+;2017-03-27 10:41;S1WEBDB-S;Microsoft Visual C++ 2008 Redistributable - x86 9.0.30729.4148;Microsoft Corporation;9.0.30729.4148;0
+;2017-03-27 10:41;S1WEBDB-S;SQL Server 2008 R2 Common Files;Microsoft Corporation;10.50.1600.1;0
+;2017-03-27 10:41;S1WEBDB-S;Microsoft SQL Server Compact 3.5 SP2 ENU;Microsoft Corporation;3.5.8080.0;0
+;2017-03-27 10:41;S1WEBDB-S;Microsoft Silverlight;Microsoft Corporation;5.1.20513.0;0
+;2017-03-27 10:41;S1WEBDB-S;Microsoft SQL Server System CLR Types (x64);Microsoft Corporation;10.50.1600.1;0
+;2017-03-27 10:41;S1WEBDB-S;Microsoft SQL Server VSS Writer;Microsoft Corporation;10.50.1600.1;0
+;2017-03-27 10:41;S1WEBDB-S;SQL Server 2008 R2 Common Files;Microsoft Corporation;10.50.1600.1;0
+;2017-03-27 10:41;S1WEBDB-S;Microsoft SQL Server 2008 R2 Native Client;Microsoft Corporation;10.50.1600.1;0
+;2017-03-27 10:41;S1WEBDB-S;SQL Server 2008 R2 Management Studio;Microsoft Corporation;10.50.1600.1;0
+;2017-03-27 10:41;S1WEBDB-S;Sql Server Customer Experience Improvement Program;Microsoft Corporation;10.50.1600.1;0
+;2017-03-27 10:41;S2WEBDB-S;Microsoft Application Error Reporting;Microsoft Corporation;12.0.6012.5000;0
+;2017-03-27 10:41;S2WEBDB-S;Microsoft SQL Server System CLR Types;Microsoft Corporation;10.51.2500.0;0
+;2017-03-27 10:41;S2WEBDB-S;Microsoft Help Viewer 1.1;Microsoft Corporation;1.1.40219;0
+;2017-03-27 10:41;S2WEBDB-S;Microsoft Visual C++ 2008 Redistributable - x86 9.0.30729.4974;Microsoft Corporation;9.0.30729.4974;0
+;2017-03-27 10:41;S2WEBDB-S;SQL Server 2014 Integration Services;Microsoft Corporation;12.1.4100.1;0
+;2017-03-27 10:41;S2WEBDB-S;Microsoft Endpoint Protection Management Components;Microsoft Corporation;4.5.0216.0;0
+;2017-03-27 10:41;S2WEBDB-S;OP5 NSClient++ Windows Agent (x64);MySolutions NORDIC;0.3.9.146;0
+;2017-03-27 10:41;S2WEBDB-S;SQL Server 2014 SQL Data Quality Common;Microsoft Corporation;12.1.4100.1;0
+;2017-03-27 10:41;S2WEBDB-S;SQL Server 2014 Integration Services;Microsoft Corporation;12.1.4100.1;0
+;2017-03-27 10:41;S2WEBDB-S;Sql Server Customer Experience Improvement Program;Microsoft Corporation;12.1.4100.1;0
+;2017-03-27 10:41;S2WEBDB-S;Microsoft Visual C++ 2010  x64 Redistributable - 10.0.40219;Microsoft Corporation;10.0.40219;0
+;2017-03-27 10:41;S2WEBDB-S;Configuration Manager Client;Microsoft Corporation;5.00.7958.1000;0
+;2017-03-27 10:41;S2WEBDB-S;Microsoft Visual C++ 2005 Redistributable (x64);Microsoft Corporation;8.0.61000;0
+;2017-03-27 10:41;S2WEBDB-S;Microsoft System CLR Types for SQL Server 2014;Microsoft Corporation;12.1.4100.1;0
+;2017-03-27 10:41;S2WEBDB-S;Microsoft Visual C++ 2010  x86 Redistributable - 10.0.40219;Microsoft Corporation;10.0.40219;0
+;2017-03-27 10:41;S2WEBDB-S;Microsoft SQL Server 2012 Native Client ;Microsoft Corporation;11.0.2100.60;0
+;2017-03-27 10:41;S2WEBDB-S;Visual Studio 2010 Prerequisites - English;Microsoft Corporation;10.0.40219;0
+;2017-03-27 10:41;S2WEBDB-S;Microsoft Visual C++ 2010  x86 Runtime - 10.0.40219;Microsoft Corporation;10.0.40219;0
+;2017-03-27 10:41;S2WEBDB-S;SQL Server 2014 Database Engine Services;Microsoft Corporation;12.1.4100.1;0
+;2017-03-27 10:41;S2WEBDB-S;Microsoft SQL Server 2008 Setup Support Files ;Microsoft Corporation;10.3.5500.0;0
+;2017-03-27 10:41;S2WEBDB-S;Microsoft Visual Studio 2010 Shell (Isolated) - ENU;Microsoft Corporation;10.0.40219;0
+;2017-03-27 10:41;S2WEBDB-S;SQL Server 2014 Common Files;Microsoft Corporation;12.1.4100.1;0
+;2017-03-27 10:41;S2WEBDB-S;VMware Tools;VMware. Inc.;10.0.0.3000743;0
+;2017-03-27 10:41;S2WEBDB-S;Microsoft SQL Server 2008 R2 Management Objects;Microsoft Corporation;10.51.2500.0;0
+;2017-03-27 10:41;S2WEBDB-S;Microsoft SQL Server 2014 Transact-SQL ScriptDom ;Microsoft Corporation;12.1.4100.1;0
+;2017-03-27 10:41;S2WEBDB-S;Microsoft VSS Writer for SQL Server 2014;Microsoft Corporation;12.1.4100.1;0
+;2017-03-27 10:41;S2WEBDB-S;Microsoft Visual Studio Tools for Applications x86 Runtime 3.0;Microsoft Corporation;10.0.40220;0
+;2017-03-27 10:41;S2WEBDB-S;SQL Server Browser for SQL Server 2014;Microsoft Corporation;12.1.4100.1;0
+;2017-03-27 10:41;S2WEBDB-S;Windows Firewall Configuration Provider;Microsoft Corporation;1.2.3412.0;0
+;2017-03-27 10:41;S2WEBDB-S;Microsoft Visual C++ 2008 Redistributable - x64 9.0.30729.6161;Microsoft Corporation;9.0.30729.6161;0
+;2017-03-27 10:41;S2WEBDB-S;Microsoft Forefront Endpoint Protection 2010 Server Management;Microsoft Corporation;4.5.0216.0;0
+;2017-03-27 10:41;S2WEBDB-S;SQL Server 2014 Management Studio;Microsoft Corporation;12.1.4100.1;0
+;2017-03-27 10:41;S2WEBDB-S;Microsoft .NET Framework 4 Multi-Targeting Pack;Microsoft Corporation;4.0.30319;0
+;2017-03-27 10:41;S2WEBDB-S;SQL Server 2014 Database Engine Shared;Microsoft Corporation;12.1.4100.1;0
+;2017-03-27 10:41;S2WEBDB-S;Microsoft Policy Platform;Microsoft Corporation;1.2.3602.0;0
+;2017-03-27 10:41;S2WEBDB-S;Microsoft SQL Server 2014 RsFx Driver;Microsoft Corporation;12.1.4100.1;0
+;2017-03-27 10:41;S2WEBDB-S;Microsoft Visual Studio Tools for Applications x64 Runtime 3.0;Microsoft Corporation;10.0.40220;0
+;2017-03-27 10:41;S2WEBDB-S;SQL Server 2014 Database Engine Shared;Microsoft Corporation;12.1.4100.1;0
+;2017-03-27 10:41;S2WEBDB-S;SQL Server 2014 Management Studio;Microsoft Corporation;12.1.4100.1;0
+;2017-03-27 10:41;S2WEBDB-S;SQL Server 2014 Client Tools;Microsoft Corporation;12.1.4100.1;0
+;2017-03-27 10:41;S2WEBDB-S;Microsoft Security Client;Microsoft Corporation;4.5.0216.0;0
+;2017-03-27 10:41;S2WEBDB-S;SQL Server 2014 Common Files;Microsoft Corporation;12.1.4100.1;0
+;2017-03-27 10:41;S2WEBDB-S;Microsoft ODBC Driver 11 for SQL Server;Microsoft Corporation;12.1.4100.1;0
+;2017-03-27 10:41;S2WEBDB-S;Microsoft SQL Server 2014 Setup (English);Microsoft Corporation;12.1.4100.1;0
+;2017-03-27 10:41;S2WEBDB-S;SQL Server 2014 Client Tools;Microsoft Corporation;12.1.4100.1;0
+;2017-03-27 10:41;S2WEBDB-S;Microsoft Visual C++ 2008 Redistributable - x86 9.0.30729.4148;Microsoft Corporation;9.0.30729.4148;0
+;2017-03-27 10:41;S2WEBDB-S;Microsoft Report Viewer 2014 Runtime;Microsoft Corporation;12.0.2000.8;0
+;2017-03-27 10:41;S2WEBDB-S;Microsoft SQL Server 2014 Transact-SQL Compiler Service ;Microsoft Corporation;12.1.4100.1;0
+;2017-03-27 10:41;S2WEBDB-S;Microsoft Silverlight;Microsoft Corporation;5.1.20513.0;0
+;2017-03-27 10:41;S2WEBDB-S;SQL Server 2014 Database Engine Services;Microsoft Corporation;12.1.4100.1;0
+;2017-03-27 10:41;S2WEBDB-S;Microsoft SQL Server 2014 Policies ;Microsoft Corporation;12.0.2000.8;0
+;2017-03-27 10:41;S-K1WEBDB-P;Microsoft Application Error Reporting;Microsoft Corporation;12.0.6012.5000;0
+;2017-03-27 10:41;S-K1WEBDB-P;Microsoft SQL Server System CLR Types;Microsoft Corporation;10.51.2500.0;0
+;2017-03-27 10:41;S-K1WEBDB-P;Microsoft Help Viewer 1.1;Microsoft Corporation;1.1.40219;0
+;2017-03-27 10:41;S-K1WEBDB-P;Microsoft Visual C++ 2008 Redistributable - x86 9.0.30729.4974;Microsoft Corporation;9.0.30729.4974;0
+;2017-03-27 10:41;S-K1WEBDB-P;SQL Server 2014 Integration Services;Microsoft Corporation;12.1.4100.1;0
+;2017-03-27 10:41;S-K1WEBDB-P;Microsoft Endpoint Protection Management Components;Microsoft Corporation;4.5.0216.0;0
+;2017-03-27 10:41;S-K1WEBDB-P;OP5 NSClient++ Windows Agent (x64);MySolutions NORDIC;0.3.9.146;0
+;2017-03-27 10:41;S-K1WEBDB-P;SQL Server 2014 SQL Data Quality Common;Microsoft Corporation;12.1.4100.1;0
+;2017-03-27 10:41;S-K1WEBDB-P;SQL Server 2014 Integration Services;Microsoft Corporation;12.1.4100.1;0
+;2017-03-27 10:41;S-K1WEBDB-P;Sql Server Customer Experience Improvement Program;Microsoft Corporation;12.1.4100.1;0
+;2017-03-27 10:41;S-K1WEBDB-P;Microsoft Visual C++ 2010  x64 Redistributable - 10.0.40219;Microsoft Corporation;10.0.40219;0
+;2017-03-27 10:41;S-K1WEBDB-P;Configuration Manager Client;Microsoft Corporation;5.00.7958.1000;0
+;2017-03-27 10:41;S-K1WEBDB-P;Microsoft Visual C++ 2005 Redistributable (x64);Microsoft Corporation;8.0.61000;0
+;2017-03-27 10:41;S-K1WEBDB-P;Microsoft System CLR Types for SQL Server 2014;Microsoft Corporation;12.1.4100.1;0
+;2017-03-27 10:41;S-K1WEBDB-P;Microsoft Visual C++ 2010  x86 Redistributable - 10.0.40219;Microsoft Corporation;10.0.40219;0
+;2017-03-27 10:41;S-K1WEBDB-P;Microsoft SQL Server 2012 Native Client ;Microsoft Corporation;11.0.2100.60;0
+;2017-03-27 10:41;S-K1WEBDB-P;Visual Studio 2010 Prerequisites - English;Microsoft Corporation;10.0.40219;0
+;2017-03-27 10:41;S-K1WEBDB-P;Microsoft Visual C++ 2010  x86 Runtime - 10.0.40219;Microsoft Corporation;10.0.40219;0
+;2017-03-27 10:41;S-K1WEBDB-P;SQL Server 2014 Database Engine Services;Microsoft Corporation;12.1.4100.1;0
+;2017-03-27 10:41;S-K1WEBDB-P;Microsoft SQL Server 2008 Setup Support Files ;Microsoft Corporation;10.3.5500.0;0
+;2017-03-27 10:41;S-K1WEBDB-P;Microsoft Visual Studio 2010 Shell (Isolated) - ENU;Microsoft Corporation;10.0.40219;0
+;2017-03-27 10:41;S-K1WEBDB-P;SQL Server 2014 Common Files;Microsoft Corporation;12.1.4100.1;0
+;2017-03-27 10:41;S-K1WEBDB-P;VMware Tools;VMware. Inc.;10.0.0.3000743;0
+;2017-03-27 10:41;S-K1WEBDB-P;Microsoft SQL Server 2008 R2 Management Objects;Microsoft Corporation;10.51.2500.0;0
+;2017-03-27 10:41;S-K1WEBDB-P;Microsoft SQL Server 2014 Transact-SQL ScriptDom ;Microsoft Corporation;12.1.4100.1;0
+;2017-03-27 10:41;S-K1WEBDB-P;Microsoft VSS Writer for SQL Server 2014;Microsoft Corporation;12.1.4100.1;0
+;2017-03-27 10:41;S-K1WEBDB-P;Microsoft Visual Studio Tools for Applications x86 Runtime 3.0;Microsoft Corporation;10.0.40220;0
+;2017-03-27 10:41;S-K1WEBDB-P;SQL Server Browser for SQL Server 2014;Microsoft Corporation;12.1.4100.1;0
+;2017-03-27 10:41;S-K1WEBDB-P;Windows Firewall Configuration Provider;Microsoft Corporation;1.2.3412.0;0
+;2017-03-27 10:41;S-K1WEBDB-P;Microsoft Visual C++ 2008 Redistributable - x64 9.0.30729.6161;Microsoft Corporation;9.0.30729.6161;0
+;2017-03-27 10:41;S-K1WEBDB-P;Microsoft Forefront Endpoint Protection 2010 Server Management;Microsoft Corporation;4.5.0216.0;0
+;2017-03-27 10:41;S-K1WEBDB-P;SQL Server 2014 Management Studio;Microsoft Corporation;12.1.4100.1;0
+;2017-03-27 10:41;S-K1WEBDB-P;Microsoft .NET Framework 4 Multi-Targeting Pack;Microsoft Corporation;4.0.30319;0
+;2017-03-27 10:41;S-K1WEBDB-P;SQL Server 2014 Database Engine Shared;Microsoft Corporation;12.1.4100.1;0
+;2017-03-27 10:41;S-K1WEBDB-P;Microsoft Policy Platform;Microsoft Corporation;1.2.3602.0;0
+;2017-03-27 10:41;S-K1WEBDB-P;Microsoft SQL Server 2014 RsFx Driver;Microsoft Corporation;12.1.4100.1;0
+;2017-03-27 10:41;S-K1WEBDB-P;Microsoft Visual Studio Tools for Applications x64 Runtime 3.0;Microsoft Corporation;10.0.40220;0
+;2017-03-27 10:41;S-K1WEBDB-P;SQL Server 2014 Database Engine Shared;Microsoft Corporation;12.1.4100.1;0
+;2017-03-27 10:41;S-K1WEBDB-P;SQL Server 2014 Management Studio;Microsoft Corporation;12.1.4100.1;0
+;2017-03-27 10:41;S-K1WEBDB-P;SQL Server 2014 Client Tools;Microsoft Corporation;12.1.4100.1;0
+;2017-03-27 10:41;S-K1WEBDB-P;Microsoft Security Client;Microsoft Corporation;4.5.0216.0;0
+;2017-03-27 10:41;S-K1WEBDB-P;SQL Server 2014 Common Files;Microsoft Corporation;12.1.4100.1;0
+;2017-03-27 10:41;S-K1WEBDB-P;Microsoft ODBC Driver 11 for SQL Server;Microsoft Corporation;12.1.4100.1;0
+;2017-03-27 10:41;S-K1WEBDB-P;Microsoft SQL Server 2014 Setup (English);Microsoft Corporation;12.1.4100.1;0
+;2017-03-27 10:41;S-K1WEBDB-P;SQL Server 2014 Client Tools;Microsoft Corporation;12.1.4100.1;0
+;2017-03-27 10:41;S-K1WEBDB-P;Microsoft Visual C++ 2008 Redistributable - x86 9.0.30729.4148;Microsoft Corporation;9.0.30729.4148;0
+;2017-03-27 10:41;S-K1WEBDB-P;Microsoft Report Viewer 2014 Runtime;Microsoft Corporation;12.0.2000.8;0
+;2017-03-27 10:41;S-K1WEBDB-P;Microsoft SQL Server 2014 Transact-SQL Compiler Service ;Microsoft Corporation;12.1.4100.1;0
+;2017-03-27 10:41;S-K1WEBDB-P;Microsoft Silverlight;Microsoft Corporation;5.1.20513.0;0
+;2017-03-27 10:41;S-K1WEBDB-P;SQL Server 2014 Database Engine Services;Microsoft Corporation;12.1.4100.1;0
+;2017-03-27 10:41;S-K1WEBDB-P;Microsoft SQL Server 2014 Policies ;Microsoft Corporation;12.0.2000.8;0
+;2017-03-27 10:41;S1WEBDB-P;Microsoft Application Error Reporting;Microsoft Corporation;12.0.6012.5000;0
+;2017-03-27 10:41;S1WEBDB-P;Microsoft SQL Server System CLR Types;Microsoft Corporation;10.51.2500.0;0
+;2017-03-27 10:41;S1WEBDB-P;SQL Server 2012 Client Tools;Microsoft Corporation;11.1.3000.0;0
+;2017-03-27 10:41;S1WEBDB-P;Microsoft Help Viewer 1.1;Microsoft Corporation;1.1.40219;0
+;2017-03-27 10:41;S1WEBDB-P;Microsoft Visual C++ 2008 Redistributable - x86 9.0.30729.4974;Microsoft Corporation;9.0.30729.4974;0
+;2017-03-27 10:41;S1WEBDB-P;Microsoft SQL Server 2012 Policies ;Microsoft Corporation;11.0.2100.60;0
+;2017-03-27 10:41;S1WEBDB-P;OP5 NSClient++ Windows Agent (x64);MySolutions NORDIC;0.3.9.146;0
+;2017-03-27 10:41;S1WEBDB-P;SQL Server Browser for SQL Server 2012;Microsoft Corporation;11.1.3000.0;0
+;2017-03-27 10:41;S1WEBDB-P;Microsoft Visual C++ 2008 Redistributable - x64 9.0.30729.4148;Microsoft Corporation;9.0.30729.4148;0
+;2017-03-27 10:41;S1WEBDB-P;Microsoft Visual C++ 2010  x64 Redistributable - 10.0.40219;Microsoft Corporation;10.0.40219;0
+;2017-03-27 10:41;S1WEBDB-P;Configuration Manager Client;Microsoft Corporation;5.00.7958.1000;0
+;2017-03-27 10:41;S1WEBDB-P;Microsoft Visual C++ 2005 Redistributable (x64);Microsoft Corporation;8.0.61000;0
+;2017-03-27 10:41;S1WEBDB-P;Microsoft Visual C++ 2010  x86 Redistributable - 10.0.40219;Microsoft Corporation;10.0.40219;0
+;2017-03-27 10:41;S1WEBDB-P;SQL Server 2012 Management Studio;Microsoft Corporation;11.1.3000.0;0
+;2017-03-27 10:41;S1WEBDB-P;SQL Server 2012 Management Studio;Microsoft Corporation;11.1.3000.0;0
+;2017-03-27 10:41;S1WEBDB-P;Visual Studio 2010 Prerequisites - English;Microsoft Corporation;10.0.40219;0
+;2017-03-27 10:41;S1WEBDB-P;Microsoft Visual C++ 2010  x86 Runtime - 10.0.40219;Microsoft Corporation;10.0.40219;0
+;2017-03-27 10:41;S1WEBDB-P;Microsoft Visual Studio 2010 Shell (Isolated) - ENU;Microsoft Corporation;10.0.40219;0
+;2017-03-27 10:41;S1WEBDB-P;Microsoft SQL Server 2008 R2 Management Objects;Microsoft Corporation;10.51.2500.0;0
+;2017-03-27 10:41;S1WEBDB-P;Microsoft System CLR Types for SQL Server 2012 (x64);Microsoft Corporation;11.1.3000.0;0
+;2017-03-27 10:41;S1WEBDB-P;SQL Server 2012 Client Tools;Microsoft Corporation;11.1.3000.0;0
+;2017-03-27 10:41;S1WEBDB-P;Microsoft .NET Framework 4 Multi-Targeting Pack;Microsoft Corporation;4.0.30319;0
+;2017-03-27 10:41;S1WEBDB-P;Microsoft Policy Platform;Microsoft Corporation;1.2.3602.0;0
+;2017-03-27 10:41;S1WEBDB-P;SQL Server 2012 Common Files;Microsoft Corporation;11.1.3000.0;0
+;2017-03-27 10:41;S1WEBDB-P;Microsoft SQL Server 2012 Native Client ;Microsoft Corporation;11.1.3000.0;0
+;2017-03-27 10:41;S1WEBDB-P;SQL Server 2012 Database Engine Services;Microsoft Corporation;11.1.3000.0;0
+;2017-03-27 10:41;S1WEBDB-P;VMware Tools;VMware. Inc.;8.6.5.11214;0
+;2017-03-27 10:41;S1WEBDB-P;Microsoft SQL Server 2012 Transact-SQL ScriptDom ;Microsoft Corporation;11.1.3000.0;0
+;2017-03-27 10:41;S1WEBDB-P;Microsoft SQL Server 2008 Setup Support Files ;Microsoft Corporation;10.1.2731.0;0
+;2017-03-27 10:41;S1WEBDB-P;SQL Server 2012 Database Engine Shared;Microsoft Corporation;11.1.3000.0;0
+;2017-03-27 10:41;S1WEBDB-P;Microsoft .NET Framework 4 Extended;Microsoft Corporation;4.0.30319;0
+;2017-03-27 10:41;S1WEBDB-P;SQL Server 2012 Database Engine Services;Microsoft Corporation;11.1.3000.0;0
+;2017-03-27 10:41;S1WEBDB-P;Microsoft Visual C++ 2008 Redistributable - x86 9.0.30729.4148;Microsoft Corporation;9.0.30729.4148;0
+;2017-03-27 10:41;S1WEBDB-P;Sql Server Customer Experience Improvement Program;Microsoft Corporation;11.1.3000.0;0
+;2017-03-27 10:41;S1WEBDB-P;Microsoft Silverlight;Microsoft Corporation;5.1.20513.0;0
+;2017-03-27 10:41;S1WEBDB-P;Microsoft .NET Framework 4 Client Profile;Microsoft Corporation;4.0.30319;0
+;2017-03-27 10:41;S1WEBDB-P;Microsoft SQL Server 2012 Transact-SQL Compiler Service ;Microsoft Corporation;11.1.3128.0;0
+;2017-03-27 10:41;S1WEBDB-P;Microsoft SQL Server 2012 RsFx Driver;Microsoft Corporation;11.1.3000.0;0
+;2017-03-27 10:41;S1WEBDB-P;Microsoft Report Viewer 2012 Runtime;Microsoft Corporation;11.0.2100.60;0
+;2017-03-27 10:41;S1WEBDB-P;SQL Server 2012 Database Engine Shared;Microsoft Corporation;11.1.3000.0;0
+;2017-03-27 10:41;S1WEBDB-P;SQL Server 2012 Common Files;Microsoft Corporation;11.1.3000.0;0
+;2017-03-27 10:41;S1WEBDB-P;Microsoft SQL Server 2012 Setup (English);Microsoft Corporation;11.1.3128.0;0
+;2017-03-27 10:41;S1WEBDB-P;Microsoft VSS Writer for SQL Server 2012;Microsoft Corporation;11.1.3000.0;0

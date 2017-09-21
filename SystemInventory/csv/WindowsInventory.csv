@@ -1,0 +1,6 @@
+ID;ModifyDate;ComputerName;ComputerDomain;Decom;Model;Manufacturer;InstallDate;SerialNumber;OperatingSystem;ServicePack;OSArchitecture;OSLanguage;InstalledMemory;CPUID;CPUCores;CPULogical
+;;S4DB-P;ki.teracom.se;1;VMware Virtual Platform;VMware. Inc.;2016-06-13;VMware-56 4d 5f b0 52 76 e2 2c-3a 5e 2a 72 eb 69 df 84;Microsoft Windows Server 2008 R2 Enterprise ;Service Pack 1;64-bit;1033;16.0;CPU0;2;2
+;;S-K231A;ki.teracom.se;1;VMware Virtual Platform;VMware. Inc.;2016-06-13;VMware-42 3c 90 c4 fd 61 79 72-27 cf d4 36 5e 68 cf 44;Microsoft(R) Windows(R) Server 2003. Standard Edition;Service Pack 2;NULL;1033;3.9;CPU0;NULL;NULL
+;;S-K239A;ki.teracom.se;1;VMware Virtual Platform;VMware. Inc.;2016-06-13;VMware-42 3c 54 37 f3 a1 85 8f-74 ec 5d f3 28 e0 7b c9;Microsoft(R) Windows(R) Server 2003. Standard Edition;Service Pack 2;NULL;1033;3.9;CPU0;NULL;NULL
+;;S-K264A;ki.teracom.se;1;VMware Virtual Platform;VMware. Inc.;2016-06-13;VMware-42 3c ce 46 49 f6 71 3b-3e ce 89 fa 28 be 8c a7;Microsoft Windows Server 2008 R2 Enterprise ;Service Pack 1;64-bit;1033;16.0;CPU0;2;2
+;;S25A;ki.teracom.se;1;VMware Virtual Platform;VMware. Inc.;2016-06-13;VMware-56 4d c1 d8 ee 25 62 c9-36 4e 4f 83 16 06 3f 76;Microsoft Windows Server 2008 R2 Enterprise ;Service Pack 1;64-bit;1033;4.0;CPU0;1;1

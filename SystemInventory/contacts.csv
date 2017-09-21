@@ -1,0 +1,100 @@
+ID;ModifyDate;ComputerName;Domain;Environment;Application;ApplicationManager;Comment;SLA;Decomissioned
+;;BOXMLMSQL20;boxer.local;STAGE;Boxicon;Johan Grufman, Jenny Törnquist;Avvecklas i slutet av maj;NULL;0
+;;BOXMLMSQL27;boxer.local;PROD;Boxicon;Johan Grufman, Jenny Törnquist ;Ingen plan om avveckling eller uppgradering se comment;NULL;0
+;;S12A;Corpnet.teracom.se;;;;;NULL;0
+;;S1BIZ-DB-P;boxer.local;PROD;BizTalk;Peter Sjöberg, Susanne Lundberg;BizsqlCLU-P  10.171.130.161  s0biz-db-p.boxer.local;NULL;0
+;;S1BIZ-DB-S;boxer.local;;;;;NULL;0
+;;S1CRMDB-DEV;boxer.local;DEV;MSCRM;Fredrik Neiderud;NULL;NULL;0
+;;S1CRM-DEV;boxer.local;DEV ;MSCRM Reporting Services;Fredrik Neiderud; Ingen INSTANS Reporting services Kan man flytta detta till s1crmdb-dev.boxer.local;NULL;0
+;;S1CTXBOX-DB;boxer.local;;;;;NULL;0
+;;S1CTX-CORP-DB;Corpnet.teracom.se;NULL;Citrix DB servar ;Craig Gibb,Viktor O'Brien-Barden;Ersätter s-k48a.ki.teracom.se;NULL;0
+;;S1DPM;Corpnet.teracom.se;NULL;NULL;NULL;NULL;NULL;0
+;;S1DW-DB-P;boxer.local;PROD;Baloo ;Carl Trulsson;NULL;NULL;0
+;;S1DW-DB-S;boxer.local;STAGE;Baloo;Carl Trulsson;NULL;NULL;0
+;;S1DW-DB-T;boxer.local;TEST;Baloo;Carl Trulsson;NULL;NULL;0
+;;S1EV-DB;Corpnet.teracom.se;NULL;EnterpriseVault ;Anna Anthony;Bundled Licens  Skall avvecklas Q1 - Q2;NULL;0
+;;S1KAMSRV-T;Corpnet.teracom.se;TEST;NULL;NULL;NULL;NULL;0
+;;S1KARTDB-P;Corpnet.teracom.se;PROD;GIS;Katja Hunn;NULL;NULL;0
+;;S1KARTDB-T;Corpnet.teracom.se;TEST;GIS;Katja Hunn;NULL;NULL;0
+;;S1NAV-DB-P;boxer.local;PROD;Navision SE DK ;Erik Ekengren;NULL;NULL;0
+;;S1NAV-DB-S;boxer.local;STAGE;Navision;Erik Ekengren;NULL;NULL;0
+;;S1ORCH;Corpnet.teracom.se;NULL;Orchestrator;Viktor O'Brien-Barden;Bundled Licens ;NULL;0
+;;S1RPTSRV-P;ki.teracom.se;PROD;Qualiware Lifecycle Manager;Frederik Carlsson, Joakim Stork;NULL;NULL;0
+;;S1RPTSRV-T;ki.teracom.se;;;;;NULL;0
+;;S1S;Corpnet.teracom.se;;Printserver;John Hansson, Viktor O'Brien-Barden;;NULL;0
+;;S1SCSM-DB-P;Corpnet.teracom.se;PROD;System Center Service Manager (SCSM);Anna Anthony;NULL;NULL;0
+;;S1SCSM-DB-T;Corpnet.teracom.se;;;;;NULL;0
+;;S1SCSM-DWH-P;Corpnet.teracom.se;PROD;System Center Service Manager (SCSM) Datawarehouse;Anna Anthony;NULL;NULL;0
+;;S1SCSM-ORCH-P;Corpnet.teracom.se;PROD;System Center Service Manager (SCSM);Anna Anthony;NULL;NULL;0
+;;S1SP-DB-P;Corpnet.teracom.se;PROD;SharePoint;Michael Nordström, Xperta;NULL;NULL;0
+;;S1SP-DB-T;Corpnet.teracom.se;DEV;SharePoint;Michael Nordström, Xperta;Sharepoint TEST och DEV;NULL;0
+;;S1SQLMGMT-P;Corpnet.teracom.se;PROD;Pias SQL Management server;Pia Wållberg;NULL;NULL;0
+;;S1TFS;boxer.local;PROD;TFS;Magnus Högberg;NULL;NULL;0
+;;S1WEBDB-P;perimeter.boxer.local;;;;;NULL;0
+;;S1WEBDB-S;perimeter.boxer.local;STAGE;Web EJ RITAT ;Susanne Lundberg;Erätts av s2webdb-s.perimeter.boxer.local;NULL;0
+;;S1WEBDB-T;boxer.local;TEST;Web ;Susanne Lundberg;NULL;NULL;0
+;;S1WEB-UTV;boxer.local;DEV;Web EJ RITAT ;Susanne Lundberg;Ersätts av s-k2webdb-utv.boxer.local;NULL;0
+;;S2BIZ-DB-P;boxer.local;PROD;BizTalk;Peter Sjöberg, Susanne Lundberg;BizsqlCLU-P  10.171.130.161  s0biz-db-p.boxer.local;NULL;0
+;;S2BIZ-T;boxer.local;TEST;BizTalk;Magnus Högberg;NULL;NULL;0
+;;S2CRM-T;boxer.local;TEST;MSCRM;Fredrik Neiderud;NULL;NULL;0
+;;S2NAV-T;boxer.local;TEST;Lime ;Carl Trulsson, Per Alksten;NULL;NULL;0
+;;S2SCCM;Corpnet.teracom.se;NULL;SCCM / Streckkod Inventarieregister ;Anna Anthony;Bundled Licens ;NULL;0
+;;S2TWEB-DB-T;Corpnet.teracom.se;TEST;Episerver;Christina Bylin;Ersätter s1tweb-db-t.corpnet.teracom.se;NULL;0
+;;S2WEBDB;perimeter.boxer.local;PROD;Web Episerver  EJ RITAT ;Susanne Lundberg;Ersätts av s-k1webdb-p.perimeter.boxer.local;NULL;0
+;;S2WEBDB-S;perimeter.boxer.local;STAGE;Web;Susanne Lundberg;Ersätter s1webdb-s.perimeter.boxer.local;NULL;0
+;;S2WEBDB-T;boxer.local;TEST;Web EJ RITAT ;Susanne Lundberg;Ersätts av s-k2webdb-t.boxer.local;NULL;0
+;;S35A;Corpnet.teracom.se;NULL;Ledningskollen.se;Katja Hunn;NULL;NULL;0
+;;S3CTX-CORP-APP;Corpnet.teracom.se;;;;;NULL;0
+;;S3DB-T;boxer.local;TEST;Customer DB;Niclas Lans;Ersätter boxmlmsql26.boxer.local;NULL;0
+;;S3NAV-P;boxer.local;PROD;MSCRM  LIME;NULL;AONAVPRD.boxer.local.se, AOCRMPRD., AOTRIBOLDPRD. ;NULL;0
+;;S40A;ki.teracom.se;NULL;Mentum Ellipse, Länkplanering;Krister Munters,  Katja Hunn;Upgraded 2016-03-07;NULL;0
+;;S4CTXBOX-DB;boxer.local;;;;;NULL;0
+;;S68A;Corpnet.teracom.se;NULL;NULL;NULL;NULL;NULL;0
+;;S6DB;Corpnet.teracom.se;NULL;vCenter DBserver;Claes Ericson-Ulfsborn;Ersätts av ny server vid vSphere 6 uppgradering;NULL;0
+;;SGHT17VCDB;Corpnet.teracom.se;NULL;vCenter DBserver, Skogen;Claes Ericson-Ulfsborn;Ersätts av ny server vid vSphere 6 uppgradering;NULL;0
+;;SGHTCTX-CORP-DB;Corpnet.teracom.se;;;;;NULL;0
+;;S-K140A;ki.teracom.se;NULL;NULL;NULL;NULL;NULL;0
+;;S-K1ACS-S;boxer.local;STAGE;Billiant;Fredrik Andersson;NULL;NULL;0
+;;S-K1ACS-T;boxer.local;TEST;Billiant;Fredrik Andersson;NULL;NULL;0
+;;S-K1BUILDSERVER;Corpnet.teracom.se;NULL;Teamcity;Johan Millfeldt;NULL;NULL;0
+;;S-K1CRM-DB-P;boxer.local;NULL;MSCRM;NULL;Ersätter s3nav-p.boxer.local och s-k1nav-p.boxer.local MSCRM Instansen;NULL;0
+;;S-K1CRM-DB-S;boxer.local;STAGE;CRM;Fredrik Neiderud;NULL;NULL;0
+;;S-K1CTLG-DB-P;boxer.local;PROD;Tribold / Sigma;Carl Trulsson;NULL;NULL;0
+;;S-K1DW-DB-P;Corpnet.teracom.se;PROD;SAP EDGE BE;Frederik Carlsson;ERS-TTER --> STEG1 s4db-p --> STEG2 s1rptsrv-p;NULL;0
+;;S-K1DW-DB-T;Corpnet.teracom.se;DEV;SAP EDGE BE;Frederik Carlsson;ERS-TTER -->STEG1 s-k264a  --> STEG2 s1rptsrv-t;NULL;0
+;;S-K1IFS-BI-T;Corpnet.teracom.se;DEV;IFS BI Reporting Service;Frederik Carlsson;NULL;NULL;0
+;;S-K1LIME-DB-P;boxer.local;PROD;Lime;Carl Trulsson, Per Alksten;Ersätter s3nav-p.boxer.local och s-k1nav-p.boxer.local default Instansen;NULL;0
+;;S-K1LIME-DB-S;boxer.local;STAGE;Lime;Carl Trulsson, Per Alksten;;NULL;0
+;;S-K1NAVMIG-DB-P;boxer.local;PROD;Navision SE ;Erik Ekengren;Migration av Navison till Com Hem;NULL;0
+;;S-K1NAV-P;boxer.local;PROD;MSCRM LIME;NULL;AONAVPRD.boxer.local.se, AOCRMPRD., AOTRIBOLDPRD.;NULL;0
+;;S-K1NAV-S;boxer.local;STAGE;Navision;Miia Immonen  CRM, Carl Trulsson Tribold, Erik Ekengren Navision;NULL;NULL;0
+;;S-K1NCFLOW;Corpnet.teracom.se;NULL;Novacura_Flow;Päivi Olsson;NULL;NULL;0
+;;S-K1NCFLOWDB-P;Corpnet.teracom.se;PROD;Novacura_Flow;Päivi Olsson;NULL;NULL;0
+;;S-K1SKYPEFE-P;Corpnet.teracom.se;PROD;Skype for Business;Anna Anthony;;NULL;0
+;;S-K1SKYPEMON-DB;Corpnet.teracom.se;;;;;NULL;0
+;;S-K1SP-DB-P;Corpnet.teracom.se;PROD;SharePoint , UCS;Michael Nordström, Xperta;NULL;NULL;0
+;;S-K1WEBDB-P;perimeter.boxer.local;PROD;Web Episerver;Susanne Lundberg;Ersätter s2webdb.perimeter.boxer.local;NULL;0
+;;S-K2DB-P;Corpnet.teracom.se;PROD;IFS/SAP BCP;Frederik Carlsson;Ersätter s-k239a.ki.teracom.se;NULL;0
+;;S-K2INT-DEV;boxer.local;;;;;NULL;0
+;;S-K2RS-DB-P;Corpnet.teracom.se;PROD;ReadSoft/TimeCare;Päivi Olsson, Henrik Höglund;NULL;NULL;0
+;;S-K2WEBDB-T;boxer.local;TEST;Web;Susanne Lundberg;Ersätter s2webdb-t.boxer.local;NULL;0
+;;S-K2WEBDB-UTV;boxer.local;DEV;Web;Susanne Lundberg;Ersätter s1web-utv.boxer.local;NULL;0
+;;S-K3DB-P;boxer.local;PROD;Customer DB;Carl Trulsson;NULL;NULL;0
+;;S-K3SAP-T;Corpnet.teracom.se;TEST;NULL;NULL;NULL;NULL;0
+;;S-K48A;ki.teracom.se;PROD;Citrix;Craig Gibb, Viktor O'Brien;Avveckling pågår av Viktor. Ersätts av s1ctx-corp-db;NULL;0
+;;S-KDIRSYNC;Corpnet.teracom.se;PROD;Exchange;Anna Anthony;Avstängd 2017-05-09. Sparas tillsvidare.Kolla med Jimmy. Används för Outlook;NULL;1
+;;SQLTEST2;Corpnet.teracom.se;TEST;NULL;NULL;NULL;NULL;0
+;;S3DB-INTEG-P;tn.teracom.se;PROD;;;;NULL;0
+;;S4DB-P;ki.teracom.se;PROD;SAP EDGE BE;Frederik Carlsson;;NULL;1
+;;S-K231A;ki.teracom.se;PROD;;;;NULL;1
+;;S-K239A;ki.teracom.se;PROD;;;;NULL;1
+;;S-K264A;ki.teracom.se;DEV;SAP EDGE BE;Frederik Carlsson;;NULL;1
+;;S25A;ki.teracom.se;PROD;;;;NULL;1
+;;s1avtal-db-p ;boxer.local;PROD;Avtalsregister;Johan Bernholm;NULL;NULL;0
+;;s1ctx-db-p;boxer.local;PROD;Citrix;Craig Gibb, Viktor O'Brien;NULL;NULL;0
+;;s1nav-arkiv;boxer.local;PROD;Navision Arkiv;Erik Ekengren;NULL;NULL;0
+;;s1cms-db;boxer.local;PROD;Ingär i VOD plattformen;Emil Fors, July TV AB,  Content & Ingest Manager;NULL;NULL;0
+;;s3db-s;boxer.local;STAGE;Customer DB;Niclas Lans;Ersätter boxmlmsql25.boxer.local;NULL;0
+;;s-k1acs-p;boxer.local;PROD;Billiant Billing system;Fredrik Andersson;NULL;NULL;0
+;;s-k1ctlg-db-t;boxer.local;TEST;Sigma Catalog (Tidigare Tribold);Magnus Högberg;NULL;NULL;0
+;;s-k1web-db-t;boxer.local;TEST;.NET/WEB, BSS Development;Magnus Högberg, Carl Trulsson;NULL;NULL;0

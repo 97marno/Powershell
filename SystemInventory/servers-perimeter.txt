@@ -1,0 +1,5 @@
+s2webdb.perimeter.boxer.local
+s1webdb-s.perimeter.boxer.local
+s2webdb-s.perimeter.boxer.local
+s-k1webdb-p.perimeter.boxer.local
+S1WEBDB-P.perimeter.boxer.local

@@ -1,0 +1,2 @@
+ID;ModifyDate;ComputerName;AdapterName;IsDHCPEnabled;IPAddress;SubnetMask;Gateway;DNSServers;MACAddress;Decomissioned
+;2017-05-02 15:15;S3DB-INTEG-P;vmxnet3 Ethernet Adapter;False;10.181.2.110;255.255.255.224;10.181.2.97;10.52.17.242/10.3.209.222;00:50:56:BC:64:7A;0

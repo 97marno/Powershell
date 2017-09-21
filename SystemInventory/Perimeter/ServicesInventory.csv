@@ -1,0 +1,704 @@
+ID;date;ComputerName;DisplayName;Name;StartMode;StartName;PathName;Decomissioned
+;;S2WEBDB;Application Experience;AeLookupSvc;Manual;localSystem;C:\Windows\system32\svchost.exe -k netsvcs;0
+;;S2WEBDB;Application Layer Gateway Service;ALG;Manual;NT AUTHORITY\LocalService;C:\Windows\System32\alg.exe;0
+;;S2WEBDB;Apica Monitor Agent;AmonAgent;Auto;LocalSystem;C:\PROGRA~2\Apica\Monitor\rtse_s.exe;0
+;;S2WEBDB;Application Identity;AppIDSvc;Manual;NT Authority\LocalService;C:\Windows\system32\svchost.exe -k LocalServiceAndNoImpersonation;0
+;;S2WEBDB;Application Information;Appinfo;Manual;LocalSystem;C:\Windows\system32\svchost.exe -k netsvcs;0
+;;S2WEBDB;Application Management;AppMgmt;Manual;LocalSystem;C:\Windows\system32\svchost.exe -k netsvcs;0
+;;S2WEBDB;Windows Audio Endpoint Builder;AudioEndpointBuilder;Manual;LocalSystem;C:\Windows\System32\svchost.exe -k LocalSystemNetworkRestricted;0
+;;S2WEBDB;Windows Audio;AudioSrv;Manual;NT AUTHORITY\LocalService;C:\Windows\System32\svchost.exe -k LocalServiceNetworkRestricted;0
+;;S2WEBDB;Base Filtering Engine;BFE;Auto;NT AUTHORITY\LocalService;C:\Windows\system32\svchost.exe -k LocalServiceNoNetwork;0
+;;S2WEBDB;Background Intelligent Transfer Service;BITS;Manual;LocalSystem;C:\Windows\System32\svchost.exe -k netsvcs;0
+;;S2WEBDB;Computer Browser;Browser;Disabled;LocalSystem;C:\Windows\System32\svchost.exe -k netsvcs;0
+;;S2WEBDB;SMS Agent Host;CcmExec;Auto;LocalSystem;C:\Windows\CCM\CcmExec.exe;0
+;;S2WEBDB;Certificate Propagation;CertPropSvc;Manual;LocalSystem;C:\Windows\system32\svchost.exe -k netsvcs;0
+;;S2WEBDB;Microsoft .NET Framework NGEN v2.0.50727_X86;clr_optimization_v2.0.50727_32;Manual;LocalSystem;C:\Windows\Microsoft.NET\Framework\v2.0.50727\mscorsvw.exe;0
+;;S2WEBDB;Microsoft .NET Framework NGEN v2.0.50727_X64;clr_optimization_v2.0.50727_64;Manual;LocalSystem;C:\Windows\Microsoft.NET\Framework64\v2.0.50727\mscorsvw.exe;0
+;;S2WEBDB;Configuration Manager Remote Control;CmRcService;Disabled;LocalSystem;C:\Windows\CCM\RemCtrl\CmRcService.exe;0
+;;S2WEBDB;COM+ System Application;COMSysApp;Manual;LocalSystem;C:\Windows\system32\dllhost.exe /Processid:{02D4B3F1-FD88-11D1-960D-00805FC79235};0
+;;S2WEBDB;Cryptographic Services;CryptSvc;Auto;NT Authority\NetworkService;C:\Windows\system32\svchost.exe -k NetworkService;0
+;;S2WEBDB;DCOM Server Process Launcher;DcomLaunch;Auto;LocalSystem;C:\Windows\system32\svchost.exe -k DcomLaunch;0
+;;S2WEBDB;Disk Defragmenter;defragsvc;Manual;localSystem;C:\Windows\system32\svchost.exe -k defragsvc;0
+;;S2WEBDB;DHCP Client;Dhcp;Auto;NT Authority\LocalService;C:\Windows\system32\svchost.exe -k LocalServiceNetworkRestricted;0
+;;S2WEBDB;DNS Client;Dnscache;Auto;NT AUTHORITY\NetworkService;C:\Windows\system32\svchost.exe -k NetworkService;0
+;;S2WEBDB;Wired AutoConfig;dot3svc;Manual;localSystem;C:\Windows\system32\svchost.exe -k LocalSystemNetworkRestricted;0
+;;S2WEBDB;Diagnostic Policy Service;DPS;Auto;NT AUTHORITY\LocalService;C:\Windows\System32\svchost.exe -k LocalServiceNoNetwork;0
+;;S2WEBDB;Extensible Authentication Protocol;EapHost;Manual;localSystem;C:\Windows\System32\svchost.exe -k netsvcs;0
+;;S2WEBDB;Encrypting File System (EFS);EFS;Manual;LocalSystem;C:\Windows\System32\lsass.exe;0
+;;S2WEBDB;Windows Event Log;eventlog;Auto;NT AUTHORITY\LocalService;C:\Windows\System32\svchost.exe -k LocalServiceNetworkRestricted;0
+;;S2WEBDB;COM+ Event System;EventSystem;Auto;NT AUTHORITY\LocalService;C:\Windows\system32\svchost.exe -k LocalService;0
+;;S2WEBDB;Microsoft Fibre Channel Platform Registration Service;FCRegSvc;Manual;NT AUTHORITY\LocalService;C:\Windows\system32\svchost.exe -k LocalServiceNetworkRestricted;0
+;;S2WEBDB;Function Discovery Provider Host;fdPHost;Manual;NT AUTHORITY\LocalService;C:\Windows\system32\svchost.exe -k LocalService;0
+;;S2WEBDB;Function Discovery Resource Publication;FDResPub;Manual;NT AUTHORITY\LocalService;C:\Windows\system32\svchost.exe -k LocalServiceAndNoImpersonation;0
+;;S2WEBDB;Windows Font Cache Service;FontCache;Manual;NT AUTHORITY\LocalService;C:\Windows\system32\svchost.exe -k LocalServiceAndNoImpersonation;0
+;;S2WEBDB;Windows Presentation Foundation Font Cache 3.0.0.0;FontCache3.0.0.0;Manual;NT Authority\LocalService;C:\Windows\Microsoft.Net\Framework64\v3.0\WPF\PresentationFontCache.exe;0
+;;S2WEBDB;Group Policy Client;gpsvc;Auto;LocalSystem;C:\Windows\system32\svchost.exe -k netsvcs;0
+;;S2WEBDB;Human Interface Device Access;hidserv;Manual;LocalSystem;C:\Windows\system32\svchost.exe -k LocalSystemNetworkRestricted;0
+;;S2WEBDB;Health Key and Certificate Management;hkmsvc;Manual;localSystem;C:\Windows\System32\svchost.exe -k netsvcs;0
+;;S2WEBDB;Windows CardSpace;idsvc;Manual;LocalSystem;C:\Windows\Microsoft.NET\Framework64\v3.0\Windows Communication Foundation\infocard.exe;0
+;;S2WEBDB;IKE and AuthIP IPsec Keying Modules;IKEEXT;Auto;LocalSystem;C:\Windows\system32\svchost.exe -k netsvcs;0
+;;S2WEBDB;PnP-X IP Bus Enumerator;IPBusEnum;Disabled;LocalSystem;C:\Windows\system32\svchost.exe -k LocalSystemNetworkRestricted;0
+;;S2WEBDB;IP Helper;iphlpsvc;Auto;LocalSystem;C:\Windows\System32\svchost.exe -k NetSvcs;0
+;;S2WEBDB;CNG Key Isolation;KeyIso;Manual;LocalSystem;C:\Windows\system32\lsass.exe;0
+;;S2WEBDB;KtmRm for Distributed Transaction Coordinator;KtmRm;Manual;NT AUTHORITY\NetworkService;C:\Windows\System32\svchost.exe -k NetworkServiceAndNoImpersonation;0
+;;S2WEBDB;Server;LanmanServer;Auto;LocalSystem;C:\Windows\system32\svchost.exe -k netsvcs;0
+;;S2WEBDB;Workstation;LanmanWorkstation;Auto;NT AUTHORITY\NetworkService;C:\Windows\System32\svchost.exe -k NetworkService;0
+;;S2WEBDB;Link-Layer Topology Discovery Mapper;lltdsvc;Manual;NT AUTHORITY\LocalService;C:\Windows\System32\svchost.exe -k LocalService;0
+;;S2WEBDB;TCP/IP NetBIOS Helper;lmhosts;Auto;NT AUTHORITY\LocalService;C:\Windows\system32\svchost.exe -k LocalServiceNetworkRestricted;0
+;;S2WEBDB;Microsoft Policy Platform Local Authority;lpasvc;Manual;LocalSystem;C:\Program Files\Microsoft Policy Platform\policyHost.exe /service;0
+;;S2WEBDB;Microsoft Policy Platform Processor;lppsvc;Manual;LocalSystem;C:\Program Files\Microsoft Policy Platform\policyHost.exe /service;0
+;;S2WEBDB;Multimedia Class Scheduler;MMCSS;Manual;LocalSystem;C:\Windows\system32\svchost.exe -k netsvcs;0
+;;S2WEBDB;Windows Firewall;MpsSvc;Auto;NT Authority\LocalService;C:\Windows\system32\svchost.exe -k LocalServiceNoNetwork;0
+;;S2WEBDB;Distributed Transaction Coordinator;MSDTC;Auto;NT AUTHORITY\NetworkService;C:\Windows\System32\msdtc.exe;0
+;;S2WEBDB;Microsoft iSCSI Initiator Service;MSiSCSI;Manual;LocalSystem;C:\Windows\system32\svchost.exe -k netsvcs;0
+;;S2WEBDB;Windows Installer;msiserver;Manual;LocalSystem;C:\Windows\system32\msiexec.exe /V;0
+;;S2WEBDB;SQL Server (MSSQLSERVER);MSSQLSERVER;Auto;NT AUTHORITY\NETWORKSERVICE;G:\SQL Server\MSSQL10_50.MSSQLSERVER\MSSQL\Binn\sqlservr.exe -sMSSQLSERVER;0
+;;S2WEBDB;SQL Active Directory Helper Service;MSSQLServerADHelper100;Disabled;NT AUTHORITY\NETWORKSERVICE;C:\Program Files\Microsoft SQL Server\100\Shared\SQLADHLP.EXE;0
+;;S2WEBDB;Network Access Protection Agent;napagent;Manual;NT AUTHORITY\NetworkService;C:\Windows\System32\svchost.exe -k NetworkService;0
+;;S2WEBDB;Netlogon;Netlogon;Auto;LocalSystem;C:\Windows\system32\lsass.exe;0
+;;S2WEBDB;Network Connections;Netman;Manual;LocalSystem;C:\Windows\System32\svchost.exe -k LocalSystemNetworkRestricted;0
+;;S2WEBDB;Network List Service;netprofm;Manual;NT AUTHORITY\LocalService;C:\Windows\System32\svchost.exe -k LocalService;0
+;;S2WEBDB;Net.Tcp Port Sharing Service;NetTcpPortSharing;Disabled;NT AUTHORITY\LocalService;C:\Windows\Microsoft.NET\Framework64\v3.0\Windows Communication Foundation\SMSvcHost.exe;0
+;;S2WEBDB;Network Location Awareness;NlaSvc;Auto;NT AUTHORITY\NetworkService;C:\Windows\System32\svchost.exe -k NetworkService;0
+;;S2WEBDB;OP5 NSClient++ Windows Agent (x64);NSClientpp;Auto;LocalSystem;C:\Program Files\op5\NSClient++\nsclient++.exe;0
+;;S2WEBDB;Network Store Interface Service;nsi;Auto;NT Authority\LocalService;C:\Windows\system32\svchost.exe -k LocalService;0
+;;S2WEBDB;Performance Counter DLL Host;PerfHost;Manual;NT AUTHORITY\LocalService;C:\Windows\SysWow64\perfhost.exe;0
+;;S2WEBDB;Performance Logs & Alerts;pla;Manual;NT AUTHORITY\LocalService;C:\Windows\System32\svchost.exe -k LocalServiceNoNetwork;0
+;;S2WEBDB;Plug and Play;PlugPlay;Auto;LocalSystem;C:\Windows\system32\svchost.exe -k DcomLaunch;0
+;;S2WEBDB;IPsec Policy Agent;PolicyAgent;Manual;NT Authority\NetworkService;C:\Windows\system32\svchost.exe -k NetworkServiceNetworkRestricted;0
+;;S2WEBDB;Power;Power;Auto;LocalSystem;C:\Windows\system32\svchost.exe -k DcomLaunch;0
+;;S2WEBDB;User Profile Service;ProfSvc;Auto;LocalSystem;C:\Windows\system32\svchost.exe -k netsvcs;0
+;;S2WEBDB;Protected Storage;ProtectedStorage;Manual;LocalSystem;C:\Windows\system32\lsass.exe;0
+;;S2WEBDB;Remote Access Auto Connection Manager;RasAuto;Manual;localSystem;C:\Windows\System32\svchost.exe -k netsvcs;0
+;;S2WEBDB;Remote Access Connection Manager;RasMan;Manual;localSystem;C:\Windows\System32\svchost.exe -k netsvcs;0
+;;S2WEBDB;Routing and Remote Access;RemoteAccess;Disabled;localSystem;C:\Windows\System32\svchost.exe -k netsvcs;0
+;;S2WEBDB;Remote Registry;RemoteRegistry;Auto;NT AUTHORITY\LocalService;C:\Windows\system32\svchost.exe -k regsvc;0
+;;S2WEBDB;RPC Endpoint Mapper;RpcEptMapper;Auto;NT AUTHORITY\NetworkService;C:\Windows\system32\svchost.exe -k RPCSS;0
+;;S2WEBDB;Remote Procedure Call (RPC) Locator;RpcLocator;Manual;NT AUTHORITY\NetworkService;C:\Windows\system32\locator.exe;0
+;;S2WEBDB;Remote Procedure Call (RPC);RpcSs;Auto;NT AUTHORITY\NetworkService;C:\Windows\system32\svchost.exe -k rpcss;0
+;;S2WEBDB;Resultant Set of Policy Provider;RSoPProv;Manual;LocalSystem;C:\Windows\system32\RSoPProv.exe;0
+;;S2WEBDB;Special Administration Console Helper;sacsvr;Manual;LocalSystem;C:\Windows\System32\svchost.exe -k netsvcs;0
+;;S2WEBDB;Security Accounts Manager;SamSs;Auto;LocalSystem;C:\Windows\system32\lsass.exe;0
+;;S2WEBDB;Smart Card;SCardSvr;Manual;NT AUTHORITY\LocalService;C:\Windows\system32\svchost.exe -k LocalServiceAndNoImpersonation;0
+;;S2WEBDB;Task Scheduler;Schedule;Auto;LocalSystem;C:\Windows\system32\svchost.exe -k netsvcs;0
+;;S2WEBDB;Smart Card Removal Policy;SCPolicySvc;Manual;LocalSystem;C:\Windows\system32\svchost.exe -k netsvcs;0
+;;S2WEBDB;Secondary Logon;seclogon;Manual;LocalSystem;C:\Windows\system32\svchost.exe -k netsvcs;0
+;;S2WEBDB;System Event Notification Service;SENS;Auto;LocalSystem;C:\Windows\system32\svchost.exe -k netsvcs;0
+;;S2WEBDB;Remote Desktop Configuration;SessionEnv;Manual;localSystem;C:\Windows\System32\svchost.exe -k netsvcs;0
+;;S2WEBDB;Internet Connection Sharing (ICS);SharedAccess;Disabled;LocalSystem;C:\Windows\System32\svchost.exe -k netsvcs;0
+;;S2WEBDB;Shell Hardware Detection;ShellHWDetection;Auto;LocalSystem;C:\Windows\System32\svchost.exe -k netsvcs;0
+;;S2WEBDB;ConfigMgr Task Sequence Agent;smstsmgr;Manual;LocalSystem;C:\Windows\CCM\TSManager.exe /service;0
+;;S2WEBDB;SNMP Trap;SNMPTRAP;Manual;NT AUTHORITY\LocalService;C:\Windows\System32\snmptrap.exe;0
+;;S2WEBDB;Print Spooler;Spooler;Auto;LocalSystem;C:\Windows\System32\spoolsv.exe;0
+;;S2WEBDB;Software Protection;sppsvc;Auto;NT AUTHORITY\NetworkService;C:\Windows\system32\sppsvc.exe;0
+;;S2WEBDB;SPP Notification Service;sppuinotify;Manual;NT AUTHORITY\LocalService;C:\Windows\system32\svchost.exe -k LocalService;0
+;;S2WEBDB;SQL Server Browser;SQLBrowser;Disabled;NT AUTHORITY\LOCALSERVICE;C:\Program Files (x86)\Microsoft SQL Server\90\Shared\sqlbrowser.exe;0
+;;S2WEBDB;SQL Server Agent (MSSQLSERVER);SQLSERVERAGENT;Auto;NT AUTHORITY\NETWORKSERVICE;G:\SQL Server\MSSQL10_50.MSSQLSERVER\MSSQL\Binn\SQLAGENT.EXE -i MSSQLSERVER;0
+;;S2WEBDB;SQL Server VSS Writer;SQLWriter;Auto;LocalSystem;C:\Program Files\Microsoft SQL Server\90\Shared\sqlwriter.exe;0
+;;S2WEBDB;SSDP Discovery;SSDPSRV;Disabled;NT AUTHORITY\LocalService;C:\Windows\system32\svchost.exe -k LocalServiceAndNoImpersonation;0
+;;S2WEBDB;Secure Socket Tunneling Protocol Service;SstpSvc;Manual;NT Authority\LocalService;C:\Windows\system32\svchost.exe -k LocalService;0
+;;S2WEBDB;Microsoft Software Shadow Copy Provider;swprv;Manual;LocalSystem;C:\Windows\System32\svchost.exe -k swprv;0
+;;S2WEBDB;Telephony;TapiSrv;Manual;NT AUTHORITY\NetworkService;C:\Windows\System32\svchost.exe -k tapisrv;0
+;;S2WEBDB;TPM Base Services;TBS;Manual;NT AUTHORITY\LocalService;C:\Windows\System32\svchost.exe -k LocalServiceAndNoImpersonation;0
+;;S2WEBDB;Remote Desktop Services;TermService;Manual;NT Authority\NetworkService;C:\Windows\System32\svchost.exe -k termsvcs;0
+;;S2WEBDB;Thread Ordering Server;THREADORDER;Manual;NT AUTHORITY\LocalService;C:\Windows\system32\svchost.exe -k LocalService;0
+;;S2WEBDB;TP AutoConnect Service;tpautoconnsvc;Manual;LocalSystem;C:\Program Files\VMware\VMware Tools\TPAutoConnSvc.exe;0
+;;S2WEBDB;TP VC Gateway Service;TPVCGateway;Manual;LocalSystem;C:\Program Files\VMware\VMware Tools\TPVCGateway.exe;0
+;;S2WEBDB;Distributed Link Tracking Client;TrkWks;Auto;LocalSystem;C:\Windows\System32\svchost.exe -k LocalSystemNetworkRestricted;0
+;;S2WEBDB;Windows Modules Installer;TrustedInstaller;Manual;localSystem;C:\Windows\servicing\TrustedInstaller.exe;0
+;;S2WEBDB;Interactive Services Detection;UI0Detect;Manual;LocalSystem;C:\Windows\system32\UI0Detect.exe;0
+;;S2WEBDB;Remote Desktop Services UserMode Port Redirector;UmRdpService;Manual;localSystem;C:\Windows\System32\svchost.exe -k LocalSystemNetworkRestricted;0
+;;S2WEBDB;UPnP Device Host;upnphost;Disabled;NT AUTHORITY\LocalService;C:\Windows\system32\svchost.exe -k LocalServiceAndNoImpersonation;0
+;;S2WEBDB;Desktop Window Manager Session Manager;UxSms;Auto;localSystem;C:\Windows\System32\svchost.exe -k LocalSystemNetworkRestricted;0
+;;S2WEBDB;Credential Manager;VaultSvc;Manual;LocalSystem;C:\Windows\system32\lsass.exe;0
+;;S2WEBDB;Virtual Disk;vds;Manual;LocalSystem;C:\Windows\System32\vds.exe;0
+;;S2WEBDB;VMware Tools Service;VMTools;Auto;LocalSystem;C:\Program Files\VMware\VMware Tools\vmtoolsd.exe;0
+;;S2WEBDB;VMware Upgrade Helper;VMUpgradeHelper;Auto;LocalSystem;C:\Program Files\VMware\VMware Tools\VMUpgradeHelper.exe /service;0
+;;S2WEBDB;VMware Snapshot Provider;vmvss;Manual;LocalSystem;C:\Windows\system32\dllhost.exe /Processid:{DEA22668-6974-4C83-A352-58FB19D4060D};0
+;;S2WEBDB;Volume Shadow Copy;VSS;Manual;LocalSystem;C:\Windows\system32\vssvc.exe;0
+;;S2WEBDB;Windows Time;W32Time;Manual;NT AUTHORITY\LocalService;C:\Windows\system32\svchost.exe -k LocalService;0
+;;S2WEBDB;Block Level Backup Engine Service;wbengine;Manual;LocalSystem;C:\Windows\system32\wbengine.exe;0
+;;S2WEBDB;Windows Color System;WcsPlugInService;Manual;NT AUTHORITY\LocalService;C:\Windows\system32\svchost.exe -k wcssvc;0
+;;S2WEBDB;Diagnostic Service Host;WdiServiceHost;Manual;NT AUTHORITY\LocalService;C:\Windows\System32\svchost.exe -k LocalService;0
+;;S2WEBDB;Diagnostic System Host;WdiSystemHost;Manual;LocalSystem;C:\Windows\System32\svchost.exe -k LocalSystemNetworkRestricted;0
+;;S2WEBDB;Windows Event Collector;Wecsvc;Manual;NT AUTHORITY\NetworkService;C:\Windows\system32\svchost.exe -k NetworkService;0
+;;S2WEBDB;Problem Reports and Solutions Control Panel Support;wercplsupport;Manual;localSystem;C:\Windows\System32\svchost.exe -k netsvcs;0
+;;S2WEBDB;Windows Error Reporting Service;WerSvc;Manual;localSystem;C:\Windows\System32\svchost.exe -k WerSvcGroup;0
+;;S2WEBDB;WinHTTP Web Proxy Auto-Discovery Service;WinHttpAutoProxySvc;Manual;NT AUTHORITY\LocalService;C:\Windows\system32\svchost.exe -k LocalService;0
+;;S2WEBDB;Windows Management Instrumentation;Winmgmt;Auto;localSystem;C:\Windows\system32\svchost.exe -k netsvcs;0
+;;S2WEBDB;Windows Remote Management (WS-Management);WinRM;Auto;NT AUTHORITY\NetworkService;C:\Windows\System32\svchost.exe -k NetworkService;0
+;;S2WEBDB;WMI Performance Adapter;wmiApSrv;Manual;localSystem;C:\Windows\system32\wbem\WmiApSrv.exe;0
+;;S2WEBDB;Portable Device Enumerator Service;WPDBusEnum;Manual;LocalSystem;C:\Windows\system32\svchost.exe -k LocalSystemNetworkRestricted;0
+;;S2WEBDB;Windows Update;wuauserv;Auto;LocalSystem;C:\Windows\system32\svchost.exe -k netsvcs;0
+;;S2WEBDB;Windows Driver Foundation - User-mode Driver Framework;wudfsvc;Manual;LocalSystem;C:\Windows\system32\svchost.exe -k LocalSystemNetworkRestricted;0
+;;S1WEBDB-S;Application Experience;AeLookupSvc;Manual;localSystem;C:\Windows\system32\svchost.exe -k netsvcs;0
+;;S1WEBDB-S;Application Layer Gateway Service;ALG;Manual;NT AUTHORITY\LocalService;C:\Windows\System32\alg.exe;0
+;;S1WEBDB-S;Apica Monitor Agent;AmonAgent;Auto;LocalSystem;C:\PROGRA~2\Apica\Monitor\rtse_s.exe;0
+;;S1WEBDB-S;Application Identity;AppIDSvc;Manual;NT Authority\LocalService;C:\Windows\system32\svchost.exe -k LocalServiceAndNoImpersonation;0
+;;S1WEBDB-S;Application Information;Appinfo;Manual;LocalSystem;C:\Windows\system32\svchost.exe -k netsvcs;0
+;;S1WEBDB-S;Application Management;AppMgmt;Manual;LocalSystem;C:\Windows\system32\svchost.exe -k netsvcs;0
+;;S1WEBDB-S;Windows Audio Endpoint Builder;AudioEndpointBuilder;Manual;LocalSystem;C:\Windows\System32\svchost.exe -k LocalSystemNetworkRestricted;0
+;;S1WEBDB-S;Windows Audio;AudioSrv;Manual;NT AUTHORITY\LocalService;C:\Windows\System32\svchost.exe -k LocalServiceNetworkRestricted;0
+;;S1WEBDB-S;Base Filtering Engine;BFE;Auto;NT AUTHORITY\LocalService;C:\Windows\system32\svchost.exe -k LocalServiceNoNetwork;0
+;;S1WEBDB-S;Background Intelligent Transfer Service;BITS;Manual;LocalSystem;C:\Windows\System32\svchost.exe -k netsvcs;0
+;;S1WEBDB-S;Computer Browser;Browser;Disabled;LocalSystem;C:\Windows\System32\svchost.exe -k netsvcs;0
+;;S1WEBDB-S;SMS Agent Host;CcmExec;Auto;LocalSystem;C:\Windows\CCM\CcmExec.exe;0
+;;S1WEBDB-S;Certificate Propagation;CertPropSvc;Manual;LocalSystem;C:\Windows\system32\svchost.exe -k netsvcs;0
+;;S1WEBDB-S;Microsoft .NET Framework NGEN v2.0.50727_X86;clr_optimization_v2.0.50727_32;Manual;LocalSystem;C:\Windows\Microsoft.NET\Framework\v2.0.50727\mscorsvw.exe;0
+;;S1WEBDB-S;Microsoft .NET Framework NGEN v2.0.50727_X64;clr_optimization_v2.0.50727_64;Manual;LocalSystem;C:\Windows\Microsoft.NET\Framework64\v2.0.50727\mscorsvw.exe;0
+;;S1WEBDB-S;Configuration Manager Remote Control;CmRcService;Disabled;LocalSystem;C:\Windows\CCM\RemCtrl\CmRcService.exe;0
+;;S1WEBDB-S;COM+ System Application;COMSysApp;Manual;LocalSystem;C:\Windows\system32\dllhost.exe /Processid:{02D4B3F1-FD88-11D1-960D-00805FC79235};0
+;;S1WEBDB-S;Cryptographic Services;CryptSvc;Auto;NT Authority\NetworkService;C:\Windows\system32\svchost.exe -k NetworkService;0
+;;S1WEBDB-S;DCOM Server Process Launcher;DcomLaunch;Auto;LocalSystem;C:\Windows\system32\svchost.exe -k DcomLaunch;0
+;;S1WEBDB-S;Disk Defragmenter;defragsvc;Manual;localSystem;C:\Windows\system32\svchost.exe -k defragsvc;0
+;;S1WEBDB-S;DHCP Client;Dhcp;Auto;NT Authority\LocalService;C:\Windows\system32\svchost.exe -k LocalServiceNetworkRestricted;0
+;;S1WEBDB-S;DNS Client;Dnscache;Auto;NT AUTHORITY\NetworkService;C:\Windows\system32\svchost.exe -k NetworkService;0
+;;S1WEBDB-S;Wired AutoConfig;dot3svc;Manual;localSystem;C:\Windows\system32\svchost.exe -k LocalSystemNetworkRestricted;0
+;;S1WEBDB-S;Diagnostic Policy Service;DPS;Auto;NT AUTHORITY\LocalService;C:\Windows\System32\svchost.exe -k LocalServiceNoNetwork;0
+;;S1WEBDB-S;Extensible Authentication Protocol;EapHost;Manual;localSystem;C:\Windows\System32\svchost.exe -k netsvcs;0
+;;S1WEBDB-S;Encrypting File System (EFS);EFS;Manual;LocalSystem;C:\Windows\System32\lsass.exe;0
+;;S1WEBDB-S;Windows Event Log;eventlog;Auto;NT AUTHORITY\LocalService;C:\Windows\System32\svchost.exe -k LocalServiceNetworkRestricted;0
+;;S1WEBDB-S;COM+ Event System;EventSystem;Auto;NT AUTHORITY\LocalService;C:\Windows\system32\svchost.exe -k LocalService;0
+;;S1WEBDB-S;Microsoft Fibre Channel Platform Registration Service;FCRegSvc;Manual;NT AUTHORITY\LocalService;C:\Windows\system32\svchost.exe -k LocalServiceNetworkRestricted;0
+;;S1WEBDB-S;Function Discovery Provider Host;fdPHost;Manual;NT AUTHORITY\LocalService;C:\Windows\system32\svchost.exe -k LocalService;0
+;;S1WEBDB-S;Function Discovery Resource Publication;FDResPub;Manual;NT AUTHORITY\LocalService;C:\Windows\system32\svchost.exe -k LocalServiceAndNoImpersonation;0
+;;S1WEBDB-S;Windows Font Cache Service;FontCache;Auto;NT AUTHORITY\LocalService;C:\Windows\system32\svchost.exe -k LocalServiceAndNoImpersonation;0
+;;S1WEBDB-S;Windows Presentation Foundation Font Cache 3.0.0.0;FontCache3.0.0.0;Manual;NT Authority\LocalService;C:\Windows\Microsoft.Net\Framework64\v3.0\WPF\PresentationFontCache.exe;0
+;;S1WEBDB-S;Group Policy Client;gpsvc;Auto;LocalSystem;C:\Windows\system32\svchost.exe -k netsvcs;0
+;;S1WEBDB-S;Human Interface Device Access;hidserv;Manual;LocalSystem;C:\Windows\system32\svchost.exe -k LocalSystemNetworkRestricted;0
+;;S1WEBDB-S;Health Key and Certificate Management;hkmsvc;Manual;localSystem;C:\Windows\System32\svchost.exe -k netsvcs;0
+;;S1WEBDB-S;Windows CardSpace;idsvc;Manual;LocalSystem;C:\Windows\Microsoft.NET\Framework64\v3.0\Windows Communication Foundation\infocard.exe;0
+;;S1WEBDB-S;IKE and AuthIP IPsec Keying Modules;IKEEXT;Auto;LocalSystem;C:\Windows\system32\svchost.exe -k netsvcs;0
+;;S1WEBDB-S;PnP-X IP Bus Enumerator;IPBusEnum;Disabled;LocalSystem;C:\Windows\system32\svchost.exe -k LocalSystemNetworkRestricted;0
+;;S1WEBDB-S;IP Helper;iphlpsvc;Auto;LocalSystem;C:\Windows\System32\svchost.exe -k NetSvcs;0
+;;S1WEBDB-S;CNG Key Isolation;KeyIso;Manual;LocalSystem;C:\Windows\system32\lsass.exe;0
+;;S1WEBDB-S;KtmRm for Distributed Transaction Coordinator;KtmRm;Manual;NT AUTHORITY\NetworkService;C:\Windows\System32\svchost.exe -k NetworkServiceAndNoImpersonation;0
+;;S1WEBDB-S;Server;LanmanServer;Auto;LocalSystem;C:\Windows\system32\svchost.exe -k netsvcs;0
+;;S1WEBDB-S;Workstation;LanmanWorkstation;Auto;NT AUTHORITY\NetworkService;C:\Windows\System32\svchost.exe -k NetworkService;0
+;;S1WEBDB-S;Link-Layer Topology Discovery Mapper;lltdsvc;Manual;NT AUTHORITY\LocalService;C:\Windows\System32\svchost.exe -k LocalService;0
+;;S1WEBDB-S;TCP/IP NetBIOS Helper;lmhosts;Auto;NT AUTHORITY\LocalService;C:\Windows\system32\svchost.exe -k LocalServiceNetworkRestricted;0
+;;S1WEBDB-S;Microsoft Policy Platform Local Authority;lpasvc;Manual;LocalSystem;C:\Program Files\Microsoft Policy Platform\policyHost.exe /service;0
+;;S1WEBDB-S;Microsoft Policy Platform Processor;lppsvc;Manual;LocalSystem;C:\Program Files\Microsoft Policy Platform\policyHost.exe /service;0
+;;S1WEBDB-S;Multimedia Class Scheduler;MMCSS;Manual;LocalSystem;C:\Windows\system32\svchost.exe -k netsvcs;0
+;;S1WEBDB-S;Windows Firewall;MpsSvc;Auto;NT Authority\LocalService;C:\Windows\system32\svchost.exe -k LocalServiceNoNetwork;0
+;;S1WEBDB-S;Distributed Transaction Coordinator;MSDTC;Auto;NT AUTHORITY\NetworkService;C:\Windows\System32\msdtc.exe;0
+;;S1WEBDB-S;Microsoft iSCSI Initiator Service;MSiSCSI;Manual;LocalSystem;C:\Windows\system32\svchost.exe -k netsvcs;0
+;;S1WEBDB-S;Windows Installer;msiserver;Manual;LocalSystem;C:\Windows\system32\msiexec.exe /V;0
+;;S1WEBDB-S;SQL Server (MSSQLSERVER);MSSQLSERVER;Auto;NT AUTHORITY\NETWORKSERVICE;G:\SQL Server\MSSQL10_50.MSSQLSERVER\MSSQL\Binn\sqlservr.exe -sMSSQLSERVER;0
+;;S1WEBDB-S;SQL Active Directory Helper Service;MSSQLServerADHelper100;Disabled;NT AUTHORITY\NETWORKSERVICE;C:\Program Files\Microsoft SQL Server\100\Shared\SQLADHLP.EXE;0
+;;S1WEBDB-S;Network Access Protection Agent;napagent;Manual;NT AUTHORITY\NetworkService;C:\Windows\System32\svchost.exe -k NetworkService;0
+;;S1WEBDB-S;Netlogon;Netlogon;Auto;LocalSystem;C:\Windows\system32\lsass.exe;0
+;;S1WEBDB-S;Network Connections;Netman;Manual;LocalSystem;C:\Windows\System32\svchost.exe -k LocalSystemNetworkRestricted;0
+;;S1WEBDB-S;Network List Service;netprofm;Manual;NT AUTHORITY\LocalService;C:\Windows\System32\svchost.exe -k LocalService;0
+;;S1WEBDB-S;Net.Tcp Port Sharing Service;NetTcpPortSharing;Disabled;NT AUTHORITY\LocalService;C:\Windows\Microsoft.NET\Framework64\v3.0\Windows Communication Foundation\SMSvcHost.exe;0
+;;S1WEBDB-S;Network Location Awareness;NlaSvc;Auto;NT AUTHORITY\NetworkService;C:\Windows\System32\svchost.exe -k NetworkService;0
+;;S1WEBDB-S;OP5 NSClient++ Windows Agent (x64);NSClientpp;Auto;LocalSystem;C:\Program Files\op5\NSClient++\nsclient++.exe;0
+;;S1WEBDB-S;Network Store Interface Service;nsi;Auto;NT Authority\LocalService;C:\Windows\system32\svchost.exe -k LocalService;0
+;;S1WEBDB-S;Performance Counter DLL Host;PerfHost;Manual;NT AUTHORITY\LocalService;C:\Windows\SysWow64\perfhost.exe;0
+;;S1WEBDB-S;Performance Logs & Alerts;pla;Manual;NT AUTHORITY\LocalService;C:\Windows\System32\svchost.exe -k LocalServiceNoNetwork;0
+;;S1WEBDB-S;Plug and Play;PlugPlay;Auto;LocalSystem;C:\Windows\system32\svchost.exe -k DcomLaunch;0
+;;S1WEBDB-S;IPsec Policy Agent;PolicyAgent;Manual;NT Authority\NetworkService;C:\Windows\system32\svchost.exe -k NetworkServiceNetworkRestricted;0
+;;S1WEBDB-S;Power;Power;Auto;LocalSystem;C:\Windows\system32\svchost.exe -k DcomLaunch;0
+;;S1WEBDB-S;User Profile Service;ProfSvc;Auto;LocalSystem;C:\Windows\system32\svchost.exe -k netsvcs;0
+;;S1WEBDB-S;Protected Storage;ProtectedStorage;Manual;LocalSystem;C:\Windows\system32\lsass.exe;0
+;;S1WEBDB-S;Remote Access Auto Connection Manager;RasAuto;Manual;localSystem;C:\Windows\System32\svchost.exe -k netsvcs;0
+;;S1WEBDB-S;Remote Access Connection Manager;RasMan;Manual;localSystem;C:\Windows\System32\svchost.exe -k netsvcs;0
+;;S1WEBDB-S;Routing and Remote Access;RemoteAccess;Disabled;localSystem;C:\Windows\System32\svchost.exe -k netsvcs;0
+;;S1WEBDB-S;Remote Registry;RemoteRegistry;Auto;NT AUTHORITY\LocalService;C:\Windows\system32\svchost.exe -k regsvc;0
+;;S1WEBDB-S;RPC Endpoint Mapper;RpcEptMapper;Auto;NT AUTHORITY\NetworkService;C:\Windows\system32\svchost.exe -k RPCSS;0
+;;S1WEBDB-S;Remote Procedure Call (RPC) Locator;RpcLocator;Manual;NT AUTHORITY\NetworkService;C:\Windows\system32\locator.exe;0
+;;S1WEBDB-S;Remote Procedure Call (RPC);RpcSs;Auto;NT AUTHORITY\NetworkService;C:\Windows\system32\svchost.exe -k rpcss;0
+;;S1WEBDB-S;Resultant Set of Policy Provider;RSoPProv;Manual;LocalSystem;C:\Windows\system32\RSoPProv.exe;0
+;;S1WEBDB-S;Special Administration Console Helper;sacsvr;Manual;LocalSystem;C:\Windows\System32\svchost.exe -k netsvcs;0
+;;S1WEBDB-S;Security Accounts Manager;SamSs;Auto;LocalSystem;C:\Windows\system32\lsass.exe;0
+;;S1WEBDB-S;Smart Card;SCardSvr;Manual;NT AUTHORITY\LocalService;C:\Windows\system32\svchost.exe -k LocalServiceAndNoImpersonation;0
+;;S1WEBDB-S;Task Scheduler;Schedule;Auto;LocalSystem;C:\Windows\system32\svchost.exe -k netsvcs;0
+;;S1WEBDB-S;Smart Card Removal Policy;SCPolicySvc;Manual;LocalSystem;C:\Windows\system32\svchost.exe -k netsvcs;0
+;;S1WEBDB-S;Secondary Logon;seclogon;Manual;LocalSystem;C:\Windows\system32\svchost.exe -k netsvcs;0
+;;S1WEBDB-S;System Event Notification Service;SENS;Auto;LocalSystem;C:\Windows\system32\svchost.exe -k netsvcs;0
+;;S1WEBDB-S;Remote Desktop Configuration;SessionEnv;Manual;localSystem;C:\Windows\System32\svchost.exe -k netsvcs;0
+;;S1WEBDB-S;Internet Connection Sharing (ICS);SharedAccess;Disabled;LocalSystem;C:\Windows\System32\svchost.exe -k netsvcs;0
+;;S1WEBDB-S;Shell Hardware Detection;ShellHWDetection;Auto;LocalSystem;C:\Windows\System32\svchost.exe -k netsvcs;0
+;;S1WEBDB-S;ConfigMgr Task Sequence Agent;smstsmgr;Manual;LocalSystem;C:\Windows\CCM\TSManager.exe /service;0
+;;S1WEBDB-S;SNMP Trap;SNMPTRAP;Manual;NT AUTHORITY\LocalService;C:\Windows\System32\snmptrap.exe;0
+;;S1WEBDB-S;Print Spooler;Spooler;Auto;LocalSystem;C:\Windows\System32\spoolsv.exe;0
+;;S1WEBDB-S;Software Protection;sppsvc;Auto;NT AUTHORITY\NetworkService;C:\Windows\system32\sppsvc.exe;0
+;;S1WEBDB-S;SPP Notification Service;sppuinotify;Manual;NT AUTHORITY\LocalService;C:\Windows\system32\svchost.exe -k LocalService;0
+;;S1WEBDB-S;SQL Server Browser;SQLBrowser;Disabled;NT AUTHORITY\LOCALSERVICE;C:\Program Files (x86)\Microsoft SQL Server\90\Shared\sqlbrowser.exe;0
+;;S1WEBDB-S;SQL Server Agent (MSSQLSERVER);SQLSERVERAGENT;Auto;NT AUTHORITY\NETWORKSERVICE;G:\SQL Server\MSSQL10_50.MSSQLSERVER\MSSQL\Binn\SQLAGENT.EXE -i MSSQLSERVER;0
+;;S1WEBDB-S;SQL Server VSS Writer;SQLWriter;Auto;LocalSystem;C:\Program Files\Microsoft SQL Server\90\Shared\sqlwriter.exe;0
+;;S1WEBDB-S;SSDP Discovery;SSDPSRV;Disabled;NT AUTHORITY\LocalService;C:\Windows\system32\svchost.exe -k LocalServiceAndNoImpersonation;0
+;;S1WEBDB-S;Secure Socket Tunneling Protocol Service;SstpSvc;Manual;NT Authority\LocalService;C:\Windows\system32\svchost.exe -k LocalService;0
+;;S1WEBDB-S;Microsoft Software Shadow Copy Provider;swprv;Manual;LocalSystem;C:\Windows\System32\svchost.exe -k swprv;0
+;;S1WEBDB-S;Telephony;TapiSrv;Manual;NT AUTHORITY\NetworkService;C:\Windows\System32\svchost.exe -k tapisrv;0
+;;S1WEBDB-S;TPM Base Services;TBS;Manual;NT AUTHORITY\LocalService;C:\Windows\System32\svchost.exe -k LocalServiceAndNoImpersonation;0
+;;S1WEBDB-S;Remote Desktop Services;TermService;Manual;NT Authority\NetworkService;C:\Windows\System32\svchost.exe -k termsvcs;0
+;;S1WEBDB-S;Thread Ordering Server;THREADORDER;Manual;NT AUTHORITY\LocalService;C:\Windows\system32\svchost.exe -k LocalService;0
+;;S1WEBDB-S;TP AutoConnect Service;TPAutoConnSvc;Manual;LocalSystem;C:\Program Files\VMware\VMware Tools\TPAutoConnSvc.exe;0
+;;S1WEBDB-S;TP VC Gateway Service;TPVCGateway;Manual;LocalSystem;C:\Program Files\VMware\VMware Tools\TPVCGateway.exe;0
+;;S1WEBDB-S;Distributed Link Tracking Client;TrkWks;Auto;LocalSystem;C:\Windows\System32\svchost.exe -k LocalSystemNetworkRestricted;0
+;;S1WEBDB-S;Windows Modules Installer;TrustedInstaller;Manual;localSystem;C:\Windows\servicing\TrustedInstaller.exe;0
+;;S1WEBDB-S;Interactive Services Detection;UI0Detect;Manual;LocalSystem;C:\Windows\system32\UI0Detect.exe;0
+;;S1WEBDB-S;Remote Desktop Services UserMode Port Redirector;UmRdpService;Manual;localSystem;C:\Windows\System32\svchost.exe -k LocalSystemNetworkRestricted;0
+;;S1WEBDB-S;UPnP Device Host;upnphost;Disabled;NT AUTHORITY\LocalService;C:\Windows\system32\svchost.exe -k LocalServiceAndNoImpersonation;0
+;;S1WEBDB-S;Desktop Window Manager Session Manager;UxSms;Auto;localSystem;C:\Windows\System32\svchost.exe -k LocalSystemNetworkRestricted;0
+;;S1WEBDB-S;Credential Manager;VaultSvc;Manual;LocalSystem;C:\Windows\system32\lsass.exe;0
+;;S1WEBDB-S;Virtual Disk;vds;Manual;LocalSystem;C:\Windows\System32\vds.exe;0
+;;S1WEBDB-S;VMware Tools Service;VMTools;Auto;LocalSystem;C:\Program Files\VMware\VMware Tools\vmtoolsd.exe;0
+;;S1WEBDB-S;VMware Snapshot Provider;vmvss;Manual;LocalSystem;C:\Windows\system32\dllhost.exe /Processid:{4FD8CE49-11D0-4CE7-B292-7EEE271B07B3};0
+;;S1WEBDB-S;Volume Shadow Copy;VSS;Manual;LocalSystem;C:\Windows\system32\vssvc.exe;0
+;;S1WEBDB-S;Windows Time;W32Time;Manual;NT AUTHORITY\LocalService;C:\Windows\system32\svchost.exe -k LocalService;0
+;;S1WEBDB-S;Block Level Backup Engine Service;wbengine;Manual;LocalSystem;C:\Windows\system32\wbengine.exe;0
+;;S1WEBDB-S;Windows Color System;WcsPlugInService;Manual;NT AUTHORITY\LocalService;C:\Windows\system32\svchost.exe -k wcssvc;0
+;;S1WEBDB-S;Diagnostic Service Host;WdiServiceHost;Manual;NT AUTHORITY\LocalService;C:\Windows\System32\svchost.exe -k LocalService;0
+;;S1WEBDB-S;Diagnostic System Host;WdiSystemHost;Manual;LocalSystem;C:\Windows\System32\svchost.exe -k LocalSystemNetworkRestricted;0
+;;S1WEBDB-S;Windows Event Collector;Wecsvc;Manual;NT AUTHORITY\NetworkService;C:\Windows\system32\svchost.exe -k NetworkService;0
+;;S1WEBDB-S;Problem Reports and Solutions Control Panel Support;wercplsupport;Manual;localSystem;C:\Windows\System32\svchost.exe -k netsvcs;0
+;;S1WEBDB-S;Windows Error Reporting Service;WerSvc;Manual;localSystem;C:\Windows\System32\svchost.exe -k WerSvcGroup;0
+;;S1WEBDB-S;WinHTTP Web Proxy Auto-Discovery Service;WinHttpAutoProxySvc;Manual;NT AUTHORITY\LocalService;C:\Windows\system32\svchost.exe -k LocalService;0
+;;S1WEBDB-S;Windows Management Instrumentation;Winmgmt;Auto;localSystem;C:\Windows\system32\svchost.exe -k netsvcs;0
+;;S1WEBDB-S;Windows Remote Management (WS-Management);WinRM;Auto;NT AUTHORITY\NetworkService;C:\Windows\System32\svchost.exe -k NetworkService;0
+;;S1WEBDB-S;WMI Performance Adapter;wmiApSrv;Manual;localSystem;C:\Windows\system32\wbem\WmiApSrv.exe;0
+;;S1WEBDB-S;Portable Device Enumerator Service;WPDBusEnum;Manual;LocalSystem;C:\Windows\system32\svchost.exe -k LocalSystemNetworkRestricted;0
+;;S1WEBDB-S;Windows Update;wuauserv;Auto;LocalSystem;C:\Windows\system32\svchost.exe -k netsvcs;0
+;;S1WEBDB-S;Windows Driver Foundation - User-mode Driver Framework;wudfsvc;Manual;LocalSystem;C:\Windows\system32\svchost.exe -k LocalSystemNetworkRestricted;0
+;;S2WEBDB-S;Application Experience;AeLookupSvc;Manual;localSystem;C:\Windows\system32\svchost.exe -k netsvcs;0
+;;S2WEBDB-S;Application Layer Gateway Service;ALG;Manual;NT AUTHORITY\LocalService;C:\Windows\System32\alg.exe;0
+;;S2WEBDB-S;Application Identity;AppIDSvc;Manual;NT Authority\LocalService;C:\Windows\system32\svchost.exe -k LocalServiceNetworkRestricted;0
+;;S2WEBDB-S;Application Information;Appinfo;Manual;LocalSystem;C:\Windows\system32\svchost.exe -k netsvcs;0
+;;S2WEBDB-S;Application Management;AppMgmt;Manual;LocalSystem;C:\Windows\system32\svchost.exe -k netsvcs;0
+;;S2WEBDB-S;App Readiness;AppReadiness;Manual;LocalSystem;C:\Windows\System32\svchost.exe -k AppReadiness;0
+;;S2WEBDB-S;AppX Deployment Service (AppXSVC);AppXSvc;Manual;LocalSystem;C:\Windows\system32\svchost.exe -k wsappx;0
+;;S2WEBDB-S;Windows Audio Endpoint Builder;AudioEndpointBuilder;Manual;LocalSystem;C:\Windows\System32\svchost.exe -k LocalSystemNetworkRestricted;0
+;;S2WEBDB-S;Windows Audio;Audiosrv;Manual;NT AUTHORITY\LocalService;C:\Windows\System32\svchost.exe -k LocalServiceNetworkRestricted;0
+;;S2WEBDB-S;Base Filtering Engine;BFE;Auto;NT AUTHORITY\LocalService;C:\Windows\system32\svchost.exe -k LocalServiceNoNetwork;0
+;;S2WEBDB-S;Background Intelligent Transfer Service;BITS;Manual;LocalSystem;C:\Windows\System32\svchost.exe -k netsvcs;0
+;;S2WEBDB-S;Background Tasks Infrastructure Service;BrokerInfrastructure;Auto;LocalSystem;C:\Windows\system32\svchost.exe -k DcomLaunch;0
+;;S2WEBDB-S;Computer Browser;Browser;Disabled;LocalSystem;C:\Windows\System32\svchost.exe -k netsvcs;0
+;;S2WEBDB-S;SMS Agent Host;CcmExec;Auto;LocalSystem;C:\Windows\CCM\CcmExec.exe;0
+;;S2WEBDB-S;Certificate Propagation;CertPropSvc;Manual;LocalSystem;C:\Windows\system32\svchost.exe -k netsvcs;0
+;;S2WEBDB-S;Configuration Manager Remote Control;CmRcService;Disabled;LocalSystem;C:\Windows\CCM\RemCtrl\CmRcService.exe;0
+;;S2WEBDB-S;COM+ System Application;COMSysApp;Manual;LocalSystem;C:\Windows\system32\dllhost.exe /Processid:{02D4B3F1-FD88-11D1-960D-00805FC79235};0
+;;S2WEBDB-S;Cryptographic Services;CryptSvc;Auto;NT Authority\NetworkService;C:\Windows\system32\svchost.exe -k NetworkService;0
+;;S2WEBDB-S;DCOM Server Process Launcher;DcomLaunch;Auto;LocalSystem;C:\Windows\system32\svchost.exe -k DcomLaunch;0
+;;S2WEBDB-S;Optimize drives;defragsvc;Manual;localSystem;C:\Windows\system32\svchost.exe -k defragsvc;0
+;;S2WEBDB-S;Device Association Service;DeviceAssociationService;Manual;LocalSystem;C:\Windows\system32\svchost.exe -k LocalSystemNetworkRestricted;0
+;;S2WEBDB-S;Device Install Service;DeviceInstall;Manual;LocalSystem;C:\Windows\system32\svchost.exe -k DcomLaunch;0
+;;S2WEBDB-S;DHCP Client;Dhcp;Auto;NT Authority\LocalService;C:\Windows\system32\svchost.exe -k LocalServiceNetworkRestricted;0
+;;S2WEBDB-S;Diagnostics Tracking Service;DiagTrack;Auto;LocalSystem;C:\Windows\System32\svchost.exe -k utcsvc;0
+;;S2WEBDB-S;DNS Client;Dnscache;Auto;NT AUTHORITY\NetworkService;C:\Windows\system32\svchost.exe -k NetworkService;0
+;;S2WEBDB-S;Wired AutoConfig;dot3svc;Manual;localSystem;C:\Windows\system32\svchost.exe -k LocalSystemNetworkRestricted;0
+;;S2WEBDB-S;Diagnostic Policy Service;DPS;Auto;NT AUTHORITY\LocalService;C:\Windows\System32\svchost.exe -k LocalServiceNoNetwork;0
+;;S2WEBDB-S;Device Setup Manager;DsmSvc;Manual;LocalSystem;C:\Windows\system32\svchost.exe -k netsvcs;0
+;;S2WEBDB-S;Extensible Authentication Protocol;Eaphost;Manual;localSystem;C:\Windows\System32\svchost.exe -k netsvcs;0
+;;S2WEBDB-S;Encrypting File System (EFS);EFS;Manual;LocalSystem;C:\Windows\System32\lsass.exe;0
+;;S2WEBDB-S;Windows Event Log;EventLog;Auto;NT AUTHORITY\LocalService;C:\Windows\System32\svchost.exe -k LocalServiceNetworkRestricted;0
+;;S2WEBDB-S;COM+ Event System;EventSystem;Auto;NT AUTHORITY\LocalService;C:\Windows\system32\svchost.exe -k LocalService;0
+;;S2WEBDB-S;Function Discovery Provider Host;fdPHost;Manual;NT AUTHORITY\LocalService;C:\Windows\system32\svchost.exe -k LocalService;0
+;;S2WEBDB-S;Function Discovery Resource Publication;FDResPub;Manual;NT AUTHORITY\LocalService;C:\Windows\system32\svchost.exe -k LocalServiceAndNoImpersonation;0
+;;S2WEBDB-S;Windows Font Cache Service;FontCache;Auto;NT AUTHORITY\LocalService;C:\Windows\system32\svchost.exe -k LocalService;0
+;;S2WEBDB-S;Windows Presentation Foundation Font Cache 3.0.0.0;FontCache3.0.0.0;Manual;NT Authority\LocalService;C:\Windows\Microsoft.Net\Framework64\v3.0\WPF\PresentationFontCache.exe;0
+;;S2WEBDB-S;Group Policy Client;gpsvc;Auto;LocalSystem;C:\Windows\system32\svchost.exe -k GPSvcGroup;0
+;;S2WEBDB-S;Human Interface Device Service;hidserv;Manual;LocalSystem;C:\Windows\system32\svchost.exe -k LocalSystemNetworkRestricted;0
+;;S2WEBDB-S;Health Key and Certificate Management;hkmsvc;Manual;localSystem;C:\Windows\System32\svchost.exe -k netsvcs;0
+;;S2WEBDB-S;Internet Explorer ETW Collector Service;IEEtwCollectorService;Manual;LocalSystem;C:\Windows\system32\IEEtwCollector.exe /V;0
+;;S2WEBDB-S;IKE and AuthIP IPsec Keying Modules;IKEEXT;Manual;LocalSystem;C:\Windows\system32\svchost.exe -k netsvcs;0
+;;S2WEBDB-S;IP Helper;iphlpsvc;Auto;LocalSystem;C:\Windows\System32\svchost.exe -k NetSvcs;0
+;;S2WEBDB-S;CNG Key Isolation;KeyIso;Manual;LocalSystem;C:\Windows\system32\lsass.exe;0
+;;S2WEBDB-S;KDC Proxy Server service (KPS);KPSSVC;Manual;NT AUTHORITY\NetworkService;C:\Windows\system32\svchost.exe -k KpsSvcGroup;0
+;;S2WEBDB-S;KtmRm for Distributed Transaction Coordinator;KtmRm;Manual;NT AUTHORITY\NetworkService;C:\Windows\System32\svchost.exe -k NetworkServiceAndNoImpersonation;0
+;;S2WEBDB-S;Server;LanmanServer;Auto;LocalSystem;C:\Windows\system32\svchost.exe -k netsvcs;0
+;;S2WEBDB-S;Workstation;LanmanWorkstation;Auto;NT AUTHORITY\NetworkService;C:\Windows\System32\svchost.exe -k NetworkService;0
+;;S2WEBDB-S;Link-Layer Topology Discovery Mapper;lltdsvc;Manual;NT AUTHORITY\LocalService;C:\Windows\System32\svchost.exe -k LocalService;0
+;;S2WEBDB-S;TCP/IP NetBIOS Helper;lmhosts;Auto;NT AUTHORITY\LocalService;C:\Windows\system32\svchost.exe -k LocalServiceNetworkRestricted;0
+;;S2WEBDB-S;Microsoft Policy Platform Local Authority;lpasvc;Manual;LocalSystem;C:\Program Files\Microsoft Policy Platform\policyHost.exe /service;0
+;;S2WEBDB-S;Microsoft Policy Platform Processor;lppsvc;Manual;LocalSystem;C:\Program Files\Microsoft Policy Platform\policyHost.exe /service;0
+;;S2WEBDB-S;LSM;LSM;Unknown;;;0
+;;S2WEBDB-S;Multimedia Class Scheduler;MMCSS;Manual;LocalSystem;C:\Windows\system32\svchost.exe -k netsvcs;0
+;;S2WEBDB-S;Windows Firewall;MpsSvc;Auto;NT Authority\LocalService;C:\Windows\system32\svchost.exe -k LocalServiceNoNetwork;0
+;;S2WEBDB-S;Distributed Transaction Coordinator;MSDTC;Auto;NT AUTHORITY\NetworkService;C:\Windows\System32\msdtc.exe;0
+;;S2WEBDB-S;SQL Server Integration Services 12.0;MsDtsServer120;Auto;.\sql;B:\SQL\Microsoft SQL Server\120\DTS\Binn\MsDtsSrvr.exe;0
+;;S2WEBDB-S;Microsoft iSCSI Initiator Service;MSiSCSI;Manual;LocalSystem;C:\Windows\system32\svchost.exe -k netsvcs;0
+;;S2WEBDB-S;Windows Installer;msiserver;Manual;LocalSystem;C:\Windows\system32\msiexec.exe /V;0
+;;S2WEBDB-S;Microsoft Antimalware Service;MsMpSvc;Auto;LocalSystem;C:\Program Files\Microsoft Security Client\MsMpEng.exe;0
+;;S2WEBDB-S;SQL Server (MSSQLSERVER);MSSQLSERVER;Auto;.\sql;B:\SQL\Microsoft SQL Server\MSSQL12.BOXERSTAGE\MSSQL\Binn\sqlservr.exe -sMSSQLSERVER;0
+;;S2WEBDB-S;Network Access Protection Agent;napagent;Manual;NT AUTHORITY\NetworkService;C:\Windows\System32\svchost.exe -k NetworkService;0
+;;S2WEBDB-S;Network Connectivity Assistant;NcaSvc;Manual;LocalSystem;C:\Windows\System32\svchost.exe -k NetSvcs;0
+;;S2WEBDB-S;Netlogon;Netlogon;Auto;LocalSystem;C:\Windows\system32\lsass.exe;0
+;;S2WEBDB-S;Network Connections;Netman;Manual;LocalSystem;C:\Windows\System32\svchost.exe -k LocalSystemNetworkRestricted;0
+;;S2WEBDB-S;Network List Service;netprofm;Manual;NT AUTHORITY\LocalService;C:\Windows\System32\svchost.exe -k LocalService;0
+;;S2WEBDB-S;Net.Tcp Port Sharing Service;NetTcpPortSharing;Disabled;NT AUTHORITY\LocalService;C:\Windows\Microsoft.NET\Framework64\v4.0.30319\SMSvcHost.exe;0
+;;S2WEBDB-S;Microsoft Network Inspection;NisSrv;Manual;NT AUTHORITY\LocalService;C:\Program Files\Microsoft Security Client\NisSrv.exe;0
+;;S2WEBDB-S;Network Location Awareness;NlaSvc;Auto;NT AUTHORITY\NetworkService;C:\Windows\System32\svchost.exe -k NetworkService;0
+;;S2WEBDB-S;OP5 NSClient++ Windows Agent (x64);NSClientpp;Auto;LocalSystem;C:\Program Files\op5\NSClient++\nsclient++.exe;0
+;;S2WEBDB-S;Network Store Interface Service;nsi;Auto;NT Authority\LocalService;C:\Windows\system32\svchost.exe -k LocalService;0
+;;S2WEBDB-S;Performance Counter DLL Host;PerfHost;Manual;NT AUTHORITY\LocalService;C:\Windows\SysWow64\perfhost.exe;0
+;;S2WEBDB-S;Performance Logs & Alerts;pla;Manual;NT AUTHORITY\LocalService;C:\Windows\System32\svchost.exe -k LocalServiceNoNetwork;0
+;;S2WEBDB-S;Plug and Play;PlugPlay;Manual;LocalSystem;C:\Windows\system32\svchost.exe -k DcomLaunch;0
+;;S2WEBDB-S;IPsec Policy Agent;PolicyAgent;Manual;NT Authority\NetworkService;C:\Windows\system32\svchost.exe -k NetworkServiceNetworkRestricted;0
+;;S2WEBDB-S;Power;Power;Auto;LocalSystem;C:\Windows\system32\svchost.exe -k DcomLaunch;0
+;;S2WEBDB-S;Printer Extensions and Notifications;PrintNotify;Manual;LocalSystem;C:\Windows\system32\svchost.exe -k print;0
+;;S2WEBDB-S;User Profile Service;ProfSvc;Auto;LocalSystem;C:\Windows\system32\svchost.exe -k netsvcs;0
+;;S2WEBDB-S;Remote Access Auto Connection Manager;RasAuto;Manual;localSystem;C:\Windows\System32\svchost.exe -k netsvcs;0
+;;S2WEBDB-S;Remote Access Connection Manager;RasMan;Manual;localSystem;C:\Windows\System32\svchost.exe -k netsvcs;0
+;;S2WEBDB-S;Routing and Remote Access;RemoteAccess;Disabled;localSystem;C:\Windows\System32\svchost.exe -k netsvcs;0
+;;S2WEBDB-S;Remote Registry;RemoteRegistry;Auto;NT AUTHORITY\LocalService;C:\Windows\system32\svchost.exe -k localService;0
+;;S2WEBDB-S;RPC Endpoint Mapper;RpcEptMapper;Auto;NT AUTHORITY\NetworkService;C:\Windows\system32\svchost.exe -k RPCSS;0
+;;S2WEBDB-S;Remote Procedure Call (RPC) Locator;RpcLocator;Manual;NT AUTHORITY\NetworkService;C:\Windows\system32\locator.exe;0
+;;S2WEBDB-S;Remote Procedure Call (RPC);RpcSs;Auto;NT AUTHORITY\NetworkService;C:\Windows\system32\svchost.exe -k rpcss;0
+;;S2WEBDB-S;Resultant Set of Policy Provider;RSoPProv;Manual;LocalSystem;C:\Windows\system32\RSoPProv.exe;0
+;;S2WEBDB-S;Special Administration Console Helper;sacsvr;Manual;LocalSystem;C:\Windows\System32\svchost.exe -k netsvcs;0
+;;S2WEBDB-S;Security Accounts Manager;SamSs;Auto;LocalSystem;C:\Windows\system32\lsass.exe;0
+;;S2WEBDB-S;Smart Card;SCardSvr;Disabled;NT AUTHORITY\LocalService;C:\Windows\system32\svchost.exe -k LocalServiceAndNoImpersonation;0
+;;S2WEBDB-S;Smart Card Device Enumeration Service;ScDeviceEnum;Manual;LocalSystem;C:\Windows\system32\svchost.exe -k LocalSystemNetworkRestricted;0
+;;S2WEBDB-S;Task Scheduler;Schedule;Auto;LocalSystem;C:\Windows\system32\svchost.exe -k netsvcs;0
+;;S2WEBDB-S;Smart Card Removal Policy;SCPolicySvc;Manual;LocalSystem;C:\Windows\system32\svchost.exe -k netsvcs;0
+;;S2WEBDB-S;Secondary Logon;seclogon;Manual;LocalSystem;C:\Windows\system32\svchost.exe -k netsvcs;0
+;;S2WEBDB-S;System Event Notification Service;SENS;Auto;LocalSystem;C:\Windows\system32\svchost.exe -k netsvcs;0
+;;S2WEBDB-S;Remote Desktop Configuration;SessionEnv;Manual;localSystem;C:\Windows\System32\svchost.exe -k netsvcs;0
+;;S2WEBDB-S;Internet Connection Sharing (ICS);SharedAccess;Disabled;LocalSystem;C:\Windows\System32\svchost.exe -k netsvcs;0
+;;S2WEBDB-S;Shell Hardware Detection;ShellHWDetection;Auto;LocalSystem;C:\Windows\System32\svchost.exe -k netsvcs;0
+;;S2WEBDB-S;Microsoft Storage Spaces SMP;smphost;Manual;NT AUTHORITY\NetworkService;C:\Windows\System32\svchost.exe -k smphost;0
+;;S2WEBDB-S;ConfigMgr Task Sequence Agent;smstsmgr;Manual;LocalSystem;C:\Windows\CCM\TSManager.exe /service;0
+;;S2WEBDB-S;SNMP Trap;SNMPTRAP;Manual;NT AUTHORITY\LocalService;C:\Windows\System32\snmptrap.exe;0
+;;S2WEBDB-S;Print Spooler;Spooler;Auto;LocalSystem;C:\Windows\System32\spoolsv.exe;0
+;;S2WEBDB-S;Software Protection;sppsvc;Auto;NT AUTHORITY\NetworkService;C:\Windows\system32\sppsvc.exe;0
+;;S2WEBDB-S;SQL Server Browser;SQLBrowser;Disabled;.\sql;C:\Program Files (x86)\Microsoft SQL Server\90\Shared\sqlbrowser.exe;0
+;;S2WEBDB-S;SQL Server Agent (MSSQLSERVER);SQLSERVERAGENT;Auto;.\sql;B:\SQL\Microsoft SQL Server\MSSQL12.BOXERSTAGE\MSSQL\Binn\SQLAGENT.EXE -i MSSQLSERVER;0
+;;S2WEBDB-S;SQL Server VSS Writer;SQLWriter;Auto;.\sql;C:\Program Files\Microsoft SQL Server\90\Shared\sqlwriter.exe;0
+;;S2WEBDB-S;SSDP Discovery;SSDPSRV;Disabled;NT AUTHORITY\LocalService;C:\Windows\system32\svchost.exe -k LocalServiceAndNoImpersonation;0
+;;S2WEBDB-S;Secure Socket Tunneling Protocol Service;SstpSvc;Manual;NT Authority\LocalService;C:\Windows\system32\svchost.exe -k LocalService;0
+;;S2WEBDB-S;Spot Verifier;svsvc;Manual;LocalSystem;C:\Windows\system32\svchost.exe -k LocalSystemNetworkRestricted;0
+;;S2WEBDB-S;Microsoft Software Shadow Copy Provider;swprv;Manual;LocalSystem;C:\Windows\System32\svchost.exe -k swprv;0
+;;S2WEBDB-S;Superfetch;SysMain;Manual;LocalSystem;C:\Windows\system32\svchost.exe -k LocalSystemNetworkRestricted;0
+;;S2WEBDB-S;System Events Broker;SystemEventsBroker;Auto;LocalSystem;C:\Windows\system32\svchost.exe -k DcomLaunch;0
+;;S2WEBDB-S;Telephony;TapiSrv;Manual;NT AUTHORITY\NetworkService;C:\Windows\System32\svchost.exe -k tapisrv;0
+;;S2WEBDB-S;Remote Desktop Services;TermService;Manual;NT Authority\NetworkService;C:\Windows\System32\svchost.exe -k termsvcs;0
+;;S2WEBDB-S;Themes;Themes;Auto;LocalSystem;C:\Windows\System32\svchost.exe -k netsvcs;0
+;;S2WEBDB-S;Thread Ordering Server;THREADORDER;Manual;NT AUTHORITY\LocalService;C:\Windows\system32\svchost.exe -k LocalService;0
+;;S2WEBDB-S;Storage Tiers Management;TieringEngineService;Manual;localSystem;C:\Windows\system32\TieringEngineService.exe;0
+;;S2WEBDB-S;Distributed Link Tracking Client;TrkWks;Auto;LocalSystem;C:\Windows\System32\svchost.exe -k LocalSystemNetworkRestricted;0
+;;S2WEBDB-S;Windows Modules Installer;TrustedInstaller;Manual;localSystem;C:\Windows\servicing\TrustedInstaller.exe;0
+;;S2WEBDB-S;User Access Logging Service;UALSVC;Auto;LocalSystem;C:\Windows\system32\svchost.exe -k LocalSystemNetworkRestricted;0
+;;S2WEBDB-S;Interactive Services Detection;UI0Detect;Manual;LocalSystem;C:\Windows\system32\UI0Detect.exe;0
+;;S2WEBDB-S;Remote Desktop Services UserMode Port Redirector;UmRdpService;Manual;localSystem;C:\Windows\System32\svchost.exe -k LocalSystemNetworkRestricted;0
+;;S2WEBDB-S;UPnP Device Host;upnphost;Disabled;NT AUTHORITY\LocalService;C:\Windows\system32\svchost.exe -k LocalServiceAndNoImpersonation;0
+;;S2WEBDB-S;Credential Manager;VaultSvc;Manual;LocalSystem;C:\Windows\system32\lsass.exe;0
+;;S2WEBDB-S;Virtual Disk;vds;Manual;LocalSystem;C:\Windows\System32\vds.exe;0
+;;S2WEBDB-S;VMware Alias Manager and Ticket Service;VGAuthService;Auto;LocalSystem;C:\Program Files\VMware\VMware Tools\VMware VGAuth\VGAuthService.exe;0
+;;S2WEBDB-S;Hyper-V Guest Service Interface;vmicguestinterface;Manual;LocalSystem;C:\Windows\system32\svchost.exe -k LocalSystemNetworkRestricted;0
+;;S2WEBDB-S;Hyper-V Heartbeat Service;vmicheartbeat;Manual;LocalSystem;C:\Windows\system32\svchost.exe -k ICService;0
+;;S2WEBDB-S;Hyper-V Data Exchange Service;vmickvpexchange;Manual;LocalSystem;C:\Windows\system32\svchost.exe -k LocalSystemNetworkRestricted;0
+;;S2WEBDB-S;Hyper-V Remote Desktop Virtualization Service;vmicrdv;Manual;LocalSystem;C:\Windows\system32\svchost.exe -k ICService;0
+;;S2WEBDB-S;Hyper-V Guest Shutdown Service;vmicshutdown;Manual;LocalSystem;C:\Windows\system32\svchost.exe -k LocalSystemNetworkRestricted;0
+;;S2WEBDB-S;Hyper-V Time Synchronization Service;vmictimesync;Manual;NT AUTHORITY\LocalService;C:\Windows\system32\svchost.exe -k LocalServiceNetworkRestricted;0
+;;S2WEBDB-S;Hyper-V Volume Shadow Copy Requestor;vmicvss;Manual;LocalSystem;C:\Windows\system32\svchost.exe -k LocalSystemNetworkRestricted;0
+;;S2WEBDB-S;VMware Tools;VMTools;Auto;LocalSystem;C:\Program Files\VMware\VMware Tools\vmtoolsd.exe;0
+;;S2WEBDB-S;VMware Snapshot Provider;vmvss;Manual;LocalSystem;C:\Windows\system32\dllhost.exe /Processid:{DB862F91-9AF4-447F-B860-46F3F5D09478};0
+;;S2WEBDB-S;VMware Physical Disk Helper Service;VMware Physical Disk Helper Service;Auto;LocalSystem;C:\Program Files\VMware\VMware Tools\vmacthlp.exe;0
+;;S2WEBDB-S;Volume Shadow Copy;VSS;Manual;LocalSystem;C:\Windows\system32\vssvc.exe;0
+;;S2WEBDB-S;Windows Time;W32Time;Manual;NT AUTHORITY\LocalService;C:\Windows\system32\svchost.exe -k LocalService;0
+;;S2WEBDB-S;Windows Connection Manager;Wcmsvc;Auto;NT Authority\LocalService;C:\Windows\system32\svchost.exe -k LocalServiceNetworkRestricted;0
+;;S2WEBDB-S;Windows Color System;WcsPlugInService;Manual;NT AUTHORITY\LocalService;C:\Windows\system32\svchost.exe -k wcssvc;0
+;;S2WEBDB-S;Diagnostic Service Host;WdiServiceHost;Manual;NT AUTHORITY\LocalService;C:\Windows\System32\svchost.exe -k LocalService;0
+;;S2WEBDB-S;Diagnostic System Host;WdiSystemHost;Manual;LocalSystem;C:\Windows\System32\svchost.exe -k LocalSystemNetworkRestricted;0
+;;S2WEBDB-S;Windows Event Collector;Wecsvc;Manual;NT AUTHORITY\NetworkService;C:\Windows\system32\svchost.exe -k NetworkService;0
+;;S2WEBDB-S;Windows Encryption Provider Host Service;WEPHOSTSVC;Manual;NT AUTHORITY\LocalService;C:\Windows\system32\svchost.exe -k WepHostSvcGroup;0
+;;S2WEBDB-S;Problem Reports and Solutions Control Panel Support;wercplsupport;Manual;localSystem;C:\Windows\System32\svchost.exe -k netsvcs;0
+;;S2WEBDB-S;Windows Error Reporting Service;WerSvc;Manual;localSystem;C:\Windows\System32\svchost.exe -k WerSvcGroup;0
+;;S2WEBDB-S;WinHTTP Web Proxy Auto-Discovery Service;WinHttpAutoProxySvc;Manual;NT AUTHORITY\LocalService;C:\Windows\system32\svchost.exe -k LocalService;0
+;;S2WEBDB-S;Windows Management Instrumentation;Winmgmt;Auto;localSystem;C:\Windows\system32\svchost.exe -k netsvcs;0
+;;S2WEBDB-S;Windows Remote Management (WS-Management);WinRM;Auto;NT AUTHORITY\NetworkService;C:\Windows\System32\svchost.exe -k NetworkService;0
+;;S2WEBDB-S;WMI Performance Adapter;wmiApSrv;Manual;localSystem;C:\Windows\system32\wbem\WmiApSrv.exe;0
+;;S2WEBDB-S;Portable Device Enumerator Service;WPDBusEnum;Manual;LocalSystem;C:\Windows\system32\svchost.exe -k LocalSystemNetworkRestricted;0
+;;S2WEBDB-S;Windows Store Service (WSService);WSService;Manual;LocalSystem;C:\Windows\System32\svchost.exe -k wsappx;0
+;;S2WEBDB-S;Windows Update;wuauserv;Manual;LocalSystem;C:\Windows\system32\svchost.exe -k netsvcs;0
+;;S2WEBDB-S;Windows Driver Foundation - User-mode Driver Framework;wudfsvc;Manual;LocalSystem;C:\Windows\system32\svchost.exe -k LocalSystemNetworkRestricted;0
+;;S-K1WEBDB-P;Application Experience;AeLookupSvc;Manual;localSystem;C:\Windows\system32\svchost.exe -k netsvcs;0
+;;S-K1WEBDB-P;Application Layer Gateway Service;ALG;Manual;NT AUTHORITY\LocalService;C:\Windows\System32\alg.exe;0
+;;S-K1WEBDB-P;Application Identity;AppIDSvc;Manual;NT Authority\LocalService;C:\Windows\system32\svchost.exe -k LocalServiceNetworkRestricted;0
+;;S-K1WEBDB-P;Application Information;Appinfo;Manual;LocalSystem;C:\Windows\system32\svchost.exe -k netsvcs;0
+;;S-K1WEBDB-P;Application Management;AppMgmt;Manual;LocalSystem;C:\Windows\system32\svchost.exe -k netsvcs;0
+;;S-K1WEBDB-P;App Readiness;AppReadiness;Manual;LocalSystem;C:\Windows\System32\svchost.exe -k AppReadiness;0
+;;S-K1WEBDB-P;AppX Deployment Service (AppXSVC);AppXSvc;Manual;LocalSystem;C:\Windows\system32\svchost.exe -k wsappx;0
+;;S-K1WEBDB-P;Windows Audio Endpoint Builder;AudioEndpointBuilder;Manual;LocalSystem;C:\Windows\System32\svchost.exe -k LocalSystemNetworkRestricted;0
+;;S-K1WEBDB-P;Windows Audio;Audiosrv;Manual;NT AUTHORITY\LocalService;C:\Windows\System32\svchost.exe -k LocalServiceNetworkRestricted;0
+;;S-K1WEBDB-P;Base Filtering Engine;BFE;Auto;NT AUTHORITY\LocalService;C:\Windows\system32\svchost.exe -k LocalServiceNoNetwork;0
+;;S-K1WEBDB-P;Background Intelligent Transfer Service;BITS;Manual;LocalSystem;C:\Windows\System32\svchost.exe -k netsvcs;0
+;;S-K1WEBDB-P;Background Tasks Infrastructure Service;BrokerInfrastructure;Auto;LocalSystem;C:\Windows\system32\svchost.exe -k DcomLaunch;0
+;;S-K1WEBDB-P;Computer Browser;Browser;Disabled;LocalSystem;C:\Windows\System32\svchost.exe -k netsvcs;0
+;;S-K1WEBDB-P;SMS Agent Host;CcmExec;Auto;LocalSystem;C:\Windows\CCM\CcmExec.exe;0
+;;S-K1WEBDB-P;Certificate Propagation;CertPropSvc;Manual;LocalSystem;C:\Windows\system32\svchost.exe -k netsvcs;0
+;;S-K1WEBDB-P;Configuration Manager Remote Control;CmRcService;Disabled;LocalSystem;C:\Windows\CCM\RemCtrl\CmRcService.exe;0
+;;S-K1WEBDB-P;COM+ System Application;COMSysApp;Manual;LocalSystem;C:\Windows\system32\dllhost.exe /Processid:{02D4B3F1-FD88-11D1-960D-00805FC79235};0
+;;S-K1WEBDB-P;Cryptographic Services;CryptSvc;Auto;NT Authority\NetworkService;C:\Windows\system32\svchost.exe -k NetworkService;0
+;;S-K1WEBDB-P;DCOM Server Process Launcher;DcomLaunch;Auto;LocalSystem;C:\Windows\system32\svchost.exe -k DcomLaunch;0
+;;S-K1WEBDB-P;Optimize drives;defragsvc;Manual;localSystem;C:\Windows\system32\svchost.exe -k defragsvc;0
+;;S-K1WEBDB-P;Device Association Service;DeviceAssociationService;Manual;LocalSystem;C:\Windows\system32\svchost.exe -k LocalSystemNetworkRestricted;0
+;;S-K1WEBDB-P;Device Install Service;DeviceInstall;Manual;LocalSystem;C:\Windows\system32\svchost.exe -k DcomLaunch;0
+;;S-K1WEBDB-P;DHCP Client;Dhcp;Auto;NT Authority\LocalService;C:\Windows\system32\svchost.exe -k LocalServiceNetworkRestricted;0
+;;S-K1WEBDB-P;Diagnostics Tracking Service;DiagTrack;Auto;LocalSystem;C:\Windows\System32\svchost.exe -k utcsvc;0
+;;S-K1WEBDB-P;DNS Client;Dnscache;Auto;NT AUTHORITY\NetworkService;C:\Windows\system32\svchost.exe -k NetworkService;0
+;;S-K1WEBDB-P;Wired AutoConfig;dot3svc;Manual;localSystem;C:\Windows\system32\svchost.exe -k LocalSystemNetworkRestricted;0
+;;S-K1WEBDB-P;Diagnostic Policy Service;DPS;Auto;NT AUTHORITY\LocalService;C:\Windows\System32\svchost.exe -k LocalServiceNoNetwork;0
+;;S-K1WEBDB-P;Device Setup Manager;DsmSvc;Manual;LocalSystem;C:\Windows\system32\svchost.exe -k netsvcs;0
+;;S-K1WEBDB-P;Extensible Authentication Protocol;Eaphost;Manual;localSystem;C:\Windows\System32\svchost.exe -k netsvcs;0
+;;S-K1WEBDB-P;Encrypting File System (EFS);EFS;Manual;LocalSystem;C:\Windows\System32\lsass.exe;0
+;;S-K1WEBDB-P;Windows Event Log;EventLog;Auto;NT AUTHORITY\LocalService;C:\Windows\System32\svchost.exe -k LocalServiceNetworkRestricted;0
+;;S-K1WEBDB-P;COM+ Event System;EventSystem;Auto;NT AUTHORITY\LocalService;C:\Windows\system32\svchost.exe -k LocalService;0
+;;S-K1WEBDB-P;Function Discovery Provider Host;fdPHost;Manual;NT AUTHORITY\LocalService;C:\Windows\system32\svchost.exe -k LocalService;0
+;;S-K1WEBDB-P;Function Discovery Resource Publication;FDResPub;Manual;NT AUTHORITY\LocalService;C:\Windows\system32\svchost.exe -k LocalServiceAndNoImpersonation;0
+;;S-K1WEBDB-P;Windows Font Cache Service;FontCache;Auto;NT AUTHORITY\LocalService;C:\Windows\system32\svchost.exe -k LocalService;0
+;;S-K1WEBDB-P;Windows Presentation Foundation Font Cache 3.0.0.0;FontCache3.0.0.0;Manual;NT Authority\LocalService;C:\Windows\Microsoft.Net\Framework64\v3.0\WPF\PresentationFontCache.exe;0
+;;S-K1WEBDB-P;Group Policy Client;gpsvc;Auto;LocalSystem;C:\Windows\system32\svchost.exe -k GPSvcGroup;0
+;;S-K1WEBDB-P;Human Interface Device Service;hidserv;Manual;LocalSystem;C:\Windows\system32\svchost.exe -k LocalSystemNetworkRestricted;0
+;;S-K1WEBDB-P;Health Key and Certificate Management;hkmsvc;Manual;localSystem;C:\Windows\System32\svchost.exe -k netsvcs;0
+;;S-K1WEBDB-P;Internet Explorer ETW Collector Service;IEEtwCollectorService;Manual;LocalSystem;C:\Windows\system32\IEEtwCollector.exe /V;0
+;;S-K1WEBDB-P;IKE and AuthIP IPsec Keying Modules;IKEEXT;Auto;LocalSystem;C:\Windows\system32\svchost.exe -k netsvcs;0
+;;S-K1WEBDB-P;IP Helper;iphlpsvc;Auto;LocalSystem;C:\Windows\System32\svchost.exe -k NetSvcs;0
+;;S-K1WEBDB-P;CNG Key Isolation;KeyIso;Manual;LocalSystem;C:\Windows\system32\lsass.exe;0
+;;S-K1WEBDB-P;KDC Proxy Server service (KPS);KPSSVC;Manual;NT AUTHORITY\NetworkService;C:\Windows\system32\svchost.exe -k KpsSvcGroup;0
+;;S-K1WEBDB-P;KtmRm for Distributed Transaction Coordinator;KtmRm;Manual;NT AUTHORITY\NetworkService;C:\Windows\System32\svchost.exe -k NetworkServiceAndNoImpersonation;0
+;;S-K1WEBDB-P;Server;LanmanServer;Auto;LocalSystem;C:\Windows\system32\svchost.exe -k netsvcs;0
+;;S-K1WEBDB-P;Workstation;LanmanWorkstation;Auto;NT AUTHORITY\NetworkService;C:\Windows\System32\svchost.exe -k NetworkService;0
+;;S-K1WEBDB-P;Link-Layer Topology Discovery Mapper;lltdsvc;Manual;NT AUTHORITY\LocalService;C:\Windows\System32\svchost.exe -k LocalService;0
+;;S-K1WEBDB-P;TCP/IP NetBIOS Helper;lmhosts;Auto;NT AUTHORITY\LocalService;C:\Windows\system32\svchost.exe -k LocalServiceNetworkRestricted;0
+;;S-K1WEBDB-P;Microsoft Policy Platform Local Authority;lpasvc;Manual;LocalSystem;C:\Program Files\Microsoft Policy Platform\policyHost.exe /service;0
+;;S-K1WEBDB-P;Microsoft Policy Platform Processor;lppsvc;Manual;LocalSystem;C:\Program Files\Microsoft Policy Platform\policyHost.exe /service;0
+;;S-K1WEBDB-P;Local Session Manager;LSM;Auto;LocalSystem;C:\Windows\system32\svchost.exe -k DcomLaunch;0
+;;S-K1WEBDB-P;Multimedia Class Scheduler;MMCSS;Manual;LocalSystem;C:\Windows\system32\svchost.exe -k netsvcs;0
+;;S-K1WEBDB-P;Windows Firewall;MpsSvc;Auto;NT Authority\LocalService;C:\Windows\system32\svchost.exe -k LocalServiceNoNetwork;0
+;;S-K1WEBDB-P;Distributed Transaction Coordinator;MSDTC;Auto;NT AUTHORITY\NetworkService;C:\Windows\System32\msdtc.exe;0
+;;S-K1WEBDB-P;SQL Server Integration Services 12.0;MsDtsServer120;Auto;.\sql;B:\SQL\Microsoft SQL Server\120\DTS\Binn\MsDtsSrvr.exe;0
+;;S-K1WEBDB-P;Microsoft iSCSI Initiator Service;MSiSCSI;Manual;LocalSystem;C:\Windows\system32\svchost.exe -k netsvcs;0
+;;S-K1WEBDB-P;Windows Installer;msiserver;Manual;LocalSystem;C:\Windows\system32\msiexec.exe /V;0
+;;S-K1WEBDB-P;Microsoft Antimalware Service;MsMpSvc;Auto;LocalSystem;C:\Program Files\Microsoft Security Client\MsMpEng.exe;0
+;;S-K1WEBDB-P;SQL Server (MSSQLSERVER);MSSQLSERVER;Auto;.\sql;B:\SQL\Microsoft SQL Server\MSSQL12.BOXERPROD\MSSQL\Binn\sqlservr.exe -sMSSQLSERVER;0
+;;S-K1WEBDB-P;Network Access Protection Agent;napagent;Manual;NT AUTHORITY\NetworkService;C:\Windows\System32\svchost.exe -k NetworkService;0
+;;S-K1WEBDB-P;Network Connectivity Assistant;NcaSvc;Manual;LocalSystem;C:\Windows\System32\svchost.exe -k NetSvcs;0
+;;S-K1WEBDB-P;Netlogon;Netlogon;Auto;LocalSystem;C:\Windows\system32\lsass.exe;0
+;;S-K1WEBDB-P;Network Connections;Netman;Manual;LocalSystem;C:\Windows\System32\svchost.exe -k LocalSystemNetworkRestricted;0
+;;S-K1WEBDB-P;Network List Service;netprofm;Manual;NT AUTHORITY\LocalService;C:\Windows\System32\svchost.exe -k LocalService;0
+;;S-K1WEBDB-P;Net.Tcp Port Sharing Service;NetTcpPortSharing;Disabled;NT AUTHORITY\LocalService;C:\Windows\Microsoft.NET\Framework64\v4.0.30319\SMSvcHost.exe;0
+;;S-K1WEBDB-P;Microsoft Network Inspection;NisSrv;Manual;NT AUTHORITY\LocalService;C:\Program Files\Microsoft Security Client\NisSrv.exe;0
+;;S-K1WEBDB-P;Network Location Awareness;NlaSvc;Auto;NT AUTHORITY\NetworkService;C:\Windows\System32\svchost.exe -k NetworkService;0
+;;S-K1WEBDB-P;OP5 NSClient++ Windows Agent (x64);NSClientpp;Auto;LocalSystem;C:\Program Files\op5\NSClient++\nsclient++.exe;0
+;;S-K1WEBDB-P;Network Store Interface Service;nsi;Auto;NT Authority\LocalService;C:\Windows\system32\svchost.exe -k LocalService;0
+;;S-K1WEBDB-P;Performance Counter DLL Host;PerfHost;Manual;NT AUTHORITY\LocalService;C:\Windows\SysWow64\perfhost.exe;0
+;;S-K1WEBDB-P;Performance Logs & Alerts;pla;Manual;NT AUTHORITY\LocalService;C:\Windows\System32\svchost.exe -k LocalServiceNoNetwork;0
+;;S-K1WEBDB-P;Plug and Play;PlugPlay;Manual;LocalSystem;C:\Windows\system32\svchost.exe -k DcomLaunch;0
+;;S-K1WEBDB-P;IPsec Policy Agent;PolicyAgent;Manual;NT Authority\NetworkService;C:\Windows\system32\svchost.exe -k NetworkServiceNetworkRestricted;0
+;;S-K1WEBDB-P;Power;Power;Auto;LocalSystem;C:\Windows\system32\svchost.exe -k DcomLaunch;0
+;;S-K1WEBDB-P;Printer Extensions and Notifications;PrintNotify;Manual;LocalSystem;C:\Windows\system32\svchost.exe -k print;0
+;;S-K1WEBDB-P;User Profile Service;ProfSvc;Auto;LocalSystem;C:\Windows\system32\svchost.exe -k netsvcs;0
+;;S-K1WEBDB-P;Remote Access Auto Connection Manager;RasAuto;Manual;localSystem;C:\Windows\System32\svchost.exe -k netsvcs;0
+;;S-K1WEBDB-P;Remote Access Connection Manager;RasMan;Manual;localSystem;C:\Windows\System32\svchost.exe -k netsvcs;0
+;;S-K1WEBDB-P;Routing and Remote Access;RemoteAccess;Disabled;localSystem;C:\Windows\System32\svchost.exe -k netsvcs;0
+;;S-K1WEBDB-P;Remote Registry;RemoteRegistry;Auto;NT AUTHORITY\LocalService;C:\Windows\system32\svchost.exe -k localService;0
+;;S-K1WEBDB-P;RPC Endpoint Mapper;RpcEptMapper;Auto;NT AUTHORITY\NetworkService;C:\Windows\system32\svchost.exe -k RPCSS;0
+;;S-K1WEBDB-P;Remote Procedure Call (RPC) Locator;RpcLocator;Manual;NT AUTHORITY\NetworkService;C:\Windows\system32\locator.exe;0
+;;S-K1WEBDB-P;Remote Procedure Call (RPC);RpcSs;Auto;NT AUTHORITY\NetworkService;C:\Windows\system32\svchost.exe -k rpcss;0
+;;S-K1WEBDB-P;Resultant Set of Policy Provider;RSoPProv;Manual;LocalSystem;C:\Windows\system32\RSoPProv.exe;0
+;;S-K1WEBDB-P;Special Administration Console Helper;sacsvr;Manual;LocalSystem;C:\Windows\System32\svchost.exe -k netsvcs;0
+;;S-K1WEBDB-P;Security Accounts Manager;SamSs;Auto;LocalSystem;C:\Windows\system32\lsass.exe;0
+;;S-K1WEBDB-P;Smart Card;SCardSvr;Disabled;NT AUTHORITY\LocalService;C:\Windows\system32\svchost.exe -k LocalServiceAndNoImpersonation;0
+;;S-K1WEBDB-P;Smart Card Device Enumeration Service;ScDeviceEnum;Manual;LocalSystem;C:\Windows\system32\svchost.exe -k LocalSystemNetworkRestricted;0
+;;S-K1WEBDB-P;Task Scheduler;Schedule;Auto;LocalSystem;C:\Windows\system32\svchost.exe -k netsvcs;0
+;;S-K1WEBDB-P;Smart Card Removal Policy;SCPolicySvc;Manual;LocalSystem;C:\Windows\system32\svchost.exe -k netsvcs;0
+;;S-K1WEBDB-P;Secondary Logon;seclogon;Manual;LocalSystem;C:\Windows\system32\svchost.exe -k netsvcs;0
+;;S-K1WEBDB-P;System Event Notification Service;SENS;Auto;LocalSystem;C:\Windows\system32\svchost.exe -k netsvcs;0
+;;S-K1WEBDB-P;Remote Desktop Configuration;SessionEnv;Manual;localSystem;C:\Windows\System32\svchost.exe -k netsvcs;0
+;;S-K1WEBDB-P;Internet Connection Sharing (ICS);SharedAccess;Disabled;LocalSystem;C:\Windows\System32\svchost.exe -k netsvcs;0
+;;S-K1WEBDB-P;Shell Hardware Detection;ShellHWDetection;Auto;LocalSystem;C:\Windows\System32\svchost.exe -k netsvcs;0
+;;S-K1WEBDB-P;Microsoft Storage Spaces SMP;smphost;Manual;NT AUTHORITY\NetworkService;C:\Windows\System32\svchost.exe -k smphost;0
+;;S-K1WEBDB-P;ConfigMgr Task Sequence Agent;smstsmgr;Manual;LocalSystem;C:\Windows\CCM\TSManager.exe /service;0
+;;S-K1WEBDB-P;SNMP Trap;SNMPTRAP;Manual;NT AUTHORITY\LocalService;C:\Windows\System32\snmptrap.exe;0
+;;S-K1WEBDB-P;Print Spooler;Spooler;Auto;LocalSystem;C:\Windows\System32\spoolsv.exe;0
+;;S-K1WEBDB-P;Software Protection;sppsvc;Auto;NT AUTHORITY\NetworkService;C:\Windows\system32\sppsvc.exe;0
+;;S-K1WEBDB-P;SQL Server Browser;SQLBrowser;Disabled;NT AUTHORITY\LOCALSERVICE;C:\Program Files (x86)\Microsoft SQL Server\90\Shared\sqlbrowser.exe;0
+;;S-K1WEBDB-P;SQL Server Agent (MSSQLSERVER);SQLSERVERAGENT;Auto;.\sql;B:\SQL\Microsoft SQL Server\MSSQL12.BOXERPROD\MSSQL\Binn\SQLAGENT.EXE -i MSSQLSERVER;0
+;;S-K1WEBDB-P;SQL Server VSS Writer;SQLWriter;Auto;LocalSystem;C:\Program Files\Microsoft SQL Server\90\Shared\sqlwriter.exe;0
+;;S-K1WEBDB-P;SSDP Discovery;SSDPSRV;Disabled;NT AUTHORITY\LocalService;C:\Windows\system32\svchost.exe -k LocalServiceAndNoImpersonation;0
+;;S-K1WEBDB-P;Secure Socket Tunneling Protocol Service;SstpSvc;Manual;NT Authority\LocalService;C:\Windows\system32\svchost.exe -k LocalService;0
+;;S-K1WEBDB-P;Spot Verifier;svsvc;Manual;LocalSystem;C:\Windows\system32\svchost.exe -k LocalSystemNetworkRestricted;0
+;;S-K1WEBDB-P;Microsoft Software Shadow Copy Provider;swprv;Manual;LocalSystem;C:\Windows\System32\svchost.exe -k swprv;0
+;;S-K1WEBDB-P;Superfetch;SysMain;Manual;LocalSystem;C:\Windows\system32\svchost.exe -k LocalSystemNetworkRestricted;0
+;;S-K1WEBDB-P;System Events Broker;SystemEventsBroker;Auto;LocalSystem;C:\Windows\system32\svchost.exe -k DcomLaunch;0
+;;S-K1WEBDB-P;Telephony;TapiSrv;Manual;NT AUTHORITY\NetworkService;C:\Windows\System32\svchost.exe -k tapisrv;0
+;;S-K1WEBDB-P;Remote Desktop Services;TermService;Manual;NT Authority\NetworkService;C:\Windows\System32\svchost.exe -k termsvcs;0
+;;S-K1WEBDB-P;Themes;Themes;Auto;LocalSystem;C:\Windows\System32\svchost.exe -k netsvcs;0
+;;S-K1WEBDB-P;Thread Ordering Server;THREADORDER;Manual;NT AUTHORITY\LocalService;C:\Windows\system32\svchost.exe -k LocalService;0
+;;S-K1WEBDB-P;Storage Tiers Management;TieringEngineService;Manual;localSystem;C:\Windows\system32\TieringEngineService.exe;0
+;;S-K1WEBDB-P;Distributed Link Tracking Client;TrkWks;Auto;LocalSystem;C:\Windows\System32\svchost.exe -k LocalSystemNetworkRestricted;0
+;;S-K1WEBDB-P;Windows Modules Installer;TrustedInstaller;Manual;localSystem;C:\Windows\servicing\TrustedInstaller.exe;0
+;;S-K1WEBDB-P;User Access Logging Service;UALSVC;Auto;LocalSystem;C:\Windows\system32\svchost.exe -k LocalSystemNetworkRestricted;0
+;;S-K1WEBDB-P;Interactive Services Detection;UI0Detect;Manual;LocalSystem;C:\Windows\system32\UI0Detect.exe;0
+;;S-K1WEBDB-P;Remote Desktop Services UserMode Port Redirector;UmRdpService;Manual;localSystem;C:\Windows\System32\svchost.exe -k LocalSystemNetworkRestricted;0
+;;S-K1WEBDB-P;UPnP Device Host;upnphost;Disabled;NT AUTHORITY\LocalService;C:\Windows\system32\svchost.exe -k LocalServiceAndNoImpersonation;0
+;;S-K1WEBDB-P;Credential Manager;VaultSvc;Manual;LocalSystem;C:\Windows\system32\lsass.exe;0
+;;S-K1WEBDB-P;Virtual Disk;vds;Manual;LocalSystem;C:\Windows\System32\vds.exe;0
+;;S-K1WEBDB-P;VMware Alias Manager and Ticket Service;VGAuthService;Auto;LocalSystem;C:\Program Files\VMware\VMware Tools\VMware VGAuth\VGAuthService.exe;0
+;;S-K1WEBDB-P;Hyper-V Guest Service Interface;vmicguestinterface;Manual;LocalSystem;C:\Windows\system32\svchost.exe -k LocalSystemNetworkRestricted;0
+;;S-K1WEBDB-P;Hyper-V Heartbeat Service;vmicheartbeat;Manual;LocalSystem;C:\Windows\system32\svchost.exe -k ICService;0
+;;S-K1WEBDB-P;Hyper-V Data Exchange Service;vmickvpexchange;Manual;LocalSystem;C:\Windows\system32\svchost.exe -k LocalSystemNetworkRestricted;0
+;;S-K1WEBDB-P;Hyper-V Remote Desktop Virtualization Service;vmicrdv;Manual;LocalSystem;C:\Windows\system32\svchost.exe -k ICService;0
+;;S-K1WEBDB-P;Hyper-V Guest Shutdown Service;vmicshutdown;Manual;LocalSystem;C:\Windows\system32\svchost.exe -k LocalSystemNetworkRestricted;0
+;;S-K1WEBDB-P;Hyper-V Time Synchronization Service;vmictimesync;Manual;NT AUTHORITY\LocalService;C:\Windows\system32\svchost.exe -k LocalServiceNetworkRestricted;0
+;;S-K1WEBDB-P;Hyper-V Volume Shadow Copy Requestor;vmicvss;Manual;LocalSystem;C:\Windows\system32\svchost.exe -k LocalSystemNetworkRestricted;0
+;;S-K1WEBDB-P;VMware Tools;VMTools;Auto;LocalSystem;C:\Program Files\VMware\VMware Tools\vmtoolsd.exe;0
+;;S-K1WEBDB-P;VMware Snapshot Provider;vmvss;Manual;LocalSystem;C:\Windows\system32\dllhost.exe /Processid:{7520E242-215C-4F83-AC28-9EAFD48784CA};0
+;;S-K1WEBDB-P;VMware Physical Disk Helper Service;VMware Physical Disk Helper Service;Auto;LocalSystem;C:\Program Files\VMware\VMware Tools\vmacthlp.exe;0
+;;S-K1WEBDB-P;Volume Shadow Copy;VSS;Manual;LocalSystem;C:\Windows\system32\vssvc.exe;0
+;;S-K1WEBDB-P;Windows Time;W32Time;Manual;NT AUTHORITY\LocalService;C:\Windows\system32\svchost.exe -k LocalService;0
+;;S-K1WEBDB-P;Windows Connection Manager;Wcmsvc;Auto;NT Authority\LocalService;C:\Windows\system32\svchost.exe -k LocalServiceNetworkRestricted;0
+;;S-K1WEBDB-P;Windows Color System;WcsPlugInService;Manual;NT AUTHORITY\LocalService;C:\Windows\system32\svchost.exe -k wcssvc;0
+;;S-K1WEBDB-P;Diagnostic Service Host;WdiServiceHost;Manual;NT AUTHORITY\LocalService;C:\Windows\System32\svchost.exe -k LocalService;0
+;;S-K1WEBDB-P;Diagnostic System Host;WdiSystemHost;Manual;LocalSystem;C:\Windows\System32\svchost.exe -k LocalSystemNetworkRestricted;0
+;;S-K1WEBDB-P;Windows Event Collector;Wecsvc;Manual;NT AUTHORITY\NetworkService;C:\Windows\system32\svchost.exe -k NetworkService;0
+;;S-K1WEBDB-P;Windows Encryption Provider Host Service;WEPHOSTSVC;Manual;NT AUTHORITY\LocalService;C:\Windows\system32\svchost.exe -k WepHostSvcGroup;0
+;;S-K1WEBDB-P;Problem Reports and Solutions Control Panel Support;wercplsupport;Manual;localSystem;C:\Windows\System32\svchost.exe -k netsvcs;0
+;;S-K1WEBDB-P;Windows Error Reporting Service;WerSvc;Manual;localSystem;C:\Windows\System32\svchost.exe -k WerSvcGroup;0
+;;S-K1WEBDB-P;WinHTTP Web Proxy Auto-Discovery Service;WinHttpAutoProxySvc;Manual;NT AUTHORITY\LocalService;C:\Windows\system32\svchost.exe -k LocalService;0
+;;S-K1WEBDB-P;Windows Management Instrumentation;Winmgmt;Auto;localSystem;C:\Windows\system32\svchost.exe -k netsvcs;0
+;;S-K1WEBDB-P;Windows Remote Management (WS-Management);WinRM;Auto;NT AUTHORITY\NetworkService;C:\Windows\System32\svchost.exe -k NetworkService;0
+;;S-K1WEBDB-P;WMI Performance Adapter;wmiApSrv;Manual;localSystem;C:\Windows\system32\wbem\WmiApSrv.exe;0
+;;S-K1WEBDB-P;Portable Device Enumerator Service;WPDBusEnum;Manual;LocalSystem;C:\Windows\system32\svchost.exe -k LocalSystemNetworkRestricted;0
+;;S-K1WEBDB-P;Windows Store Service (WSService);WSService;Manual;LocalSystem;C:\Windows\System32\svchost.exe -k wsappx;0
+;;S-K1WEBDB-P;Windows Update;wuauserv;Manual;LocalSystem;C:\Windows\system32\svchost.exe -k netsvcs;0
+;;S-K1WEBDB-P;Windows Driver Foundation - User-mode Driver Framework;wudfsvc;Manual;LocalSystem;C:\Windows\system32\svchost.exe -k LocalSystemNetworkRestricted;0
+;;S1WEBDB-P;Application Experience;AeLookupSvc;Manual;localSystem;C:\Windows\system32\svchost.exe -k netsvcs;0
+;;S1WEBDB-P;Application Layer Gateway Service;ALG;Manual;NT AUTHORITY\LocalService;C:\Windows\System32\alg.exe;0
+;;S1WEBDB-P;Apica Monitor Agent;AmonAgent;Auto;LocalSystem;C:\PROGRA~2\Apica\Monitor\rtse_s.exe;0
+;;S1WEBDB-P;Application Host Helper Service;AppHostSvc;Auto;LocalSystem;C:\Windows\system32\svchost.exe -k apphost;0
+;;S1WEBDB-P;Application Identity;AppIDSvc;Manual;NT Authority\LocalService;C:\Windows\system32\svchost.exe -k LocalServiceAndNoImpersonation;0
+;;S1WEBDB-P;Application Information;Appinfo;Manual;LocalSystem;C:\Windows\system32\svchost.exe -k netsvcs;0
+;;S1WEBDB-P;Application Management;AppMgmt;Manual;LocalSystem;C:\Windows\system32\svchost.exe -k netsvcs;0
+;;S1WEBDB-P;ASP.NET State Service;aspnet_state;Manual;NT AUTHORITY\NetworkService;C:\Windows\Microsoft.NET\Framework64\v4.0.30319\aspnet_state.exe;0
+;;S1WEBDB-P;Windows Audio Endpoint Builder;AudioEndpointBuilder;Manual;LocalSystem;C:\Windows\System32\svchost.exe -k LocalSystemNetworkRestricted;0
+;;S1WEBDB-P;Windows Audio;AudioSrv;Manual;NT AUTHORITY\LocalService;C:\Windows\System32\svchost.exe -k LocalServiceNetworkRestricted;0
+;;S1WEBDB-P;Base Filtering Engine;BFE;Auto;NT AUTHORITY\LocalService;C:\Windows\system32\svchost.exe -k LocalServiceNoNetwork;0
+;;S1WEBDB-P;Background Intelligent Transfer Service;BITS;Manual;LocalSystem;C:\Windows\System32\svchost.exe -k netsvcs;0
+;;S1WEBDB-P;Computer Browser;Browser;Disabled;LocalSystem;C:\Windows\System32\svchost.exe -k netsvcs;0
+;;S1WEBDB-P;Certificate Propagation;CertPropSvc;Manual;LocalSystem;C:\Windows\system32\svchost.exe -k netsvcs;0
+;;S1WEBDB-P;Microsoft .NET Framework NGEN v2.0.50727_X86;clr_optimization_v2.0.50727_32;Disabled;LocalSystem;C:\Windows\Microsoft.NET\Framework\v2.0.50727\mscorsvw.exe;0
+;;S1WEBDB-P;Microsoft .NET Framework NGEN v2.0.50727_X64;clr_optimization_v2.0.50727_64;Disabled;LocalSystem;C:\Windows\Microsoft.NET\Framework64\v2.0.50727\mscorsvw.exe;0
+;;S1WEBDB-P;Microsoft .NET Framework NGEN v4.0.30319_X86;clr_optimization_v4.0.30319_32;Auto;LocalSystem;C:\Windows\Microsoft.NET\Framework\v4.0.30319\mscorsvw.exe;0
+;;S1WEBDB-P;Microsoft .NET Framework NGEN v4.0.30319_X64;clr_optimization_v4.0.30319_64;Auto;LocalSystem;C:\Windows\Microsoft.NET\Framework64\v4.0.30319\mscorsvw.exe;0
+;;S1WEBDB-P;COM+ System Application;COMSysApp;Manual;LocalSystem;C:\Windows\system32\dllhost.exe /Processid:{02D4B3F1-FD88-11D1-960D-00805FC79235};0
+;;S1WEBDB-P;Cryptographic Services;CryptSvc;Auto;NT Authority\NetworkService;C:\Windows\system32\svchost.exe -k NetworkService;0
+;;S1WEBDB-P;DCOM Server Process Launcher;DcomLaunch;Auto;LocalSystem;C:\Windows\system32\svchost.exe -k DcomLaunch;0
+;;S1WEBDB-P;Disk Defragmenter;defragsvc;Manual;localSystem;C:\Windows\system32\svchost.exe -k defragsvc;0
+;;S1WEBDB-P;DHCP Client;Dhcp;Auto;NT Authority\LocalService;C:\Windows\system32\svchost.exe -k LocalServiceNetworkRestricted;0
+;;S1WEBDB-P;DNS Client;Dnscache;Auto;NT AUTHORITY\NetworkService;C:\Windows\system32\svchost.exe -k NetworkService;0
+;;S1WEBDB-P;Wired AutoConfig;dot3svc;Manual;localSystem;C:\Windows\system32\svchost.exe -k LocalSystemNetworkRestricted;0
+;;S1WEBDB-P;Diagnostic Policy Service;DPS;Auto;NT AUTHORITY\LocalService;C:\Windows\System32\svchost.exe -k LocalServiceNoNetwork;0
+;;S1WEBDB-P;Extensible Authentication Protocol;EapHost;Manual;localSystem;C:\Windows\System32\svchost.exe -k netsvcs;0
+;;S1WEBDB-P;Encrypting File System (EFS);EFS;Manual;LocalSystem;C:\Windows\System32\lsass.exe;0
+;;S1WEBDB-P;Windows Event Log;eventlog;Auto;NT AUTHORITY\LocalService;C:\Windows\System32\svchost.exe -k LocalServiceNetworkRestricted;0
+;;S1WEBDB-P;COM+ Event System;EventSystem;Auto;NT AUTHORITY\LocalService;C:\Windows\system32\svchost.exe -k LocalService;0
+;;S1WEBDB-P;Microsoft Fibre Channel Platform Registration Service;FCRegSvc;Manual;NT AUTHORITY\LocalService;C:\Windows\system32\svchost.exe -k LocalServiceNetworkRestricted;0
+;;S1WEBDB-P;Function Discovery Provider Host;fdPHost;Manual;NT AUTHORITY\LocalService;C:\Windows\system32\svchost.exe -k LocalService;0
+;;S1WEBDB-P;Function Discovery Resource Publication;FDResPub;Manual;NT AUTHORITY\LocalService;C:\Windows\system32\svchost.exe -k LocalServiceAndNoImpersonation;0
+;;S1WEBDB-P;Windows Font Cache Service;FontCache;Auto;NT AUTHORITY\LocalService;C:\Windows\system32\svchost.exe -k LocalService;0
+;;S1WEBDB-P;Windows Presentation Foundation Font Cache 3.0.0.0;FontCache3.0.0.0;Manual;NT Authority\LocalService;C:\Windows\Microsoft.Net\Framework64\v3.0\WPF\PresentationFontCache.exe;0
+;;S1WEBDB-P;Group Policy Client;gpsvc;Auto;LocalSystem;C:\Windows\system32\svchost.exe -k netsvcs;0
+;;S1WEBDB-P;Human Interface Device Access;hidserv;Manual;LocalSystem;C:\Windows\system32\svchost.exe -k LocalSystemNetworkRestricted;0
+;;S1WEBDB-P;Health Key and Certificate Management;hkmsvc;Manual;localSystem;C:\Windows\System32\svchost.exe -k netsvcs;0
+;;S1WEBDB-P;Windows CardSpace;idsvc;Manual;LocalSystem;C:\Windows\Microsoft.NET\Framework64\v3.0\Windows Communication Foundation\infocard.exe;0
+;;S1WEBDB-P;IKE and AuthIP IPsec Keying Modules;IKEEXT;Auto;LocalSystem;C:\Windows\system32\svchost.exe -k netsvcs;0
+;;S1WEBDB-P;PnP-X IP Bus Enumerator;IPBusEnum;Disabled;LocalSystem;C:\Windows\system32\svchost.exe -k LocalSystemNetworkRestricted;0
+;;S1WEBDB-P;IP Helper;iphlpsvc;Auto;LocalSystem;C:\Windows\System32\svchost.exe -k NetSvcs;0
+;;S1WEBDB-P;CNG Key Isolation;KeyIso;Manual;LocalSystem;C:\Windows\system32\lsass.exe;0
+;;S1WEBDB-P;KtmRm for Distributed Transaction Coordinator;KtmRm;Manual;NT AUTHORITY\NetworkService;C:\Windows\System32\svchost.exe -k NetworkServiceAndNoImpersonation;0
+;;S1WEBDB-P;Server;LanmanServer;Auto;LocalSystem;C:\Windows\system32\svchost.exe -k netsvcs;0
+;;S1WEBDB-P;Workstation;LanmanWorkstation;Auto;NT AUTHORITY\NetworkService;C:\Windows\System32\svchost.exe -k NetworkService;0
+;;S1WEBDB-P;Link-Layer Topology Discovery Mapper;lltdsvc;Manual;NT AUTHORITY\LocalService;C:\Windows\System32\svchost.exe -k LocalService;0
+;;S1WEBDB-P;TCP/IP NetBIOS Helper;lmhosts;Auto;NT AUTHORITY\LocalService;C:\Windows\system32\svchost.exe -k LocalServiceNetworkRestricted;0
+;;S1WEBDB-P;Multimedia Class Scheduler;MMCSS;Manual;LocalSystem;C:\Windows\system32\svchost.exe -k netsvcs;0
+;;S1WEBDB-P;Windows Firewall;MpsSvc;Auto;NT Authority\LocalService;C:\Windows\system32\svchost.exe -k LocalServiceNoNetwork;0
+;;S1WEBDB-P;Distributed Transaction Coordinator;MSDTC;Auto;NT AUTHORITY\NetworkService;C:\Windows\System32\msdtc.exe;0
+;;S1WEBDB-P;Microsoft iSCSI Initiator Service;MSiSCSI;Manual;LocalSystem;C:\Windows\system32\svchost.exe -k netsvcs;0
+;;S1WEBDB-P;Windows Installer;msiserver;Manual;LocalSystem;C:\Windows\system32\msiexec.exe /V;0
+;;S1WEBDB-P;SQL Server (MSSQLSERVER);MSSQLSERVER;Auto;NT Service\MSSQLSERVER;G:\SQL Server\MSSQL11.MSSQLSERVER\MSSQL\Binn\sqlservr.exe -sMSSQLSERVER;0
+;;S1WEBDB-P;Network Access Protection Agent;napagent;Manual;NT AUTHORITY\NetworkService;C:\Windows\System32\svchost.exe -k NetworkService;0
+;;S1WEBDB-P;Netlogon;Netlogon;Auto;LocalSystem;C:\Windows\system32\lsass.exe;0
+;;S1WEBDB-P;Network Connections;Netman;Manual;LocalSystem;C:\Windows\System32\svchost.exe -k LocalSystemNetworkRestricted;0
+;;S1WEBDB-P;Net.Msmq Listener Adapter;NetMsmqActivator;Disabled;NT AUTHORITY\NetworkService;C:\Windows\Microsoft.NET\Framework64\v4.0.30319\SMSvcHost.exe -NetMsmqActivator;0
+;;S1WEBDB-P;Net.Pipe Listener Adapter;NetPipeActivator;Auto;NT AUTHORITY\LocalService;C:\Windows\Microsoft.NET\Framework64\v4.0.30319\SMSvcHost.exe;0
+;;S1WEBDB-P;Network List Service;netprofm;Manual;NT AUTHORITY\LocalService;C:\Windows\System32\svchost.exe -k LocalService;0
+;;S1WEBDB-P;Net.Tcp Listener Adapter;NetTcpActivator;Auto;NT AUTHORITY\LocalService;C:\Windows\Microsoft.NET\Framework64\v4.0.30319\SMSvcHost.exe;0
+;;S1WEBDB-P;Net.Tcp Port Sharing Service;NetTcpPortSharing;Manual;NT AUTHORITY\LocalService;C:\Windows\Microsoft.NET\Framework64\v4.0.30319\SMSvcHost.exe;0
+;;S1WEBDB-P;Network Location Awareness;NlaSvc;Auto;NT AUTHORITY\NetworkService;C:\Windows\System32\svchost.exe -k NetworkService;0
+;;S1WEBDB-P;OP5 NSClient++ Windows Agent (x64);NSClientpp;Auto;LocalSystem;C:\Program Files\op5\NSClient++\nsclient++.exe;0
+;;S1WEBDB-P;Network Store Interface Service;nsi;Auto;NT Authority\LocalService;C:\Windows\system32\svchost.exe -k LocalService;0
+;;S1WEBDB-P;Performance Counter DLL Host;PerfHost;Manual;NT AUTHORITY\LocalService;C:\Windows\SysWow64\perfhost.exe;0
+;;S1WEBDB-P;Performance Logs & Alerts;pla;Manual;NT AUTHORITY\LocalService;C:\Windows\System32\svchost.exe -k LocalServiceNoNetwork;0
+;;S1WEBDB-P;Plug and Play;PlugPlay;Auto;LocalSystem;C:\Windows\system32\svchost.exe -k DcomLaunch;0
+;;S1WEBDB-P;IPsec Policy Agent;PolicyAgent;Manual;NT Authority\NetworkService;C:\Windows\system32\svchost.exe -k NetworkServiceNetworkRestricted;0
+;;S1WEBDB-P;Power;Power;Auto;LocalSystem;C:\Windows\system32\svchost.exe -k DcomLaunch;0
+;;S1WEBDB-P;User Profile Service;ProfSvc;Auto;LocalSystem;C:\Windows\system32\svchost.exe -k netsvcs;0
+;;S1WEBDB-P;Protected Storage;ProtectedStorage;Manual;LocalSystem;C:\Windows\system32\lsass.exe;0
+;;S1WEBDB-P;Remote Access Auto Connection Manager;RasAuto;Manual;localSystem;C:\Windows\System32\svchost.exe -k netsvcs;0
+;;S1WEBDB-P;Remote Access Connection Manager;RasMan;Manual;localSystem;C:\Windows\System32\svchost.exe -k netsvcs;0
+;;S1WEBDB-P;Routing and Remote Access;RemoteAccess;Disabled;localSystem;C:\Windows\System32\svchost.exe -k netsvcs;0
+;;S1WEBDB-P;Remote Registry;RemoteRegistry;Auto;NT AUTHORITY\LocalService;C:\Windows\system32\svchost.exe -k regsvc;0
+;;S1WEBDB-P;RPC Endpoint Mapper;RpcEptMapper;Auto;NT AUTHORITY\NetworkService;C:\Windows\system32\svchost.exe -k RPCSS;0
+;;S1WEBDB-P;Remote Procedure Call (RPC) Locator;RpcLocator;Manual;NT AUTHORITY\NetworkService;C:\Windows\system32\locator.exe;0
+;;S1WEBDB-P;Remote Procedure Call (RPC);RpcSs;Auto;NT AUTHORITY\NetworkService;C:\Windows\system32\svchost.exe -k rpcss;0
+;;S1WEBDB-P;Resultant Set of Policy Provider;RSoPProv;Manual;LocalSystem;C:\Windows\system32\RSoPProv.exe;0
+;;S1WEBDB-P;Special Administration Console Helper;sacsvr;Manual;LocalSystem;C:\Windows\System32\svchost.exe -k netsvcs;0
+;;S1WEBDB-P;Security Accounts Manager;SamSs;Auto;LocalSystem;C:\Windows\system32\lsass.exe;0
+;;S1WEBDB-P;Smart Card;SCardSvr;Manual;NT AUTHORITY\LocalService;C:\Windows\system32\svchost.exe -k LocalServiceAndNoImpersonation;0
+;;S1WEBDB-P;Task Scheduler;Schedule;Auto;LocalSystem;C:\Windows\system32\svchost.exe -k netsvcs;0
+;;S1WEBDB-P;Smart Card Removal Policy;SCPolicySvc;Manual;LocalSystem;C:\Windows\system32\svchost.exe -k netsvcs;0
+;;S1WEBDB-P;Secondary Logon;seclogon;Manual;LocalSystem;C:\Windows\system32\svchost.exe -k netsvcs;0
+;;S1WEBDB-P;System Event Notification Service;SENS;Auto;LocalSystem;C:\Windows\system32\svchost.exe -k netsvcs;0
+;;S1WEBDB-P;Remote Desktop Configuration;SessionEnv;Manual;localSystem;C:\Windows\System32\svchost.exe -k netsvcs;0
+;;S1WEBDB-P;Internet Connection Sharing (ICS);SharedAccess;Disabled;LocalSystem;C:\Windows\System32\svchost.exe -k netsvcs;0
+;;S1WEBDB-P;Shell Hardware Detection;ShellHWDetection;Auto;LocalSystem;C:\Windows\System32\svchost.exe -k netsvcs;0
+;;S1WEBDB-P;SNMP Trap;SNMPTRAP;Manual;NT AUTHORITY\LocalService;C:\Windows\System32\snmptrap.exe;0
+;;S1WEBDB-P;Print Spooler;Spooler;Auto;LocalSystem;C:\Windows\System32\spoolsv.exe;0
+;;S1WEBDB-P;Software Protection;sppsvc;Auto;NT AUTHORITY\NetworkService;C:\Windows\system32\sppsvc.exe;0
+;;S1WEBDB-P;SPP Notification Service;sppuinotify;Manual;NT AUTHORITY\LocalService;C:\Windows\system32\svchost.exe -k LocalService;0
+;;S1WEBDB-P;SQL Server Browser;SQLBrowser;Disabled;NT AUTHORITY\LOCALSERVICE;C:\Program Files (x86)\Microsoft SQL Server\90\Shared\sqlbrowser.exe;0
+;;S1WEBDB-P;SQL Server Agent (MSSQLSERVER);SQLSERVERAGENT;Auto;NT Service\SQLSERVERAGENT;G:\SQL Server\MSSQL11.MSSQLSERVER\MSSQL\Binn\SQLAGENT.EXE -i MSSQLSERVER;0
+;;S1WEBDB-P;SQL Server VSS Writer;SQLWriter;Auto;LocalSystem;C:\Program Files\Microsoft SQL Server\90\Shared\sqlwriter.exe;0
+;;S1WEBDB-P;SSDP Discovery;SSDPSRV;Disabled;NT AUTHORITY\LocalService;C:\Windows\system32\svchost.exe -k LocalServiceAndNoImpersonation;0
+;;S1WEBDB-P;Secure Socket Tunneling Protocol Service;SstpSvc;Manual;NT Authority\LocalService;C:\Windows\system32\svchost.exe -k LocalService;0
+;;S1WEBDB-P;Microsoft Software Shadow Copy Provider;swprv;Manual;LocalSystem;C:\Windows\System32\svchost.exe -k swprv;0
+;;S1WEBDB-P;Telephony;TapiSrv;Manual;NT AUTHORITY\NetworkService;C:\Windows\System32\svchost.exe -k tapisrv;0
+;;S1WEBDB-P;TPM Base Services;TBS;Manual;NT AUTHORITY\LocalService;C:\Windows\System32\svchost.exe -k LocalServiceAndNoImpersonation;0
+;;S1WEBDB-P;Remote Desktop Services;TermService;Manual;NT Authority\NetworkService;C:\Windows\System32\svchost.exe -k termsvcs;0
+;;S1WEBDB-P;Thread Ordering Server;THREADORDER;Manual;NT AUTHORITY\LocalService;C:\Windows\system32\svchost.exe -k LocalService;0
+;;S1WEBDB-P;Distributed Link Tracking Client;TrkWks;Auto;LocalSystem;C:\Windows\System32\svchost.exe -k LocalSystemNetworkRestricted;0
+;;S1WEBDB-P;Windows Modules Installer;TrustedInstaller;Manual;localSystem;C:\Windows\servicing\TrustedInstaller.exe;0
+;;S1WEBDB-P;Interactive Services Detection;UI0Detect;Manual;LocalSystem;C:\Windows\system32\UI0Detect.exe;0
+;;S1WEBDB-P;Remote Desktop Services UserMode Port Redirector;UmRdpService;Manual;localSystem;C:\Windows\System32\svchost.exe -k LocalSystemNetworkRestricted;0
+;;S1WEBDB-P;UPnP Device Host;upnphost;Disabled;NT AUTHORITY\LocalService;C:\Windows\system32\svchost.exe -k LocalServiceAndNoImpersonation;0
+;;S1WEBDB-P;Desktop Window Manager Session Manager;UxSms;Auto;localSystem;C:\Windows\System32\svchost.exe -k LocalSystemNetworkRestricted;0
+;;S1WEBDB-P;Credential Manager;VaultSvc;Manual;LocalSystem;C:\Windows\system32\lsass.exe;0
+;;S1WEBDB-P;Virtual Disk;vds;Manual;LocalSystem;C:\Windows\System32\vds.exe;0
+;;S1WEBDB-P;VMware Tools Service;VMTools;Auto;LocalSystem;C:\Program Files\VMware\VMware Tools\vmtoolsd.exe;0
+;;S1WEBDB-P;VMware Snapshot Provider;vmvss;Manual;LocalSystem;C:\Windows\system32\dllhost.exe /Processid:{CCF90E9F-97E2-451B-A8D2-C3ED1C5D5300};0
+;;S1WEBDB-P;Volume Shadow Copy;VSS;Manual;LocalSystem;C:\Windows\system32\vssvc.exe;0
+;;S1WEBDB-P;Windows Time;W32Time;Manual;NT AUTHORITY\LocalService;C:\Windows\system32\svchost.exe -k LocalService;0
+;;S1WEBDB-P;World Wide Web Publishing Service;W3SVC;Auto;LocalSystem;C:\Windows\system32\svchost.exe -k iissvcs;0
+;;S1WEBDB-P;Windows Process Activation Service;WAS;Manual;LocalSystem;C:\Windows\system32\svchost.exe -k iissvcs;0
+;;S1WEBDB-P;Windows Color System;WcsPlugInService;Manual;NT AUTHORITY\LocalService;C:\Windows\system32\svchost.exe -k wcssvc;0
+;;S1WEBDB-P;Diagnostic Service Host;WdiServiceHost;Manual;NT AUTHORITY\LocalService;C:\Windows\System32\svchost.exe -k LocalService;0
+;;S1WEBDB-P;Diagnostic System Host;WdiSystemHost;Manual;LocalSystem;C:\Windows\System32\svchost.exe -k LocalSystemNetworkRestricted;0
+;;S1WEBDB-P;Windows Event Collector;Wecsvc;Manual;NT AUTHORITY\NetworkService;C:\Windows\system32\svchost.exe -k NetworkService;0
+;;S1WEBDB-P;Problem Reports and Solutions Control Panel Support;wercplsupport;Manual;localSystem;C:\Windows\System32\svchost.exe -k netsvcs;0
+;;S1WEBDB-P;Windows Error Reporting Service;WerSvc;Manual;localSystem;C:\Windows\System32\svchost.exe -k WerSvcGroup;0
+;;S1WEBDB-P;WinHTTP Web Proxy Auto-Discovery Service;WinHttpAutoProxySvc;Manual;NT AUTHORITY\LocalService;C:\Windows\system32\svchost.exe -k LocalService;0
+;;S1WEBDB-P;Windows Management Instrumentation;Winmgmt;Auto;localSystem;C:\Windows\system32\svchost.exe -k netsvcs;0
+;;S1WEBDB-P;Windows Remote Management (WS-Management);WinRM;Auto;NT AUTHORITY\NetworkService;C:\Windows\System32\svchost.exe -k NetworkService;0
+;;S1WEBDB-P;WMI Performance Adapter;wmiApSrv;Manual;localSystem;C:\Windows\system32\wbem\WmiApSrv.exe;0
+;;S1WEBDB-P;Portable Device Enumerator Service;WPDBusEnum;Manual;LocalSystem;C:\Windows\system32\svchost.exe -k LocalSystemNetworkRestricted;0
+;;S1WEBDB-P;Windows Update;wuauserv;Auto;LocalSystem;C:\Windows\system32\svchost.exe -k netsvcs;0
+;;S1WEBDB-P;Windows Driver Foundation - User-mode Driver Framework;wudfsvc;Manual;LocalSystem;C:\Windows\system32\svchost.exe -k LocalSystemNetworkRestricted;0
+;;S1WEBDB-P;Microsoft Policy Platform Local Authority;lpasvc;Manual;LocalSystem;C:\Program Files\Microsoft Policy Platform\policyHost.exe /service;0
+;;S1WEBDB-P;Microsoft Policy Platform Processor;lppsvc;Manual;LocalSystem;C:\Program Files\Microsoft Policy Platform\policyHost.exe /service;0
+;;S1WEBDB-P;SMS Agent Host;CcmExec;Auto;LocalSystem;C:\Windows\CCM\CcmExec.exe;0
+;;S1WEBDB-P;Configuration Manager Remote Control;CmRcService;Disabled;LocalSystem;C:\Windows\CCM\RemCtrl\CmRcService.exe;0
+;;S1WEBDB-P;ConfigMgr Task Sequence Agent;smstsmgr;Manual;LocalSystem;C:\Windows\CCM\TSManager.exe /service;0

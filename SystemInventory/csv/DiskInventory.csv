@@ -1,0 +1,9 @@
+id;date;__SERVER;Name;Label;Capacity(GB);FreeSpace(GB);ProcentFree(%);Decomissioned
+;;S3DB-INTEG-P;\\?\Volume{bdc7e5f1-46f5-11e3-80b4-806e6f6e6963}\;System Reserved;0.3;0.1;17.4;
+;;S3DB-INTEG-P;Z:\;Pagefile;20.0;0.4;1.8;
+;;S3DB-INTEG-P;B:\;SQLBin;5.0;4.1;82.1;
+;;S3DB-INTEG-P;D:\;Data;40.0;31.6;79.1;
+;;S3DB-INTEG-P;E:\;Log;12.0;5.5;45.4;
+;;S3DB-INTEG-P;T:\;TempDB;4.0;2.2;55.1;
+;;S3DB-INTEG-P;X:\;Backup;10.0;9.7;97.0;
+;;S3DB-INTEG-P;C:\;;59.7;19.8;33.2;

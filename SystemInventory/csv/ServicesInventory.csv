@@ -1,0 +1,150 @@
+ID;ModifyDate;ComputerName;DisplayName;Name;StartMode;StartName;PathName;Decomissioned
+;2017-05-02 15:15;S3DB-INTEG-P;Application Experience;AeLookupSvc;Manual;localSystem;C:\Windows\system32\svchost.exe -k netsvcs;0
+;2017-05-02 15:15;S3DB-INTEG-P;Application Layer Gateway Service;ALG;Manual;NT AUTHORITY\LocalService;C:\Windows\System32\alg.exe;0
+;2017-05-02 15:15;S3DB-INTEG-P;Application Identity;AppIDSvc;Manual;NT Authority\LocalService;C:\Windows\system32\svchost.exe -k LocalServiceNetworkRestricted;0
+;2017-05-02 15:15;S3DB-INTEG-P;Application Information;Appinfo;Manual;LocalSystem;C:\Windows\system32\svchost.exe -k netsvcs;0
+;2017-05-02 15:15;S3DB-INTEG-P;Application Management;AppMgmt;Manual;LocalSystem;C:\Windows\system32\svchost.exe -k netsvcs;0
+;2017-05-02 15:15;S3DB-INTEG-P;App Readiness;AppReadiness;Manual;LocalSystem;C:\Windows\System32\svchost.exe -k AppReadiness;0
+;2017-05-02 15:15;S3DB-INTEG-P;AppX Deployment Service (AppXSVC);AppXSvc;Manual;LocalSystem;C:\Windows\system32\svchost.exe -k wsappx;0
+;2017-05-02 15:15;S3DB-INTEG-P;Windows Audio Endpoint Builder;AudioEndpointBuilder;Manual;LocalSystem;C:\Windows\System32\svchost.exe -k LocalSystemNetworkRestricted;0
+;2017-05-02 15:15;S3DB-INTEG-P;Windows Audio;Audiosrv;Manual;NT AUTHORITY\LocalService;C:\Windows\System32\svchost.exe -k LocalServiceNetworkRestricted;0
+;2017-05-02 15:15;S3DB-INTEG-P;Base Filtering Engine;BFE;Auto;NT AUTHORITY\LocalService;C:\Windows\system32\svchost.exe -k LocalServiceNoNetwork;0
+;2017-05-02 15:15;S3DB-INTEG-P;Background Intelligent Transfer Service;BITS;Manual;LocalSystem;C:\Windows\System32\svchost.exe -k netsvcs;0
+;2017-05-02 15:15;S3DB-INTEG-P;Background Tasks Infrastructure Service;BrokerInfrastructure;Auto;LocalSystem;C:\Windows\system32\svchost.exe -k DcomLaunch;0
+;2017-05-02 15:15;S3DB-INTEG-P;Computer Browser;Browser;Disabled;LocalSystem;C:\Windows\System32\svchost.exe -k netsvcs;0
+;2017-05-02 15:15;S3DB-INTEG-P;Certificate Propagation;CertPropSvc;Manual;LocalSystem;C:\Windows\system32\svchost.exe -k netsvcs;0
+;2017-05-02 15:15;S3DB-INTEG-P;COM+ System Application;COMSysApp;Manual;LocalSystem;C:\Windows\system32\dllhost.exe /Processid:{02D4B3F1-FD88-11D1-960D-00805FC79235};0
+;2017-05-02 15:15;S3DB-INTEG-P;Cryptographic Services;CryptSvc;Auto;NT Authority\NetworkService;C:\Windows\system32\svchost.exe -k NetworkService;0
+;2017-05-02 15:15;S3DB-INTEG-P;DCOM Server Process Launcher;DcomLaunch;Auto;LocalSystem;C:\Windows\system32\svchost.exe -k DcomLaunch;0
+;2017-05-02 15:15;S3DB-INTEG-P;Optimize drives;defragsvc;Manual;localSystem;C:\Windows\system32\svchost.exe -k defragsvc;0
+;2017-05-02 15:15;S3DB-INTEG-P;Device Association Service;DeviceAssociationService;Manual;LocalSystem;C:\Windows\system32\svchost.exe -k LocalSystemNetworkRestricted;0
+;2017-05-02 15:15;S3DB-INTEG-P;Device Install Service;DeviceInstall;Manual;LocalSystem;C:\Windows\system32\svchost.exe -k DcomLaunch;0
+;2017-05-02 15:15;S3DB-INTEG-P;DHCP Client;Dhcp;Auto;NT Authority\LocalService;C:\Windows\system32\svchost.exe -k LocalServiceNetworkRestricted;0
+;2017-05-02 15:15;S3DB-INTEG-P;Diagnostics Tracking Service;DiagTrack;Auto;LocalSystem;C:\Windows\System32\svchost.exe -k utcsvc;0
+;2017-05-02 15:15;S3DB-INTEG-P;DNS Client;Dnscache;Auto;NT AUTHORITY\NetworkService;C:\Windows\system32\svchost.exe -k NetworkService;0
+;2017-05-02 15:15;S3DB-INTEG-P;Wired AutoConfig;dot3svc;Manual;localSystem;C:\Windows\system32\svchost.exe -k LocalSystemNetworkRestricted;0
+;2017-05-02 15:15;S3DB-INTEG-P;Diagnostic Policy Service;DPS;Auto;NT AUTHORITY\LocalService;C:\Windows\System32\svchost.exe -k LocalServiceNoNetwork;0
+;2017-05-02 15:15;S3DB-INTEG-P;Device Setup Manager;DsmSvc;Manual;LocalSystem;C:\Windows\system32\svchost.exe -k netsvcs;0
+;2017-05-02 15:15;S3DB-INTEG-P;Extensible Authentication Protocol;Eaphost;Manual;localSystem;C:\Windows\System32\svchost.exe -k netsvcs;0
+;2017-05-02 15:15;S3DB-INTEG-P;Encrypting File System (EFS);EFS;Auto;LocalSystem;C:\Windows\System32\lsass.exe;0
+;2017-05-02 15:15;S3DB-INTEG-P;Windows Event Log;EventLog;Auto;NT AUTHORITY\LocalService;C:\Windows\System32\svchost.exe -k LocalServiceNetworkRestricted;0
+;2017-05-02 15:15;S3DB-INTEG-P;COM+ Event System;EventSystem;Auto;NT AUTHORITY\LocalService;C:\Windows\system32\svchost.exe -k LocalService;0
+;2017-05-02 15:15;S3DB-INTEG-P;Function Discovery Provider Host;fdPHost;Manual;NT AUTHORITY\LocalService;C:\Windows\system32\svchost.exe -k LocalService;0
+;2017-05-02 15:15;S3DB-INTEG-P;Function Discovery Resource Publication;FDResPub;Manual;NT AUTHORITY\LocalService;C:\Windows\system32\svchost.exe -k LocalServiceAndNoImpersonation;0
+;2017-05-02 15:15;S3DB-INTEG-P;Windows Font Cache Service;FontCache;Auto;NT AUTHORITY\LocalService;C:\Windows\system32\svchost.exe -k LocalService;0
+;2017-05-02 15:15;S3DB-INTEG-P;Windows Presentation Foundation Font Cache 3.0.0.0;FontCache3.0.0.0;Manual;NT Authority\LocalService;C:\Windows\Microsoft.Net\Framework64\v3.0\WPF\PresentationFontCache.exe;0
+;2017-05-02 15:15;S3DB-INTEG-P;Windows App Certification Kit Fast User Switching Utility Service;fussvc;Manual;LocalSystem;C:\Program Files (x86)\Windows Kits\8.0\App Certification Kit\fussvc.exe;0
+;2017-05-02 15:15;S3DB-INTEG-P;Group Policy Client;gpsvc;Auto;LocalSystem;C:\Windows\system32\svchost.exe -k netsvcs;0
+;2017-05-02 15:15;S3DB-INTEG-P;Human Interface Device Service;hidserv;Manual;LocalSystem;C:\Windows\system32\svchost.exe -k LocalSystemNetworkRestricted;0
+;2017-05-02 15:15;S3DB-INTEG-P;Health Key and Certificate Management;hkmsvc;Manual;localSystem;C:\Windows\System32\svchost.exe -k netsvcs;0
+;2017-05-02 15:15;S3DB-INTEG-P;Internet Explorer ETW Collector Service;IEEtwCollectorService;Manual;LocalSystem;C:\Windows\system32\IEEtwCollector.exe /V;0
+;2017-05-02 15:15;S3DB-INTEG-P;IKE and AuthIP IPsec Keying Modules;IKEEXT;Auto;LocalSystem;C:\Windows\system32\svchost.exe -k netsvcs;0
+;2017-05-02 15:15;S3DB-INTEG-P;IP Helper;iphlpsvc;Auto;LocalSystem;C:\Windows\System32\svchost.exe -k NetSvcs;0
+;2017-05-02 15:15;S3DB-INTEG-P;CNG Key Isolation;KeyIso;Manual;LocalSystem;C:\Windows\system32\lsass.exe;0
+;2017-05-02 15:15;S3DB-INTEG-P;KDC Proxy Server service (KPS);KPSSVC;Manual;NT AUTHORITY\NetworkService;C:\Windows\system32\svchost.exe -k KpsSvcGroup;0
+;2017-05-02 15:15;S3DB-INTEG-P;KtmRm for Distributed Transaction Coordinator;KtmRm;Manual;NT AUTHORITY\NetworkService;C:\Windows\System32\svchost.exe -k NetworkServiceAndNoImpersonation;0
+;2017-05-02 15:15;S3DB-INTEG-P;Server;LanmanServer;Auto;LocalSystem;C:\Windows\system32\svchost.exe -k netsvcs;0
+;2017-05-02 15:15;S3DB-INTEG-P;Workstation;LanmanWorkstation;Auto;NT AUTHORITY\NetworkService;C:\Windows\System32\svchost.exe -k NetworkService;0
+;2017-05-02 15:15;S3DB-INTEG-P;Link-Layer Topology Discovery Mapper;lltdsvc;Manual;NT AUTHORITY\LocalService;C:\Windows\System32\svchost.exe -k LocalService;0
+;2017-05-02 15:15;S3DB-INTEG-P;TCP/IP NetBIOS Helper;lmhosts;Auto;NT AUTHORITY\LocalService;C:\Windows\system32\svchost.exe -k LocalServiceNetworkRestricted;0
+;2017-05-02 15:15;S3DB-INTEG-P;Local Session Manager;LSM;Auto;LocalSystem;C:\Windows\system32\svchost.exe -k DcomLaunch;0
+;2017-05-02 15:15;S3DB-INTEG-P;Multimedia Class Scheduler;MMCSS;Manual;LocalSystem;C:\Windows\system32\svchost.exe -k netsvcs;0
+;2017-05-02 15:15;S3DB-INTEG-P;Windows Firewall;MpsSvc;Auto;NT Authority\LocalService;C:\Windows\system32\svchost.exe -k LocalServiceNoNetwork;0
+;2017-05-02 15:15;S3DB-INTEG-P;Distributed Transaction Coordinator;MSDTC;Auto;NT AUTHORITY\NetworkService;C:\Windows\System32\msdtc.exe;0
+;2017-05-02 15:15;S3DB-INTEG-P;SQL Server Integration Services 12.0;MsDtsServer120;Auto;corpnet\nimamig;B:\SQL\Microsoft SQL Server\120\DTS\Binn\MsDtsSrvr.exe;0
+;2017-05-02 15:15;S3DB-INTEG-P;Microsoft iSCSI Initiator Service;MSiSCSI;Manual;LocalSystem;C:\Windows\system32\svchost.exe -k netsvcs;0
+;2017-05-02 15:15;S3DB-INTEG-P;Windows Installer;msiserver;Manual;LocalSystem;C:\Windows\system32\msiexec.exe /V;0
+;2017-05-02 15:15;S3DB-INTEG-P;SQL Server (MSSQLSERVER);MSSQLSERVER;Auto;corpnet\nimamig;B:\SQL\Microsoft SQL Server\MSSQL12.CRAMER\MSSQL\Binn\sqlservr.exe -sMSSQLSERVER;0
+;2017-05-02 15:15;S3DB-INTEG-P;SQL Server Analysis Services (MSSQLSERVER);MSSQLServerOLAPService;Auto;corpnet\nimamig;B:\SQL\Microsoft SQL Server\MSAS12.CRAMER\OLAP\bin\msmdsrv.exe -s B:\SQL\Microsoft SQL Server\MSAS12.CRAMER\OLAP\Config;0
+;2017-05-02 15:15;S3DB-INTEG-P;Network Access Protection Agent;napagent;Manual;NT AUTHORITY\NetworkService;C:\Windows\System32\svchost.exe -k NetworkService;0
+;2017-05-02 15:15;S3DB-INTEG-P;Network Connectivity Assistant;NcaSvc;Manual;LocalSystem;C:\Windows\System32\svchost.exe -k NetSvcs;0
+;2017-05-02 15:15;S3DB-INTEG-P;Netlogon;Netlogon;Auto;LocalSystem;C:\Windows\system32\lsass.exe;0
+;2017-05-02 15:15;S3DB-INTEG-P;Network Connections;Netman;Manual;LocalSystem;C:\Windows\System32\svchost.exe -k LocalSystemNetworkRestricted;0
+;2017-05-02 15:15;S3DB-INTEG-P;Network List Service;netprofm;Manual;NT AUTHORITY\LocalService;C:\Windows\System32\svchost.exe -k LocalService;0
+;2017-05-02 15:15;S3DB-INTEG-P;Net.Tcp Port Sharing Service;NetTcpPortSharing;Disabled;NT AUTHORITY\LocalService;C:\Windows\Microsoft.NET\Framework64\v4.0.30319\SMSvcHost.exe;0
+;2017-05-02 15:15;S3DB-INTEG-P;Network Location Awareness;NlaSvc;Auto;NT AUTHORITY\NetworkService;C:\Windows\System32\svchost.exe -k NetworkService;0
+;2017-05-02 15:15;S3DB-INTEG-P;Network Store Interface Service;nsi;Auto;NT Authority\LocalService;C:\Windows\system32\svchost.exe -k LocalService;0
+;2017-05-02 15:15;S3DB-INTEG-P;Performance Counter DLL Host;PerfHost;Manual;NT AUTHORITY\LocalService;C:\Windows\SysWow64\perfhost.exe;0
+;2017-05-02 15:15;S3DB-INTEG-P;Performance Logs & Alerts;pla;Manual;NT AUTHORITY\LocalService;C:\Windows\System32\svchost.exe -k LocalServiceNoNetwork;0
+;2017-05-02 15:15;S3DB-INTEG-P;Plug and Play;PlugPlay;Manual;LocalSystem;C:\Windows\system32\svchost.exe -k DcomLaunch;0
+;2017-05-02 15:15;S3DB-INTEG-P;IPsec Policy Agent;PolicyAgent;Manual;NT Authority\NetworkService;C:\Windows\system32\svchost.exe -k NetworkServiceNetworkRestricted;0
+;2017-05-02 15:15;S3DB-INTEG-P;Power;Power;Auto;LocalSystem;C:\Windows\system32\svchost.exe -k DcomLaunch;0
+;2017-05-02 15:15;S3DB-INTEG-P;Printer Extensions and Notifications;PrintNotify;Manual;LocalSystem;C:\Windows\system32\svchost.exe -k print;0
+;2017-05-02 15:15;S3DB-INTEG-P;User Profile Service;ProfSvc;Auto;LocalSystem;C:\Windows\system32\svchost.exe -k netsvcs;0
+;2017-05-02 15:15;S3DB-INTEG-P;Remote Access Auto Connection Manager;RasAuto;Manual;localSystem;C:\Windows\System32\svchost.exe -k netsvcs;0
+;2017-05-02 15:15;S3DB-INTEG-P;Remote Access Connection Manager;RasMan;Manual;localSystem;C:\Windows\System32\svchost.exe -k netsvcs;0
+;2017-05-02 15:15;S3DB-INTEG-P;Routing and Remote Access;RemoteAccess;Disabled;localSystem;C:\Windows\System32\svchost.exe -k netsvcs;0
+;2017-05-02 15:15;S3DB-INTEG-P;Remote Registry;RemoteRegistry;Auto;NT AUTHORITY\LocalService;C:\Windows\system32\svchost.exe -k localService;0
+;2017-05-02 15:15;S3DB-INTEG-P;RPC Endpoint Mapper;RpcEptMapper;Auto;NT AUTHORITY\NetworkService;C:\Windows\system32\svchost.exe -k RPCSS;0
+;2017-05-02 15:15;S3DB-INTEG-P;Remote Procedure Call (RPC) Locator;RpcLocator;Manual;NT AUTHORITY\NetworkService;C:\Windows\system32\locator.exe;0
+;2017-05-02 15:15;S3DB-INTEG-P;Remote Procedure Call (RPC);RpcSs;Auto;NT AUTHORITY\NetworkService;C:\Windows\system32\svchost.exe -k rpcss;0
+;2017-05-02 15:15;S3DB-INTEG-P;Resultant Set of Policy Provider;RSoPProv;Manual;LocalSystem;C:\Windows\system32\RSoPProv.exe;0
+;2017-05-02 15:15;S3DB-INTEG-P;Special Administration Console Helper;sacsvr;Manual;LocalSystem;C:\Windows\System32\svchost.exe -k netsvcs;0
+;2017-05-02 15:15;S3DB-INTEG-P;Security Accounts Manager;SamSs;Auto;LocalSystem;C:\Windows\system32\lsass.exe;0
+;2017-05-02 15:15;S3DB-INTEG-P;Smart Card;SCardSvr;Disabled;NT AUTHORITY\LocalService;C:\Windows\system32\svchost.exe -k LocalServiceAndNoImpersonation;0
+;2017-05-02 15:15;S3DB-INTEG-P;Smart Card Device Enumeration Service;ScDeviceEnum;Manual;LocalSystem;C:\Windows\system32\svchost.exe -k LocalSystemNetworkRestricted;0
+;2017-05-02 15:15;S3DB-INTEG-P;Task Scheduler;Schedule;Auto;LocalSystem;C:\Windows\system32\svchost.exe -k netsvcs;0
+;2017-05-02 15:15;S3DB-INTEG-P;Smart Card Removal Policy;SCPolicySvc;Manual;LocalSystem;C:\Windows\system32\svchost.exe -k netsvcs;0
+;2017-05-02 15:15;S3DB-INTEG-P;Secondary Logon;seclogon;Manual;LocalSystem;C:\Windows\system32\svchost.exe -k netsvcs;0
+;2017-05-02 15:15;S3DB-INTEG-P;System Event Notification Service;SENS;Auto;LocalSystem;C:\Windows\system32\svchost.exe -k netsvcs;0
+;2017-05-02 15:15;S3DB-INTEG-P;Remote Desktop Configuration;SessionEnv;Manual;localSystem;C:\Windows\System32\svchost.exe -k netsvcs;0
+;2017-05-02 15:15;S3DB-INTEG-P;Internet Connection Sharing (ICS);SharedAccess;Disabled;LocalSystem;C:\Windows\System32\svchost.exe -k netsvcs;0
+;2017-05-02 15:15;S3DB-INTEG-P;Shell Hardware Detection;ShellHWDetection;Auto;LocalSystem;C:\Windows\System32\svchost.exe -k netsvcs;0
+;2017-05-02 15:15;S3DB-INTEG-P;Microsoft Storage Spaces SMP;smphost;Manual;NT AUTHORITY\NetworkService;C:\Windows\System32\svchost.exe -k smphost;0
+;2017-05-02 15:15;S3DB-INTEG-P;SNMP Trap;SNMPTRAP;Manual;NT AUTHORITY\LocalService;C:\Windows\System32\snmptrap.exe;0
+;2017-05-02 15:15;S3DB-INTEG-P;Print Spooler;Spooler;Auto;LocalSystem;C:\Windows\System32\spoolsv.exe;0
+;2017-05-02 15:15;S3DB-INTEG-P;Software Protection;sppsvc;Auto;NT AUTHORITY\NetworkService;C:\Windows\system32\sppsvc.exe;0
+;2017-05-02 15:15;S3DB-INTEG-P;SQL Server Browser;SQLBrowser;Disabled;NT AUTHORITY\LOCALSERVICE;C:\Program Files (x86)\Microsoft SQL Server\90\Shared\sqlbrowser.exe;0
+;2017-05-02 15:15;S3DB-INTEG-P;SQL Server Agent (MSSQLSERVER);SQLSERVERAGENT;Auto;corpnet\nimamig;B:\SQL\Microsoft SQL Server\MSSQL12.CRAMER\MSSQL\Binn\SQLAGENT.EXE -i MSSQLSERVER;0
+;2017-05-02 15:15;S3DB-INTEG-P;SQL Server VSS Writer;SQLWriter;Auto;corpnet\nimamig;C:\Program Files\Microsoft SQL Server\90\Shared\sqlwriter.exe;0
+;2017-05-02 15:15;S3DB-INTEG-P;SSDP Discovery;SSDPSRV;Disabled;NT AUTHORITY\LocalService;C:\Windows\system32\svchost.exe -k LocalServiceAndNoImpersonation;0
+;2017-05-02 15:15;S3DB-INTEG-P;Secure Socket Tunneling Protocol Service;SstpSvc;Manual;NT Authority\LocalService;C:\Windows\system32\svchost.exe -k LocalService;0
+;2017-05-02 15:15;S3DB-INTEG-P;Spot Verifier;svsvc;Manual;LocalSystem;C:\Windows\system32\svchost.exe -k LocalSystemNetworkRestricted;0
+;2017-05-02 15:15;S3DB-INTEG-P;Microsoft Software Shadow Copy Provider;swprv;Manual;LocalSystem;C:\Windows\System32\svchost.exe -k swprv;0
+;2017-05-02 15:15;S3DB-INTEG-P;Superfetch;SysMain;Manual;LocalSystem;C:\Windows\system32\svchost.exe -k LocalSystemNetworkRestricted;0
+;2017-05-02 15:15;S3DB-INTEG-P;System Events Broker;SystemEventsBroker;Auto;LocalSystem;C:\Windows\system32\svchost.exe -k DcomLaunch;0
+;2017-05-02 15:15;S3DB-INTEG-P;Telephony;TapiSrv;Manual;NT AUTHORITY\NetworkService;C:\Windows\System32\svchost.exe -k tapisrv;0
+;2017-05-02 15:15;S3DB-INTEG-P;Te.Service;Te.Service;Manual;LocalSystem;C:\Program Files (x86)\Windows Kits\8.0\Testing\Runtimes\TAEF\Wex.Services.exe;0
+;2017-05-02 15:15;S3DB-INTEG-P;Remote Desktop Services;TermService;Manual;NT Authority\NetworkService;C:\Windows\System32\svchost.exe -k termsvcs;0
+;2017-05-02 15:15;S3DB-INTEG-P;Themes;Themes;Auto;LocalSystem;C:\Windows\System32\svchost.exe -k netsvcs;0
+;2017-05-02 15:15;S3DB-INTEG-P;Thread Ordering Server;THREADORDER;Manual;NT AUTHORITY\LocalService;C:\Windows\system32\svchost.exe -k LocalService;0
+;2017-05-02 15:15;S3DB-INTEG-P;Storage Tiers Management;TieringEngineService;Manual;localSystem;C:\Windows\system32\TieringEngineService.exe;0
+;2017-05-02 15:15;S3DB-INTEG-P;Distributed Link Tracking Client;TrkWks;Auto;LocalSystem;C:\Windows\System32\svchost.exe -k LocalSystemNetworkRestricted;0
+;2017-05-02 15:15;S3DB-INTEG-P;Windows Modules Installer;TrustedInstaller;Manual;localSystem;C:\Windows\servicing\TrustedInstaller.exe;0
+;2017-05-02 15:15;S3DB-INTEG-P;User Access Logging Service;UALSVC;Auto;LocalSystem;C:\Windows\system32\svchost.exe -k LocalSystemNetworkRestricted;0
+;2017-05-02 15:15;S3DB-INTEG-P;Interactive Services Detection;UI0Detect;Manual;LocalSystem;C:\Windows\system32\UI0Detect.exe;0
+;2017-05-02 15:15;S3DB-INTEG-P;Remote Desktop Services UserMode Port Redirector;UmRdpService;Manual;localSystem;C:\Windows\System32\svchost.exe -k LocalSystemNetworkRestricted;0
+;2017-05-02 15:15;S3DB-INTEG-P;UPnP Device Host;upnphost;Disabled;NT AUTHORITY\LocalService;C:\Windows\system32\svchost.exe -k LocalServiceAndNoImpersonation;0
+;2017-05-02 15:15;S3DB-INTEG-P;Credential Manager;VaultSvc;Manual;LocalSystem;C:\Windows\system32\lsass.exe;0
+;2017-05-02 15:15;S3DB-INTEG-P;Virtual Disk;vds;Manual;LocalSystem;C:\Windows\System32\vds.exe;0
+;2017-05-02 15:15;S3DB-INTEG-P;VMware Alias Manager and Ticket Service;VGAuthService;Auto;LocalSystem;C:\Program Files\VMware\VMware Tools\VMware VGAuth\VGAuthService.exe;0
+;2017-05-02 15:15;S3DB-INTEG-P;Hyper-V Guest Service Interface;vmicguestinterface;Manual;LocalSystem;C:\Windows\system32\svchost.exe -k LocalSystemNetworkRestricted;0
+;2017-05-02 15:15;S3DB-INTEG-P;Hyper-V Heartbeat Service;vmicheartbeat;Manual;LocalSystem;C:\Windows\system32\svchost.exe -k ICService;0
+;2017-05-02 15:15;S3DB-INTEG-P;Hyper-V Data Exchange Service;vmickvpexchange;Manual;LocalSystem;C:\Windows\system32\svchost.exe -k LocalSystemNetworkRestricted;0
+;2017-05-02 15:15;S3DB-INTEG-P;Hyper-V Remote Desktop Virtualization Service;vmicrdv;Manual;LocalSystem;C:\Windows\system32\svchost.exe -k ICService;0
+;2017-05-02 15:15;S3DB-INTEG-P;Hyper-V Guest Shutdown Service;vmicshutdown;Manual;LocalSystem;C:\Windows\system32\svchost.exe -k LocalSystemNetworkRestricted;0
+;2017-05-02 15:15;S3DB-INTEG-P;Hyper-V Time Synchronization Service;vmictimesync;Manual;NT AUTHORITY\LocalService;C:\Windows\system32\svchost.exe -k LocalServiceNetworkRestricted;0
+;2017-05-02 15:15;S3DB-INTEG-P;Hyper-V Volume Shadow Copy Requestor;vmicvss;Manual;LocalSystem;C:\Windows\system32\svchost.exe -k LocalSystemNetworkRestricted;0
+;2017-05-02 15:15;S3DB-INTEG-P;VMware Tools;VMTools;Auto;LocalSystem;C:\Program Files\VMware\VMware Tools\vmtoolsd.exe;0
+;2017-05-02 15:15;S3DB-INTEG-P;VMware Snapshot Provider;vmvss;Manual;LocalSystem;C:\Windows\system32\dllhost.exe /Processid:{DB862F91-9AF4-447F-B860-46F3F5D09478};0
+;2017-05-02 15:15;S3DB-INTEG-P;VMware Physical Disk Helper Service;VMware Physical Disk Helper Service;Auto;LocalSystem;C:\Program Files\VMware\VMware Tools\vmacthlp.exe;0
+;2017-05-02 15:15;S3DB-INTEG-P;Visual Studio ETW Event Collection Service;VsEtwService120;Manual;LocalSystem;C:\Program Files\Microsoft Visual Studio 12.0\Common7\Packages\Debugger\Services\VsEtwService.exe;0
+;2017-05-02 15:15;S3DB-INTEG-P;Volume Shadow Copy;VSS;Manual;LocalSystem;C:\Windows\system32\vssvc.exe;0
+;2017-05-02 15:15;S3DB-INTEG-P;Windows Time;W32Time;Manual;NT AUTHORITY\LocalService;C:\Windows\system32\svchost.exe -k LocalService;0
+;2017-05-02 15:15;S3DB-INTEG-P;Windows Connection Manager;Wcmsvc;Auto;NT Authority\LocalService;C:\Windows\system32\svchost.exe -k LocalServiceNetworkRestricted;0
+;2017-05-02 15:15;S3DB-INTEG-P;Windows Color System;WcsPlugInService;Manual;NT AUTHORITY\LocalService;C:\Windows\system32\svchost.exe -k wcssvc;0
+;2017-05-02 15:15;S3DB-INTEG-P;Diagnostic Service Host;WdiServiceHost;Manual;NT AUTHORITY\LocalService;C:\Windows\System32\svchost.exe -k LocalService;0
+;2017-05-02 15:15;S3DB-INTEG-P;Diagnostic System Host;WdiSystemHost;Manual;LocalSystem;C:\Windows\System32\svchost.exe -k LocalSystemNetworkRestricted;0
+;2017-05-02 15:15;S3DB-INTEG-P;Windows Event Collector;Wecsvc;Manual;NT AUTHORITY\NetworkService;C:\Windows\system32\svchost.exe -k NetworkService;0
+;2017-05-02 15:15;S3DB-INTEG-P;Windows Encryption Provider Host Service;WEPHOSTSVC;Manual;NT AUTHORITY\LocalService;C:\Windows\system32\svchost.exe -k WepHostSvcGroup;0
+;2017-05-02 15:15;S3DB-INTEG-P;Problem Reports and Solutions Control Panel Support;wercplsupport;Manual;localSystem;C:\Windows\System32\svchost.exe -k netsvcs;0
+;2017-05-02 15:15;S3DB-INTEG-P;Windows Error Reporting Service;WerSvc;Manual;localSystem;C:\Windows\System32\svchost.exe -k WerSvcGroup;0
+;2017-05-02 15:15;S3DB-INTEG-P;WinHTTP Web Proxy Auto-Discovery Service;WinHttpAutoProxySvc;Manual;NT AUTHORITY\LocalService;C:\Windows\system32\svchost.exe -k LocalService;0
+;2017-05-02 15:15;S3DB-INTEG-P;Windows Management Instrumentation;Winmgmt;Auto;localSystem;C:\Windows\system32\svchost.exe -k netsvcs;0
+;2017-05-02 15:15;S3DB-INTEG-P;Windows Remote Management (WS-Management);WinRM;Auto;NT AUTHORITY\NetworkService;C:\Windows\System32\svchost.exe -k NetworkService;0
+;2017-05-02 15:15;S3DB-INTEG-P;WMI Performance Adapter;wmiApSrv;Manual;localSystem;C:\Windows\system32\wbem\WmiApSrv.exe;0
+;2017-05-02 15:15;S3DB-INTEG-P;Portable Device Enumerator Service;WPDBusEnum;Manual;LocalSystem;C:\Windows\system32\svchost.exe -k LocalSystemNetworkRestricted;0
+;2017-05-02 15:15;S3DB-INTEG-P;Windows Store Service (WSService);WSService;Manual;LocalSystem;C:\Windows\System32\svchost.exe -k wsappx;0
+;2017-05-02 15:15;S3DB-INTEG-P;Windows Update;wuauserv;Manual;LocalSystem;C:\Windows\system32\svchost.exe -k netsvcs;0
+;2017-05-02 15:15;S3DB-INTEG-P;Windows Driver Foundation - User-mode Driver Framework;wudfsvc;Manual;LocalSystem;C:\Windows\system32\svchost.exe -k LocalSystemNetworkRestricted;0
+;2017-05-02 15:15;S3DB-INTEG-P;OP5 NSClient++ Windows Agent (x64);NSClientpp;Auto;LocalSystem;C:\Program Files\op5\NSClient++\nsclient++.exe;0

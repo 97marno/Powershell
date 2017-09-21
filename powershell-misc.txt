@@ -1,0 +1,167 @@
+
+<# OPERATORS #>
+#-----------------------------------------------------------------
+-eq				Equal
+-ne				Not equal
+-gt				Greater than
+-ge 			Greater than or equal
+-lt				Less than
+-le				Less than or equal
+-Like			Like
+-NotLike		NotLike
+-Match			Match
+-NotMatch		NotMatch
+-Contains		Contains
+-NotContains	NotContains
+-In				In
+-NotIn			NotIn
+-Replace		Replace
+
+<# SPECIAL CHARACTERS #>
+#-----------------------------------------------------------------
+Special characters are used to format/position string output.
+
+   `0  Null
+   `a  Alert bell/beep
+   `b  Backspace
+   `f  Form feed (use with printer output)
+   `n  New line
+   `r  Carriage return
+ `r`n  Carriage return + New line
+   `t  Horizontal tab
+   `v  Vertical tab (use with printer output)
+
+ | FT * -- format-table   
+
+ get-wmiobject -class win32_computersystem | select -expandproperty roles |ft *
+ get-wmiobject -class win32_computersystem -property roles
+ get-wmiobject -class win32_computersystem | SELECT Name, model, Roles
+
+<# MODULES #>
+#-----------------------------------------------------------------
+Get-Module
+Install-Module ImportExcel
+Update-Module ImportExcel
+Import-Module ImportExcel
+Remove-Module ImportExcel
+
+
+   
+This Awesome Riddle Did I Solve
+
+S1CTX-CORP-DB
+S3CTX-CORP-APP
+SGHTCTX-CORP-DB
+   
+   
+Get-ChildItem | get-member	#expand all properties on cmdlet
+
+=VLOOKUP(E2,A2:C5,3,FALSE)
+
+Import-Module ActiveDirectory
+Get-ADComputer -Filter 'SamAccountName -like "S4DB-P*"' | select DistinguishedName
+get-adgroup -f 'name -like "Domain*"'|ft name,distinguishedname -auto
+get-adgroupmember "Domain Admins" -recursive | ft Name, distinguishedName, SamAccountName
+Get-ADUser -Filter "Name -eq '$user'" | Select-Object name, samaccountname
+
+Get-Service -displayname 'SQL Server (*' -computername 
+
+
+$dbConnection = New-Object System.Data.SqlClient.SqlConnection -EV Err -EA SilentlyContinue
+$dbConnection.ConnectionString = ("Server=S1DW-DB-S,1433;Database=master;Integrated Security=True;Connect Timeout=3")
+$dbConnection.Open()
+
+
+$namespace = gwmi -computername $C -Namespace "root\microsoft\sqlserver" -Class "__Namespace" -Filter "name like 'ComputerManagement%'" | sort desc | select -ExpandProperty name -First 1			
+$tcpport = Get-WmiObject -computername $c -Namespace "root\microsoft\SqlServer\$namespace" -Class ServerNetworkProtocolProperty | select instancename,propertystrval, IPAddressName | where{$_.IPAddressName -eq 'IPAll' -and $_.propertystrval -ne '' -and $_.instancename -eq $i.name}
+$sqlport = $tcpport.propertystrval
+
+
+$c = 's1sqlmgmt-p' 
+$i = Get-Service -displayname 'SQL Server (*' -computername $c | select @{n='Name';e={$_.name -replace 'MSSQL[$]'}} #special characters within brackets 
+
+$namespace = gwmi -computername $C -Namespace "root\microsoft\sqlserver" -Class "__Namespace" -Filter "name like 'ComputerManagement%'" | sort desc | select -ExpandProperty name -First 1			
+$tcpport = Get-WmiObject -computername $c -Namespace "root\microsoft\SqlServer\$namespace" -Class ServerNetworkProtocolProperty | select instancename,propertystrval, IPAddressName | where{$_.IPAddressName -eq 'IPAll' -and $_.propertystrval -ne '' -and $_.instancename -eq $i.name}
+$sqlport = $tcpport.propertystrval
+$SQLServer = $c + '\' + $i.name
+
+$dbConnection = New-Object System.Data.SqlClient.SqlConnection -EV Err -EA SilentlyContinue
+$dbConnection.ConnectionString = ('Data Source= ' + $SQLServer + ',' + $sqlport +'; Database=master;Integrated Security=True;Connect Timeout=3')
+$dbConnection.Open()
+$dbconnection.state
+
+Invoke-SQLcmd -Server '.' -Database marlen 'select computername from sysinfo' | Format-Table
+
+#$dbConnection.close()
+
+7629364
+11535169
+
+Larm borttagna ur OP5
+Systemet nedstängt
+Servern borttagen ur AD	
+Brandväggsregler borttagna	
+Borttagen ur DNS	
+Information borttagen från SAFEn	
+Flyttad systemdokumentation till "Avslutat"	
+Raderat posten för severn i IP-planen	
+
+Raderad i Vmware	
+
+Raderat posten för servern i ILO-planen	
+Ta bort kopplade NetApp-diskar	
+Servern nerskruvad och borttagen från stativ	
+Ta bort kablar ur patchpanel	
+Borttagning ur backuper
+
+
+
++\Pmhlas\-
+
+
+
+Snow white and the seven dwarfs multi. 
+	
+
+get-aduser -f {title -eq "claims adjuster" -and manager -eq "cn=JFarkus,cn=users,dc=bigfirm,dc=com"} -searchbase "ou=Montana,dc=bigfirm,dc=com"
+get-aduser -f * | gm
+get-aduser -f {samaccountname -eq "mark"} -pr MemberOf | ft name,memberof -auto
+get-aduser -f {samaccountname -eq "mark"} -pr MemberOf | ogv
+get-aduser -f {MemberOf -like "*Enterprise Admins*"}
+get-aduser -f {Memberof -eq "CN=Enterprise Admins,CN=Users,DC=Bigfirm,DC=com"}
+get-adgroup -f *|ft name,distinguishedname -auto
+get-aduser -f {memberof -eq "CN=Folks,CN=Users,DC=Bigfirm,DC=com"} -searchbase "ou=sales,dc=bigfirm,dc=com"
+get-aduser -f {memberof -eq "CN=Folks,CN=Users,DC=Bigfirm,DC=com"} -searchbase "ou=sales,dc=bigfirm,dc=com" -server dc4:3268
+
+
+
+
+\\s-k7u\teracom\IT\Drift\Systemförvaltning\KI\PasswordSafe\user.dat
+
+
+query user /server:$SERVER
+$PSVersionTable.PSVersion
+
+$env:PSModulePath = $env:PSModulePath +"; B:\Marlen\PS"
+
+ALTER TABLE MyTable
+ADD MyNewColumn INT
+
+X09HhiOlm23W+\
+
+
+Get-WmiObject -Class Win32_ComputerSystem -ComputerName s3db-integ-p.tn.teracom.se
+no such interface supported. 
+
+
+OP5 users - Monitorering
+Sysadmin-DB-AD - Adgrupp för rättigheter i SQL-servrar. 
+
+Shrink the log to as small a size as possible (truncateonly)
+
+DBCC SHRINKFILE(transactionloglogicalfilename, TRUNCATEONLY)
+
+NOTE: if you don't know the logical filename of your transaction log use sp_helpfile to list all of your database files.
+
+
+

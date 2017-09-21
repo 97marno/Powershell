@@ -1,0 +1,316 @@
+<#
+	.SYNOPSIS
+		(C) Marlén Norling 2017. marlen@norling.cx
+		Cleanup script using PowerShell.
+
+	.DESCRIPTION
+		This script is to cleanup files older than specified dates in specified folders. 
+		The newest file in folder is always kept.
+		
+		$SHARE
+			|$SUBFOLDER
+				|$SUBFOLDER1
+					- Delete files with extension1 and are older than limit1.
+					- Delete files with extension2 ans are older than limit2.
+				|$SUBFOLDER2
+					- Delete files with extension1 and are older than limit1.
+					- Delete files with extension2 ans are older than limit2.
+				|$SUBFOLDER3
+					- Delete files with extension1 and are older than limit3.
+					- Delete files with extension2 ans are older than limit3.
+			|$SUBFOLDER	
+	
+	.USAGE
+		1) Create an secure string for password. This is done one time or when password is updated.
+			Start powershell on computer that will have the script running and write following string: 
+			read-host -assecurestring | convertfrom-securestring | out-file C:\mysecurestring.txt [ENTER] 
+			%PASSWORD% [ENTER]
+		2) Edit script with correct parameters. (username, subfolders, datespans, logfile path, share path etc.)
+		3) Run script
+		4) Edit $removeitem to True to delete the files, otherwise it will only produce a log with the files
+	
+	.EXAMPLE
+		PS C:\> .\cleanup.ps1 
+		Description
+		-------------
+
+		
+	.OUTPUTS
+		Logfile: 
+			Name                                              CreationTime       
+			----                                              ------------       
+			\\$SHARE\$SUBFOLDER\$SUBFOLDER1\file.extension    2017-04-26 14:23:23
+		Terminal: 
+			$SUBFOLDER:\$SUBFOLDER1
+			\\$SHARE\$SUBFOLDER\$SUBFOLDER1\file.extension    2017-04-26 15:56:09
+#>
+
+
+
+# Parameters
+# ====================================================================================================================================
+$username = "corpnet\e-mnorling"																#specify username
+$password = cat "C:\temp\mysecurestring.txt" | convertto-securestring							#specify file where secure password is stored
+$share = "\\s1sqlmgmt-p\share_backupdb\"														#specify share path, note that it has to end with \
+$subfolder = "ARS4", "BI-RAKEL-P", "BI-RAKEL-T", "NETACTDW01", "NV1", "NV2", "NV3", "NV4"		#specifysubfolders in the share
+$subfolder1 = "SystemDatabases"
+$subfolder2 = "UserDatabases"
+$subfolder3 = "UserDatabasesMonthly"
+$logfile = "C:\temp\logfile.txt"						# Specify path and file name to log
+
+$removeitem = "False"									# Set this to True if file should be removed otherwise it will just be logged in log
+$extension1 = ".bak"									# Set first extension that should be looked after
+$extension2 = ".trn"									# Set second extension that should be looked after
+$limit1 = (Get-Date).AddDays(-6)						# specify how many days that should be saved
+$limit2 = (Get-Date).AddDays(-14)						# specify how many days that should be saved
+$limit3 = (Get-Date).AddDays(-365)						# specify how many days that should be saved
+
+# ====================================DO NOT EDIT AFTER THIS LINE=====================================================================
+
+#read-host -assecurestring | convertfrom-securestring | out-file C:\mysecurestring.txt	#To create secure string with password
+
+$ErrorActionPreference = 'SilentlyContinue'  
+$cred = new-object -typename System.Management.Automation.PSCredential -argumentlist $username, $password
+write-output "BAK-files that are older than $limit1 will be deleted in $subfolder1 and $subfolder2"			| Out-File $logfile
+write-output "TRN-files that are older than $limit2 will be deleted in $subfolder1 and $subfolder2"			| Out-File -append $logfile
+write-output "BAK and TRN-files that are older than $limit3 will be deleted in $subfolder3"					| Out-File -append $logfile
+$report = @()
+
+
+foreach($s in $subfolder){
+	$connection = $share + $s
+	New-PSDrive -Name $s -PSProvider "FileSystem" -Root $connection -credential $cred #Connect to the specified path and credentials
+	
+	$folder = $s + ':\' + $subfolder1
+	$files  = ""
+	$files = Get-ChildItem -Path $folder -Force | Where-Object { $_.Extension -eq $extension1} | Sort-Object -desc creationtime | Select-Object -Last ((Get-ChildItem $folder | Where-Object { $_.Extension -eq $extension1}).count - 1)
+	write-host $folder
+	Foreach($file in $files){
+			If ($file.creationtime -lt $limit1){
+				write-host $file.fullname $file.creationtime 
+				If ($removeitem -eq "true" ){remove-item $file -Force}
+				$reportinfo = New-Object psobject
+				$reportinfo | Add-Member -MemberType NoteProperty -name Folder -Value $folder
+				$reportinfo | Add-Member -MemberType NoteProperty -name Name -Value $file.name
+				$reportinfo | Add-Member -MemberType NoteProperty -name CreationTime -Value $file.creationtime
+				#$reportinfo | Add-Member -MemberType NoteProperty -name LastWriteTime -Value $file.LastWriteTime
+				$report += $reportinfo				
+			}
+		}
+	$files  = ""
+	$files = Get-ChildItem -Path $folder -Force | Where-Object { $_.Extension -eq $extension2} | Sort-Object -desc creationtime | Select-Object -Last ((Get-ChildItem $folder | Where-Object { $_.Extension -eq $extension2}).count - 1)
+	#write-output $files
+	Foreach($file in $files){
+			If ($file.creationtime -lt $limit2){
+				write-host $file.fullname $file.creationtime 
+				If ($removeitem -eq "true" ){remove-item $file -Force}
+				$reportinfo = New-Object psobject
+				$reportinfo | Add-Member -MemberType NoteProperty -name Folder -Value $folder
+				$reportinfo | Add-Member -MemberType NoteProperty -name Name -Value $file.name
+				$reportinfo | Add-Member -MemberType NoteProperty -name CreationTime -Value $file.creationtime
+				#$reportinfo | Add-Member -MemberType NoteProperty -name LastWriteTime -Value $file.LastWriteTime
+				$report += $reportinfo	
+			}
+		}
+
+	$dir = Get-ChildItem -Path $folder -Recurse -Force | where-object {$_.Psiscontainer -eq "True"}# |select-object name
+	#write-output $dir
+	
+	Foreach($d in $dir){
+		$subdir = $folder + '\' + $d
+		#write-output $subdir.count
+		#(Get-ChildItem $subdir).count -1
+		$files  = ""
+		$files = Get-ChildItem -Path $subdir -Force | Where-Object { $_.Extension -eq $extension1} | Sort-Object -desc creationtime | Select-Object -Last ((Get-ChildItem $subdir | Where-Object { $_.Extension -eq $extension1}).count - 1)
+		#write-output $files.name
+		#$counter = 0 
+		Foreach($file in $files){
+			If ($file.creationtime -lt $limit1){
+				write-host $file.fullname $file.creationtime 
+				If ($removeitem -eq "true" ){remove-item $file -Force}
+				$reportinfo = New-Object psobject
+				$reportinfo | Add-Member -MemberType NoteProperty -name Folder -Value $subdir
+				$reportinfo | Add-Member -MemberType NoteProperty -name Name -Value $file.name
+				$reportinfo | Add-Member -MemberType NoteProperty -name CreationTime -Value $file.creationtime
+				#$reportinfo | Add-Member -MemberType NoteProperty -name LastWriteTime -Value $file.LastWriteTime
+				$report += $reportinfo	
+			}
+		}
+		$files  = ""
+		$files = Get-ChildItem -Path $subdir -Force | Where-Object { $_.Extension -eq $extension2} | Sort-Object -desc creationtime | Select-Object -Last ((Get-ChildItem $subdir | Where-Object { $_.Extension -eq $extension2}).count - 1) 
+		#write-output $files.name
+		#$counter = 0 
+		Foreach($file in $files){
+			If ($file.creationtime -lt $limit2){
+				write-host $file.fullname $file.creationtime 
+				If ($removeitem -eq "true" ){remove-item $file -Force}
+				$reportinfo = New-Object psobject
+				$reportinfo | Add-Member -MemberType NoteProperty -name Folder -Value $subdir
+				$reportinfo | Add-Member -MemberType NoteProperty -name Name -Value $file.name
+				$reportinfo | Add-Member -MemberType NoteProperty -name CreationTime -Value $file.creationtime
+				#$reportinfo | Add-Member -MemberType NoteProperty -name LastWriteTime -Value $file.LastWriteTime
+				$report += $reportinfo	
+			}
+		}
+	}
+	
+	# ================================================ SUBFOLDER 2 ================================================
+	
+	$folder = $s + ':\' + $subfolder2
+	$files  = ""
+	$files = Get-ChildItem -Path $folder -Recurse -Force | Where-Object { $_.Extension -eq $extension1} | Sort-Object -desc creationtime | Select-Object -Last ((Get-ChildItem $folder | Where-Object { $_.Extension -eq $extension1}).count - 1)
+	write-host $folder
+	Foreach($file in $files){
+			If ($file.creationtime -lt $limit1){
+				write-host $file.fullname $file.creationtime 
+				If ($removeitem -eq "true" ){remove-item $file -Force}
+				$reportinfo = New-Object psobject
+				$reportinfo | Add-Member -MemberType NoteProperty -name Folder -Value $folder
+				$reportinfo | Add-Member -MemberType NoteProperty -name Name -Value $file.name
+				$reportinfo | Add-Member -MemberType NoteProperty -name CreationTime -Value $file.creationtime
+				#$reportinfo | Add-Member -MemberType NoteProperty -name LastWriteTime -Value $file.LastWriteTime
+				$report += $reportinfo	
+			}
+		}
+	$files  = ""
+	$files = Get-ChildItem -Path $folder -Recurse -Force | Where-Object { $_.Extension -eq $extension2} | Sort-Object -desc creationtime | Select-Object -Last ((Get-ChildItem $folder | Where-Object { $_.Extension -eq $extension2}).count - 1)
+	#write-output $files
+	Foreach($file in $files){
+			If ($file.creationtime -lt $limit2){
+				write-host $file.fullname $file.creationtime 
+				If ($removeitem -eq "true" ){remove-item $file -Force}
+				$reportinfo = New-Object psobject
+				$reportinfo | Add-Member -MemberType NoteProperty -name Folder -Value $folder
+				$reportinfo | Add-Member -MemberType NoteProperty -name Name -Value $file.name
+				$reportinfo | Add-Member -MemberType NoteProperty -name CreationTime -Value $file.creationtime
+				#$reportinfo | Add-Member -MemberType NoteProperty -name LastWriteTime -Value $file.LastWriteTime
+				$report += $reportinfo	
+			}
+		}
+	
+	$dir = Get-ChildItem -Path $folder -Recurse -Force | where-object {$_.Psiscontainer -eq "True"}# |select-object name
+	#write-output $dir
+	
+	Foreach($d in $dir){
+		$subdir = $folder + '\' + $d
+		#write-output $subdir.count
+		#(Get-ChildItem $subdir).count -1
+		$files  = ""
+		$files = Get-ChildItem -Path $subdir -Recurse -Force | Where-Object { $_.Extension -eq $extension1} | Sort-Object -desc creationtime | Select-Object -Last ((Get-ChildItem $subdir | Where-Object { $_.Extension -eq $extension1}).count - 1)
+		#write-output $files.name
+		#$counter = 0 
+		Foreach($file in $files){
+			If ($file.creationtime -lt $limit1){
+				write-host $file.fullname $file.creationtime 
+				If ($removeitem -eq "true" ){remove-item $file -Force}
+				$reportinfo = New-Object psobject
+				$reportinfo | Add-Member -MemberType NoteProperty -name Folder -Value $subdir
+				$reportinfo | Add-Member -MemberType NoteProperty -name Name -Value $file.name
+				$reportinfo | Add-Member -MemberType NoteProperty -name CreationTime -Value $file.creationtime
+				#$reportinfo | Add-Member -MemberType NoteProperty -name LastWriteTime -Value $file.LastWriteTime
+				$report += $reportinfo	
+			}
+		}
+		$files  = ""
+		$files = Get-ChildItem -Path $subdir -Recurse -Force | Where-Object { $_.Extension -eq $extension2} | Sort-Object -desc creationtime | Select-Object -Last ((Get-ChildItem $subdir | Where-Object { $_.Extension -eq $extension2}).count - 1) 
+		#write-output $files.name
+		#$counter = 0 
+		Foreach($file in $files){
+			If ($file.creationtime -lt $limit2){
+				write-host $file.fullname $file.creationtime 
+				If ($removeitem -eq "true" ){remove-item $file -Force}
+				$reportinfo = New-Object psobject
+				$reportinfo | Add-Member -MemberType NoteProperty -name Folder -Value $subdir
+				$reportinfo | Add-Member -MemberType NoteProperty -name Name -Value $file.name
+				$reportinfo | Add-Member -MemberType NoteProperty -name CreationTime -Value $file.creationtime
+				#$reportinfo | Add-Member -MemberType NoteProperty -name LastWriteTime -Value $file.LastWriteTime
+				$report += $reportinfo	
+			}
+		}
+	}
+	
+		# ================================================ SUBFOLDER 3 ================================================
+	
+	$folder = $s + ':\' + $subfolder3
+	$files  = ""
+	$files = Get-ChildItem -Path $folder -Recurse -Force | Where-Object { $_.Extension -eq $extension1} | Sort-Object -desc creationtime | Select-Object -Last ((Get-ChildItem $folder | Where-Object { $_.Extension -eq $extension1}).count - 1)
+	write-host $folder
+	Foreach($file in $files){
+			If ($file.creationtime -lt $limit3){
+				write-host $file.fullname $file.creationtime 
+				If ($removeitem -eq "true" ){remove-item $file -Force}
+				$reportinfo = New-Object psobject
+				$reportinfo | Add-Member -MemberType NoteProperty -name Folder -Value $folder
+				$reportinfo | Add-Member -MemberType NoteProperty -name Name -Value $file.name
+				$reportinfo | Add-Member -MemberType NoteProperty -name CreationTime -Value $file.creationtime
+				#$reportinfo | Add-Member -MemberType NoteProperty -name LastWriteTime -Value $file.LastWriteTime
+				$report += $reportinfo	
+			}
+		}
+	$files  = ""
+	$files = Get-ChildItem -Path $folder -Recurse -Force | Where-Object { $_.Extension -eq $extension2} | Sort-Object -desc creationtime | Select-Object -Last ((Get-ChildItem $folder | Where-Object { $_.Extension -eq $extension2}).count - 1)
+	#write-output $files
+	Foreach($file in $files){
+			If ($file.creationtime -lt $limit3){
+				write-host $file.fullname $file.creationtime 
+				If ($removeitem -eq "true" ){remove-item $file -Force}
+				$reportinfo = New-Object psobject
+				$reportinfo | Add-Member -MemberType NoteProperty -name Folder -Value $folder
+				$reportinfo | Add-Member -MemberType NoteProperty -name Name -Value $file.name
+				$reportinfo | Add-Member -MemberType NoteProperty -name CreationTime -Value $file.creationtime
+				#$reportinfo | Add-Member -MemberType NoteProperty -name LastWriteTime -Value $file.LastWriteTime
+				$report += $reportinfo	
+			}
+		}
+		
+	$dir = Get-ChildItem -Path $folder -Recurse -Recurse -Force | where-object {$_.Psiscontainer -eq "True"}# |select-object name
+	#write-output $dir
+	
+	Foreach($d in $dir){
+		$subdir = $folder + '\' + $d
+		#write-output $subdir.count
+		#(Get-ChildItem $subdir).count -1
+		$files  = ""
+		$files = Get-ChildItem -Path $subdir -Recurse-Force | Where-Object { $_.Extension -eq $extension1} | Sort-Object -desc creationtime | Select-Object -Last ((Get-ChildItem $subdir | Where-Object { $_.Extension -eq $extension1}).count - 1)
+		#write-output $files.name
+		#$counter = 0 
+		Foreach($file in $files){
+			If ($file.creationtime -lt $limit3){
+				write-host $file.fullname $file.creationtime 
+				If ($removeitem -eq "true" ){remove-item $file -Force}
+				$reportinfo = New-Object psobject
+				$reportinfo | Add-Member -MemberType NoteProperty -name Folder -Value $subdir
+				$reportinfo | Add-Member -MemberType NoteProperty -name Name -Value $file.name
+				$reportinfo | Add-Member -MemberType NoteProperty -name CreationTime -Value $file.creationtime
+				#$reportinfo | Add-Member -MemberType NoteProperty -name LastWriteTime -Value $file.LastWriteTime
+				$report += $reportinfo	
+			}
+		}
+		$files  = ""
+		$files = Get-ChildItem -Path $subdir -Recurse -Force | Where-Object { $_.Extension -eq $extension2} | Sort-Object -desc creationtime | Select-Object -Last ((Get-ChildItem $subdir | Where-Object { $_.Extension -eq $extension2}).count - 1) 
+		#write-output $files.name
+		#$counter = 0 
+		Foreach($file in $files){
+			If ($file.creationtime -lt $limit3){
+				write-host $file.fullname $file.creationtime 
+				If ($removeitem -eq "true" ){remove-item $file -Force}
+				$reportinfo = New-Object psobject
+				$reportinfo | Add-Member -MemberType NoteProperty -name Folder -Value $subdir
+				$reportinfo | Add-Member -MemberType NoteProperty -name Name -Value $file.name
+				$reportinfo | Add-Member -MemberType NoteProperty -name CreationTime -Value $file.creationtime
+				#$reportinfo | Add-Member -MemberType NoteProperty -name LastWriteTime -Value $file.LastWriteTime
+				$report += $reportinfo	
+			}
+		}
+	}
+}
+
+#$files | Sort-Object CreationTime | Select-Object -First ($files.Count - $keep)
+
+If ($report){
+	#Write and export report to CSV
+	#write-output $report | add-content $logfile
+	$report | Out-File -append -Width 256 $logfile
+}
+
+
