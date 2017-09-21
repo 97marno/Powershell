@@ -74,6 +74,7 @@ Get-ChildItem $SourceFolder -Recurse | where-object {$_.creationtime -lt $create
     $NewPath = Join-Path $ArchiveFolder $_.FullName.Replace($SourceFolder,"")
 
     Copy-Item $_.FullName -Destination $NewPath
+	If(Test-path "$NewPath\*" -include $_.Name) {Remove-item $_.Name | Out-File -append $logfile}
    
     $date = (get-date -format "yyyy-MM-dd")
     
