@@ -20,4 +20,4 @@ Write-host "The fattest elf is $($elfarray[-1])"
 
 # Part 2
 $elftotal = ($elfarray[-3..-1] | Measure-Object -Sum).Sum
-Write-Host "Top three elves are in total "
+Write-Host "Top three elves are in total $elftotal"
